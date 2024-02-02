@@ -1,38 +1,100 @@
-.App {
-  text-align: center;
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+h2, h3, p {
+    margin: 0;
+}
+h2 {
+    margin-bottom: 15px;
+}
+p {
+    margin-bottom: 5px;
+}
+#root {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.l-contents {
+    max-width: 1900px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.l-main {
+    max-width: 1900px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.l-main__image,
+.l-main__code {
+    box-sizing: border-box;
+    float: left;
+    padding: 10px;
+}
+.l-main__image {
+    width: 70%
+}
+.l-main__code {
+    width: 29%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.images {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.images li {
+    display: block;
+    clear: both;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    overflow: auto;
+}
+.images li img {
+    max-width: 100%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.images li textarea {
+    width: 100%;
+    min-height: 50px;
+}
+.images li #textarea {
+    position: relative;
+    margin-bottom: 15px;
+}
+.images li button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 0;
+    box-shadow: 0;
+    border-width: 0.5px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.tabs {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.tabs li {
+    display: inline-block;
+    margin-right: 5px;
 }
-
-.App-link {
-  color: #61dafb;
+.tabs li a {
+    text-transform: capitalize;
+    cursor: pointer;
+    display: block;
+    background: #eee;
+    border-radius: 5px;
+    padding: 10px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.tabs li a.active {
+    background: #999;
+    color: #fff;
+}
+.tabs li a:hover {
+    opacity: 0.8;
 }
