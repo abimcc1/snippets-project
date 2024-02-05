@@ -7,6 +7,12 @@ import './App.css'
 
 
 function ListItem(props) {
+  const handleFocus = (event) => {
+    const parentElement = event.target.parentNode;
+    const targetElement = parentElement.firstElementChild;
+    targetElement.select();
+    document.execCommand('copy');
+  }
 
   return (
     <li id={props.id} key={props.id}>
@@ -20,7 +26,8 @@ function ListItem(props) {
           <h3>{item.title}</h3>
           <p>{item.content}</p>
           <div id="textarea">
-            <textarea readOnly value={item.code} />
+            <textarea readOnly value={item.code}   />
+            <button onFocus={handleFocus}>Copy</button>
           </div>
           </>
         ))}
@@ -66,6 +73,7 @@ function App() {
   ];
 
   console.log(selectedCategory)
+
 
   return (
     <>
