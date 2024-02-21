@@ -95,7 +95,7 @@ export const codeSnippets = [
           <div class="additional-style-wrap">
               <div class="additional-style-inner">
                   <div class="additional-style-text">
-                      <h3>Every Vehicle Comes With</h3>
+                      <h3><strong>Every Vehicle Comes With</strong></h3>
                   </div>
                   <ul>
                       <li><img src="https://s3.eu-west-1.amazonaws.com/processed-files.autopromotor.co.uk/shared/assets/icon-checkbox.png" class="fr-fic fr-dii" data-id="13501">
@@ -122,7 +122,7 @@ export const codeSnippets = [
           <div class="additional-style-wrap">
               <div class="additional-style-inner">
                   <div class="additional-style-text">
-                      <h3>Every Vehicle Comes With</h3>
+                      <h3><strong>Every Vehicle Comes With</strong></h3>
                   </div>
                   <ul>
                       <li><img src="https://s3.eu-west-1.amazonaws.com/processed-files.autopromotor.co.uk/shared/assets/icon-checkbox.png" class="fr-fic fr-dib" data-id="13501">
@@ -521,7 +521,7 @@ export const codeSnippets = [
           <div class="additional-style-wrap">
               <div class="additional-style-inner">
                   <div class="additional-style-text">
-                      <h2>Every Vehicle Comes With</h2>
+                      <h2><strong>Every Vehicle Comes With</strong></h2>
                   </div>
                   <ul>
                       <li>
