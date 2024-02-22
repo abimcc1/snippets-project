@@ -15,7 +15,7 @@ export const codeSnippets = [
         },
         {
           title: "Full Width",
-          content: "Add to custom CSS",
+          content: "Add to Custom CSS",
           code: `.additional-style.additional-style-2 .additional-style-inner {
             width: 100%;
             }`
@@ -644,7 +644,15 @@ export const codeSnippets = [
                   </ul>
               </div></div></div>       
       `
-        }
+        },
+        {
+          title: "Add background colour to review area",
+          content: "Add to Custom CSS and replace colours as desired",
+          code: `.additional-style.additional-style-23 .additional-style-inner .additional-style-reviews .additional-style-review {
+            background: #fff;
+            color: #000;
+        }`
+        },
       ]
     },
     {
