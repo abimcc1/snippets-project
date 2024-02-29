@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { useEffect } from 'react'
 import { useMemo } from 'react'
 import { codeSnippets } from './codeSnippets.jsx';
+import { tips } from './tips.jsx';
 import './App.css'
 
 
@@ -37,6 +38,35 @@ function ListItem(props) {
   ); 
 }
 
+function TipsButton(props) {
+
+  const handleOpenPopup = (event) => {
+      console.log(event.target); 
+      document.getElementById("TipsPopup").style.display = "block";
+  }
+  const handleClosePopup = (event) => {
+      console.log(event.target); 
+      document.getElementById("TipsPopup").style.display = "none";
+  }
+
+  console.log(props.tipsList);
+
+  return (
+    <>
+    <button id="TipsPopupButton" onClick={handleOpenPopup}>Tips</button>
+
+    <div id="TipsPopup">
+      <a className='close-button' onClick={handleClosePopup}>x</a>
+        <h2>Tips</h2>
+        <ul class="tips">
+        {props.tipsList.map( (item) => (
+              <ListItem {...item} />
+        ))}
+        </ul>
+    </div>
+  </>
+  );
+}
 
 
 function App() {
@@ -50,8 +80,13 @@ function App() {
 
   var filteredList = useMemo(getFilteredList, [selectedCategory, codeSnippetsList]);
 
+
+  const [tipsList, settipsList] = useState([]);
+  useEffect(() => {
+    settipsList(tips);
+  }, []);
+
   function handleCategoryChange(event) {
-    console.log(event.target);
     setSelectedCategory(event.target.id);
   }
   
@@ -62,6 +97,7 @@ function App() {
     return codeSnippetsList.filter((item) => item.category === selectedCategory);
   }
 
+
   const categories = [
     "all",
     "text",
@@ -69,16 +105,17 @@ function App() {
     "blocks",
     "reviews",
     "partners",
-    "social"
+    "social",
+    "slides"
   ];
-
-  console.log(selectedCategory)
 
 
   return (
     <>
         <div className="l-contents">
             <h1>Code Snippets</h1>
+            <TipsButton tipsList={tipsList} />
+
 
             <ul className="tabs">
               {categories.map( (item) => (
