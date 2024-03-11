@@ -1001,7 +1001,7 @@ export const codeSnippets = [
     },
     {
       id: "slide-essential",
-      image: "/assets/slide-essentials.png",
+      image: "/assets/slide-essential.png",
       category: "slides",
       title: "Essentials",
       codeblock: [
