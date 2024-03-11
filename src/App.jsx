@@ -41,15 +41,12 @@ function ListItem(props) {
 function TipsButton(props) {
 
   const handleOpenPopup = (event) => {
-      console.log(event.target); 
       document.getElementById("TipsPopup").style.display = "block";
   }
   const handleClosePopup = (event) => {
-      console.log(event.target); 
       document.getElementById("TipsPopup").style.display = "none";
   }
 
-  console.log(props.tipsList);
 
   return (
     <>

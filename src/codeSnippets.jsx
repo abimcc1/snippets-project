@@ -796,6 +796,7 @@ export const codeSnippets = [
     },
     {
       id: "slide-1",
+      image: "/assets/slide1.png",
       category: "slides",
       title: "Premier 1",
       codeblock: [
@@ -824,6 +825,7 @@ export const codeSnippets = [
     },
     {
       id: "slide-2",
+      image: "/assets/slide2.png",
       category: "slides",
       title: "Premier 2",
       codeblock: [
@@ -852,6 +854,7 @@ export const codeSnippets = [
     },
     {
       id: "slide-3",
+      image: "/assets/slide3.png",
       category: "slides",
       title: "Premier 3",
       codeblock: [
@@ -866,6 +869,7 @@ export const codeSnippets = [
     },
     {
       id: "slide-4",
+      image: "/assets/slide4.png",
       category: "slides",
       title: "Premier 4",
       codeblock: [
@@ -894,6 +898,7 @@ export const codeSnippets = [
     },
     {
       id: "slide-5",
+      image: "/assets/slide5.png",
       category: "slides",
       title: "Premier 5",
       codeblock: [
@@ -922,6 +927,7 @@ export const codeSnippets = [
     },
     {
       id: "slide-6",
+      image: "/assets/slide6.png",
       category: "slides",
       title: "Premier 6",
       codeblock: [
@@ -950,6 +956,7 @@ export const codeSnippets = [
     },
     {
       id: "slide-7",
+      image: "/assets/slide7.png",
       category: "slides",
       title: "Premier 7",
       codeblock: [
@@ -994,6 +1001,7 @@ export const codeSnippets = [
     },
     {
       id: "slide-essential",
+      image: "/assets/slide-essentials.png",
       category: "slides",
       title: "Essentials",
       codeblock: [
