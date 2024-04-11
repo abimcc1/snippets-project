@@ -677,6 +677,9 @@ export const codeSnippets = [
               </div>
           </div>
       </div>
+      <style>
+      @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap')
+      </style>
       `
         }
       ]
@@ -702,6 +705,9 @@ export const codeSnippets = [
               </div>
           </div>
       </div>
+      <style>
+      @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap')
+      </style>
       `
         }
       ]
