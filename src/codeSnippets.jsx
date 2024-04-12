@@ -801,6 +801,31 @@ export const codeSnippets = [
       ]
     },
     {
+      id: "style-29",
+      image: "/assets/style29.png",
+      category: "blocks",
+      codeblock: [
+        {
+          title: "No Background",
+          code: `<div class="additional-style additional-style-29 clearfix" style="background-color: #F5F5F5;">
+          <div class="additional-style-wrap">
+              <div class="additional-style-inner">
+                  <h2>Every Vehicle Comes With</h2>
+                  <ul>
+                      <li><img src="https://s3-eu-west-1.amazonaws.com/files.autopromotor/3736/websiteMedia/3475/88a2ae33-804a-4588-a181-544581146385.svg" class="fr-fic fr-dib" data-id="56623">
+                          <h4>12 Month MOT</h4>
+                      </li>
+                      <li><img src="https://s3-eu-west-1.amazonaws.com/files.autopromotor/3736/websiteMedia/3475/88a2ae33-804a-4588-a181-544581146385.svg" class="fr-fic fr-dib" data-id="56623">
+                          <h4>12 Month MOT</h4>
+                      </li>
+                      <li><img src="https://s3-eu-west-1.amazonaws.com/files.autopromotor/3736/websiteMedia/3475/88a2ae33-804a-4588-a181-544581146385.svg" class="fr-fic fr-dib" data-id="56623">
+                          <h4>12 Month MOT</h4>
+                      </li>
+                  </ul>
+              </div></div></div>
+      `
+    },
+    {
       id: "slide-1",
       image: "/assets/slide1.png",
       category: "slides",
