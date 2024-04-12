@@ -85,7 +85,7 @@ export const codeSnippets = [
         }
       ]
     },
-    {
+    /*{
       id: "style-4",
       image: "/assets/style4.png",
       category: "blocks",
@@ -137,7 +137,7 @@ export const codeSnippets = [
                   </ul><a class="button" href="PUT_LINK_HERE">CTA</a></div></div></div>`
         }
       ]
-    },
+    },*/
     {
       id: "style-6",
       image: "/assets/style6.png",
@@ -171,7 +171,7 @@ export const codeSnippets = [
         }
       ]
     },
-    {
+    /*{
       id: "style-8",
       image: "/assets/style8.png",
       category: "text",
@@ -255,7 +255,7 @@ export const codeSnippets = [
       `
         }
       ]
-    },
+    },*/
     {
       id: "style-13",
       image: "/assets/style13.png",
@@ -806,7 +806,6 @@ export const codeSnippets = [
       category: "blocks",
       codeblock: [
         {
-          title: "No Background",
           code: `<div class="additional-style additional-style-29 clearfix" style="background-color: #F5F5F5;">
           <div class="additional-style-wrap">
               <div class="additional-style-inner">
