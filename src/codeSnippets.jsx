@@ -824,6 +824,8 @@ export const codeSnippets = [
                   </ul>
               </div></div></div>
       `
+        }
+      ]
     },
     {
       id: "slide-1",
@@ -1058,5 +1060,5 @@ export const codeSnippets = [
           </div>`
         }
       ]
-    },
+    }
   ];
