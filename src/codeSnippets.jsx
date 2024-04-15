@@ -723,7 +723,7 @@ export const codeSnippets = [
           <div class="additional-style-wrap">
               <div class="additional-style-inner">
                   <div class="additional-style-26__logo">
-                      <img src="https://s3.eu-west-1.amazonaws.com/processed-files.autopromotor.co.uk/shared/assets/car-gurus-1.png" class="fr-fic fr-dib" data-id="13516">
+                    <img src="https://s3-eu-west-1.amazonaws.com/files.autopromotor/3736/websiteMedia/3263/1713191202-logo-cargurus.svg" class="fr-fic fr-dib" data-id="60153" style="max-width:212px;">
                   </div>
                   <div class="additional-style-26__text">
                       <h3><span style="font-weight: 300;">Proud to be a</span>&nbsp;Top Rated Dealer 2022</h3>
@@ -742,7 +742,7 @@ export const codeSnippets = [
           <div class="additional-style-wrap">
               <div class="additional-style-inner">
                   <div class="additional-style-26__logo">
-                      <img src="https://s3.eu-west-1.amazonaws.com/processed-files.autopromotor.co.uk/shared/assets/car-gurus-1.png" class="fr-fic fr-dib" data-id="13516">
+                    <img src="https://s3-eu-west-1.amazonaws.com/files.autopromotor/3736/websiteMedia/3263/1713191202-logo-cargurus.svg" class="fr-fic fr-dib" data-id="60153" style="max-width:212px;">
                   </div>
                   <div class="additional-style-26__text">
                       <h3><span style="font-weight: 300;">Proud to be a</span>&nbsp;Top Rated Dealer 2022</h3>
@@ -767,7 +767,7 @@ export const codeSnippets = [
           <div class="additional-style-wrap">
               <div class="additional-style-inner">
                   <div class="additional-style-27__logo">
-                      <img src="https://s3.eu-west-1.amazonaws.com/processed-files.autopromotor.co.uk/shared/assets/car-gurus-1.png" class="fr-fic fr-dib" data-id="13516">
+                  <img src="https://s3-eu-west-1.amazonaws.com/files.autopromotor/3736/websiteMedia/3263/1713191202-logo-cargurus.svg" class="fr-fic fr-dib" data-id="60153" style="max-width:212px;">
                   </div>
                   <div class="additional-style-27__right">
                       <h2><span style="font-weight: 300;">Cargurus 2023</span>&nbsp;Top Rated Dealer</h2>
