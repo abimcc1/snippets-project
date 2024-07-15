@@ -1115,4 +1115,31 @@ export const codeSnippets = [
         }
       ]
     },
+    {
+      id: "style-32",
+      image: "/assets/style32.png",
+      category: "partners",
+      codeblock: [
+        {
+          code: `<div class="additional-style additional-style-32 clearfix">
+          <div class="additional-style-wrap">
+              <div class="additional-style-inner">
+                  <div class="additional-style-32__logo">
+                    <img src="https://img.spidersnet.co.uk/code-snippets/aa-cars.svg">
+                  </div>
+                  <div class="additional-style-32__text">
+                      <h2>Driveaway</h2>
+                      <p>Quick and affordable short-term insurance</p>
+                  </div>
+   
+              </div>
+          </div>
+      </div>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+      `
+        }
+      ]
+    },
   ];
