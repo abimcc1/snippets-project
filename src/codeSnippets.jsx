@@ -1142,4 +1142,167 @@ export const codeSnippets = [
         }
       ]
     },
+    {
+      id: "style-33",
+      image: "/assets/style33.png",
+      category: "partners",
+      codeblock: [
+        {
+          code: `<div class="additional-style additional-style-33 clearfix">
+          <div class="additional-style-wrap">
+              <div class="additional-style-inner">
+                  <div class="additional-style-33__image"><img src="https://img.spidersnet.co.uk/code-snippets/autotrader-logo.svg" class="fr-fic fr-dib" data-id="13522"></div>
+                  <div class="additional-style-33__title">
+                      <h3><span>Highly Rated</span> for our customer service 2023</h3>
+                  </div>
+                  <div class="additional-style-33__button"><a class="button" href="PUT_LINK_HERE">Read More</a></div></div></div></div>
+      `
+        }
+      ]
+    },
+    {
+      id: "style-34",
+      image: "/assets/style34.png",
+      category: "text",
+      codeblock: [
+        {
+          code: `<div class="additional-style additional-style-34 clearfix">
+          <div class="additional-style-wrap">
+              <div class="additional-style-inner">
+                  <div class="additional-style-34__title">
+                      <h3>Looking to quickly sell your car online?</h3>
+                  </div>
+                  <div class="additional-style-34__text">
+                      <p>If you&rsquo;re wondering how to go about selling your car, we&rsquo;re here to help you find the ideal way to maximise the return for your current vehicle.</p>
+                  </div>
+                  <div class="additional-style-34__button"><a class="button" href="PUT_LINK_HERE">Sell Your Car</a></div></div></div></div>
+      `
+        }
+      ]
+    },
+    {
+      id: "style-35",
+      image: "/assets/style35.png",
+      category: "text",
+      codeblock: [
+        {
+          code: `<div class="additional-style additional-style-35 clearfix">
+          <div class="additional-style-wrap">
+              <div class="additional-style-inner">
+                  <div class="additional-style-35__title">
+                      <h3>Looking to quickly sell your car online?</h3>
+                  </div>
+                  <div class="additional-style-35__text">
+                      <p>If you&rsquo;re wondering how to go about selling your car, we&rsquo;re here to help you find the ideal way to maximise the return for your current vehicle.</p>
+                      <p><a class="primary-colour-text" href="PUT_LINK_HERE">Sell Your Car</a></p>
+                  </div></div></div></div>
+      `
+        }
+      ]
+    },
+    {
+      id: "style-36",
+      image: "/assets/style36.png",
+      category: "reviews",
+      codeblock: [
+        {
+          code: `<div class="additional-style additional-style-36 clearfix">
+          <div class="additional-style-wrap">
+              <div class="additional-style-inner">
+                  <div class="additional-style-text"><img src="https://img.spidersnet.co.uk/code-snippets/quote.svg" class="fr-fic fr-dib" data-id="13522">
+                      <p>&ldquo;Our fantastic team are passionate about delivering outstanding customer experiences and our mission is to ensure that you love both the FN car buying experience and the car&rdquo;</p>
+                      <p class="name">Numan, CEO FN Motors</p>
+                  </div></div></div></div>
+      `
+        }
+      ]
+    },
+    {
+      id: "style-37",
+      image: "/assets/style37.png",
+      category: "reviews",
+      codeblock: [
+        {
+          code: `<div class="additional-style additional-style-37 clearfix">
+          <div class="additional-style-wrap">
+              <div class="additional-style-inner">
+                  <div class="additional-style-icon"><img src="https://img.spidersnet.co.uk/code-snippets/quote.svg" class="fr-fic fr-dib" data-id="13522"></div>
+                  <div class="additional-style-text">
+                      <p>&ldquo;Our fantastic team are passionate about delivering outstanding customer experiences and our mission is to ensure that you love both the FN car buying experience and the car&rdquo;</p>
+                      <p class="name">Numan, CEO FN Motors</p>
+                  </div></div></div></div>
+      `
+        }
+      ]
+    },
+    {
+      id: "style-38",
+      image: "/assets/style38.png",
+      category: "reviews",
+      codeblock: [
+        {
+          code: `<div class="additional-style additional-style-38 clearfix">
+          <div class="additional-style-wrap">
+              <div class="additional-style-inner">
+                  <div class="additional-style-header">
+                      <div class="reviews-title"><img src="/basemedia/star.svg" class="fr-fic fr-dii"> <img src="/basemedia/star.svg" class="fr-fic fr-dii"> <img src="/basemedia/star.svg" class="fr-fic fr-dii"> <img src="/basemedia/star.svg" class="fr-fic fr-dii"> <img src="/basemedia/star.svg" class="fr-fic fr-dii">
+                          <h3>What our customers say about us</h3>
+                      </div>
+                      <div class="reviews-button"><a class="button" href="PUT_LINK_HERE">View Reviews</a></div></div>
+                  <ul class="additional-style-reviews">
+                      <li>
+                          <div class="additional-style-review">
+                              <div class="additional-style-text">
+                                  <p>&ldquo;Our fantastic team are passionate about delivering outstanding customer experiences and our mission is to ensure that you love both the FN car buying experience and the car&rdquo;</p>
+                                  <p class="name">Numan, CEO FN Motors</p>
+                              </div></div>
+                      </li>
+                      <li>
+                          <div class="additional-style-review">
+                              <div class="additional-style-text">
+                                  <p>&ldquo;Our fantastic team are passionate about delivering outstanding customer experiences and our mission is to ensure that you love both the FN car buying experience and the car&rdquo;</p>
+                                  <p class="name">Numan, CEO FN Motors</p>
+                              </div></div>
+                      </li>
+                      <li>
+                          <div class="additional-style-review">
+                              <div class="additional-style-text">
+                                  <p>&ldquo;Our fantastic team are passionate about delivering outstanding customer experiences and our mission is to ensure that you love both the FN car buying experience and the car&rdquo;</p>
+                                  <p class="name">Numan, CEO FN Motors</p>
+                              </div></div>
+                      </li>
+                  </ul>
+              </div></div></div>
+      `
+        }
+      ]
+    },
+    {
+      id: "style-39",
+      image: "/assets/style39.png",
+      category: "reviews",
+      codeblock: [
+        {
+          code: `<div class="additional-style additional-style-39 clearfix">
+          <div class="additional-style-wrap">
+              <div class="additional-style-inner">
+                  <ul class="additional-style-reviews">
+                      <li>
+                          <div class="additional-style-review primary-colour-background">
+                              <div class="additional-style-text"><img src="https://img.spidersnet.co.uk/code-snippets/quote-white.svg" class="fr-fic fr-dib fr-fil">
+                                  <p>&ldquo;Our fantastic team are passionate about delivering outstanding customer experiences and our mission is to ensure that you love both the FN car buying experience and the car&rdquo;</p>
+                                  <p class="name">Numan, CEO FN Motors</p>
+                              </div></div><a class="button" href="PUT_LINK_HERE">Read More</a></li>
+                      <li>
+                          <div class="additional-style-review primary-colour-background">
+                              <div class="additional-style-text"><img src="https://img.spidersnet.co.uk/code-snippets/quote-white.svg" class="fr-fic fr-dib fr-fil">
+                                  <p>&ldquo;Our fantastic team are passionate about delivering outstanding customer experiences and our mission is to ensure that you love both the FN car buying experience and the car&rdquo;</p>
+                                  <p class="name">Numan, CEO FN Motors</p>
+                              </div></div><a class="button" href="PUT_LINK_HERE">Read More</a></li>
+                  </ul>
+              </div></div></div>
+      `
+        }
+      ]
+    },
   ];
