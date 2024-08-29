@@ -827,240 +827,6 @@ export const codeSnippets = [
       ]
     },
     {
-      id: "slide-1",
-      image: "/assets/slide1.png",
-      category: "slides",
-      title: "Premier 1",
-      codeblock: [
-        {
-          title: "Default (Centre aligned)",
-          code: `<div class="hero-caption">
-          <h2>Buy Your Next Car From The Comfort of Your Home</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
-      </div>`
-        },
-        {
-          title: "Right aligned",
-          code: `<div class="hero-caption right">
-              <h2>Buy Your Next Car From The Comfort of Your Home</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
-          </div>`
-        },
-        {
-          title: "Left aligned",
-          code: `<div class="hero-caption left">
-          <h2>Buy Your Next Car From The Comfort of Your Home</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
-      </div>`
-        }
-      ]
-    },
-    {
-      id: "slide-2",
-      image: "/assets/slide2.png",
-      category: "slides",
-      title: "Premier 2",
-      codeblock: [
-        {
-          title: "Default (Left aligned)",
-          code: `<div class="hero-caption">
-          <h2>Buy Your Next Car From The Comfort of Your Home</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
-      </div>`
-        },
-        {
-          title: "Right aligned",
-          code: `<div class="hero-caption right">
-          <h2>Buy Your Next Car From The Comfort of Your Home</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
-      </div>`
-        },
-        {
-          title: "Centre aligned",
-          code: `<div class="hero-caption center">
-          <h2>Buy Your Next Car From The Comfort of Your Home</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
-      </div>`
-        }
-      ]
-    },
-    {
-      id: "slide-3",
-      image: "/assets/slide3.png",
-      category: "slides",
-      title: "Premier 3",
-      codeblock: [
-        {
-          content: "Does not support button click through - consider an additional text box",
-          code: `<div class="hero-caption">
-          <h2>Buy Your Next Car From The Comfort of Your Home</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
-      </div>`
-        }
-      ]
-    },
-    {
-      id: "slide-4",
-      image: "/assets/slide4.png",
-      category: "slides",
-      title: "Premier 4",
-      codeblock: [
-        {
-          title: "Default (Left aligned)",
-          code: `<div class="hero-caption">
-          <h2>Buy Your Next Car From The Comfort of Your Home</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
-      </div>`
-        },
-        {
-          title: "Right aligned",
-          code: `<div class="hero-caption right">
-          <h2>Buy Your Next Car From The Comfort of Your Home</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
-      </div>`
-        },
-        {
-          title: "Centre aligned",
-          code: `<div class="hero-caption center">
-          <h2>Buy Your Next Car From The Comfort of Your Home</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
-      </div>`
-        }
-      ]
-    },
-    {
-      id: "slide-5",
-      image: "/assets/slide5.png",
-      category: "slides",
-      title: "Premier 5",
-      codeblock: [
-        {
-          title: "Default (Left aligned)",
-          code: `<div class="hero-caption">
-          <h2>Buy Your Next Car From The Comfort of Your Home</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
-      </div>`
-        },
-        {
-          title: "Right aligned",
-          code: `<div class="hero-caption right">
-          <h2>Buy Your Next Car From The Comfort of Your Home</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
-      </div>`
-        },
-        {
-          title: "Centre aligned",
-          code: `<div class="hero-caption center">
-          <h2>Buy Your Next Car From The Comfort of Your Home</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
-      </div>`
-        }
-      ]
-    },
-    {
-      id: "slide-6",
-      image: "/assets/slide6.png",
-      category: "slides",
-      title: "Premier 6",
-      codeblock: [
-        {
-          title: "Default (Left aligned)",
-          code: `<div class="hero-caption">
-          <h2>Buy Your Next Car From The Comfort of Your Home</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
-      </div>`
-        },
-        {
-          title: "Right aligned",
-          code: `<div class="hero-caption right">
-          <h2>Buy Your Next Car From The Comfort of Your Home</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
-      </div>`
-        },
-        {
-          title: "Centre aligned",
-          code: `<div class="hero-caption center">
-          <h2>Buy Your Next Car From The Comfort of Your Home</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
-      </div>`
-        }
-      ]
-    },
-    {
-      id: "slide-7",
-      image: "/assets/slide7.png",
-      category: "slides",
-      title: "Premier 7",
-      codeblock: [
-        {
-          title: "Default (line above and below)",
-          code: `<div class="hero-caption style">
-          <h2>We can help you to</h2>
-          <p>Finance your next car</p>
-          </div>`
-        },
-        {
-          title: "Right aligned",
-          code: `<div class="hero-caption style right">
-          <h2>We can help you to</h2>
-          <p>Finance your next car</p>
-          </div>`
-        },
-        {
-          title: "Centre aligned",
-          code: `<div class="hero-caption style center">
-          <h2>We can help you to</h2>
-          <p>Finance your next car</p>
-          </div>`
-        },
-        {
-          title: "Plain",
-          code: `<div class="hero-caption">
-          <h2>We can help you to</h2>
-          <p>Finance your next car</p>
-          </div>`
-        }
-        ,
-        {
-          title: "With Icon",
-          code: `<div class="hero-caption style icon">
-          <img src="https://s3.eu-west-1.amazonaws.com/processed-files.autopromotor.co.uk/shared/assets/hero-icon-p7.png" class="fr-fic fr-dib" data-id="13495">
-              <h2>Buy Your Next Car From The Comfort of Your Home</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
-          </div>`
-        }
-      ]
-    },
-    {
-      id: "slide-essential",
-      image: "/assets/slide-essential.png",
-      category: "slides",
-      title: "Essentials",
-      codeblock: [
-        {
-          title: "Default (Centre aligned)",
-          code: `<div class="hero-caption">
-              <h2>Buy Your Next Car From The Comfort of Your Home</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
-          </div>`
-        },
-        {
-          title: "Right aligned",
-          code: `<div class="hero-caption right">
-              <h2>Buy Your Next Car From The Comfort of Your Home</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
-          </div>`
-        },
-        {
-          title: "Left aligned",
-          code: `<div class="hero-caption left">
-              <h2>Buy Your Next Car From The Comfort of Your Home</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
-          </div>`
-        }
-      ],
-    },
-    {
       id: "style-30",
       image: "/assets/style30.png",
       category: "partners",
@@ -1305,4 +1071,238 @@ export const codeSnippets = [
         }
       ]
     },
+    {
+      id: "slide-1",
+      image: "/assets/slide1.png",
+      category: "slides",
+      title: "Premier 1",
+      codeblock: [
+        {
+          title: "Default (Centre aligned)",
+          code: `<div class="hero-caption">
+          <h2>Buy Your Next Car From The Comfort of Your Home</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
+      </div>`
+        },
+        {
+          title: "Right aligned",
+          code: `<div class="hero-caption right">
+              <h2>Buy Your Next Car From The Comfort of Your Home</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
+          </div>`
+        },
+        {
+          title: "Left aligned",
+          code: `<div class="hero-caption left">
+          <h2>Buy Your Next Car From The Comfort of Your Home</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
+      </div>`
+        }
+      ]
+    },
+    {
+      id: "slide-2",
+      image: "/assets/slide2.png",
+      category: "slides",
+      title: "Premier 2",
+      codeblock: [
+        {
+          title: "Default (Left aligned)",
+          code: `<div class="hero-caption">
+          <h2>Buy Your Next Car From The Comfort of Your Home</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
+      </div>`
+        },
+        {
+          title: "Right aligned",
+          code: `<div class="hero-caption right">
+          <h2>Buy Your Next Car From The Comfort of Your Home</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
+      </div>`
+        },
+        {
+          title: "Centre aligned",
+          code: `<div class="hero-caption center">
+          <h2>Buy Your Next Car From The Comfort of Your Home</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
+      </div>`
+        }
+      ]
+    },
+    {
+      id: "slide-3",
+      image: "/assets/slide3.png",
+      category: "slides",
+      title: "Premier 3",
+      codeblock: [
+        {
+          content: "Does not support button click through - consider an additional text box",
+          code: `<div class="hero-caption">
+          <h2>Buy Your Next Car From The Comfort of Your Home</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
+      </div>`
+        }
+      ]
+    },
+    {
+      id: "slide-4",
+      image: "/assets/slide4.png",
+      category: "slides",
+      title: "Premier 4",
+      codeblock: [
+        {
+          title: "Default (Left aligned)",
+          code: `<div class="hero-caption">
+          <h2>Buy Your Next Car From The Comfort of Your Home</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
+      </div>`
+        },
+        {
+          title: "Right aligned",
+          code: `<div class="hero-caption right">
+          <h2>Buy Your Next Car From The Comfort of Your Home</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
+      </div>`
+        },
+        {
+          title: "Centre aligned",
+          code: `<div class="hero-caption center">
+          <h2>Buy Your Next Car From The Comfort of Your Home</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
+      </div>`
+        }
+      ]
+    },
+    {
+      id: "slide-5",
+      image: "/assets/slide5.png",
+      category: "slides",
+      title: "Premier 5",
+      codeblock: [
+        {
+          title: "Default (Left aligned)",
+          code: `<div class="hero-caption">
+          <h2>Buy Your Next Car From The Comfort of Your Home</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
+      </div>`
+        },
+        {
+          title: "Right aligned",
+          code: `<div class="hero-caption right">
+          <h2>Buy Your Next Car From The Comfort of Your Home</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
+      </div>`
+        },
+        {
+          title: "Centre aligned",
+          code: `<div class="hero-caption center">
+          <h2>Buy Your Next Car From The Comfort of Your Home</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
+      </div>`
+        }
+      ]
+    },
+    {
+      id: "slide-6",
+      image: "/assets/slide6.png",
+      category: "slides",
+      title: "Premier 6",
+      codeblock: [
+        {
+          title: "Default (Left aligned)",
+          code: `<div class="hero-caption">
+          <h2>Buy Your Next Car From The Comfort of Your Home</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
+      </div>`
+        },
+        {
+          title: "Right aligned",
+          code: `<div class="hero-caption right">
+          <h2>Buy Your Next Car From The Comfort of Your Home</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
+      </div>`
+        },
+        {
+          title: "Centre aligned",
+          code: `<div class="hero-caption center">
+          <h2>Buy Your Next Car From The Comfort of Your Home</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
+      </div>`
+        }
+      ]
+    },
+    {
+      id: "slide-7",
+      image: "/assets/slide7.png",
+      category: "slides",
+      title: "Premier 7",
+      codeblock: [
+        {
+          title: "Default (line above and below)",
+          code: `<div class="hero-caption style">
+          <h2>We can help you to</h2>
+          <p>Finance your next car</p>
+          </div>`
+        },
+        {
+          title: "Right aligned",
+          code: `<div class="hero-caption style right">
+          <h2>We can help you to</h2>
+          <p>Finance your next car</p>
+          </div>`
+        },
+        {
+          title: "Centre aligned",
+          code: `<div class="hero-caption style center">
+          <h2>We can help you to</h2>
+          <p>Finance your next car</p>
+          </div>`
+        },
+        {
+          title: "Plain",
+          code: `<div class="hero-caption">
+          <h2>We can help you to</h2>
+          <p>Finance your next car</p>
+          </div>`
+        }
+        ,
+        {
+          title: "With Icon",
+          code: `<div class="hero-caption style icon">
+          <img src="https://s3.eu-west-1.amazonaws.com/processed-files.autopromotor.co.uk/shared/assets/hero-icon-p7.png" class="fr-fic fr-dib" data-id="13495">
+              <h2>Buy Your Next Car From The Comfort of Your Home</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
+          </div>`
+        }
+      ]
+    },
+    {
+      id: "slide-essential",
+      image: "/assets/slide-essential.png",
+      category: "slides",
+      title: "Essentials",
+      codeblock: [
+        {
+          title: "Default (Centre aligned)",
+          code: `<div class="hero-caption">
+              <h2>Buy Your Next Car From The Comfort of Your Home</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
+          </div>`
+        },
+        {
+          title: "Right aligned",
+          code: `<div class="hero-caption right">
+              <h2>Buy Your Next Car From The Comfort of Your Home</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
+          </div>`
+        },
+        {
+          title: "Left aligned",
+          code: `<div class="hero-caption left">
+              <h2>Buy Your Next Car From The Comfort of Your Home</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
+          </div>`
+        }
+      ],
+    }
   ];
