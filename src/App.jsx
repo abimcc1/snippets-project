@@ -3,6 +3,10 @@ import { useEffect } from 'react'
 import { useMemo } from 'react'
 import { codeSnippets } from './codeSnippets.jsx';
 import { tips } from './tips.jsx';
+import { customCSS } from './customCSS.jsx';
+import List from "./components/CSSList.jsx";
+import CustomCSSButton from "./components/CustomCSSButton.jsx";
+
 import './App.css'
 
 
@@ -38,6 +42,8 @@ function ListItem(props) {
   ); 
 }
 
+
+
 function TipsButton(props) {
 
   const handleOpenPopup = (event) => {
@@ -66,6 +72,9 @@ function TipsButton(props) {
 }
 
 
+
+
+
 function App() {
   const [count, setCount] = useState(0)
 
@@ -81,6 +90,11 @@ function App() {
   const [tipsList, settipsList] = useState([]);
   useEffect(() => {
     settipsList(tips);
+  }, []);
+
+  const [cssList, setcssList] = useState([]);
+  useEffect(() => {
+    setcssList(customCSS);
   }, []);
 
   function handleCategoryChange(event) {
@@ -111,7 +125,8 @@ function App() {
     <>
         <div className="l-contents">
             <h1>Code Snippets</h1>
-            <TipsButton tipsList={tipsList} />
+            {/*<TipsButton tipsList={tipsList} />*/}
+            <CustomCSSButton cssList={cssList} />
 
 
             <ul className="tabs">
