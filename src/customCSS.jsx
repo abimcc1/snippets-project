@@ -41,7 +41,7 @@ h1, h2, h3, h4, h5, h6 {
   },
   {
     id: "css-4",
-    title: "Hide Email Address",
+    title: "Hide Email Address in Footer",
     theme: "Premier 3",
     codeblock: [
       {
