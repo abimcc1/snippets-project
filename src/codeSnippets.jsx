@@ -1264,8 +1264,7 @@ export const codeSnippets = [
           <h2>We can help you to</h2>
           <p>Finance your next car</p>
           </div>`
-        }
-        ,
+        },
         {
           title: "With Icon",
           code: `<div class="hero-caption style icon">
@@ -1273,6 +1272,14 @@ export const codeSnippets = [
               <h2>Buy Your Next Car From The Comfort of Your Home</h2>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
           </div>`
+        },
+        {
+          title: "With title, text and button",
+          code: `<div class="hero-caption style">
+    <h2>Find your next van today</h2>
+    <p>Check out our latest used vans for sale</p>
+    <a style="margin-top: 20px; margin-bottom: 10px;"class="button" href="/used/vans/">View Stock</a>
+</div>`
         }
       ]
     },

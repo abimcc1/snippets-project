@@ -108,4 +108,19 @@ h1, h2, h3, h4, h5, h6 {
     }
   ],
 },
+{
+  id: "css-8",
+  title: "Move photo and video count to right of image",
+  codeblock: [
+    {
+    location: "Custom CSS",
+    code: `.l-node-used-vehicle--compare-vehicle__photo-overlay, 
+.l-node-used-vehicle--search-result__photo-overlay, 
+.l-node-used-vehicle--sold-gallery__photo-overlay,
+.l-node-used-vehicle--full__photo-overlay {
+    text-align: right;
+}`
+    }
+  ],
+},
 ]
