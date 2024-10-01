@@ -1284,6 +1284,20 @@ export const codeSnippets = [
       ]
     },
     {
+      id: "slide-11",
+      image: "/assets/slide11.png",
+      category: "slides",
+      title: "Premier 11",
+      codeblock: [
+        {
+          title: "Default",
+          code: `<h2>Best Choice of Body Kit Exhaust</h2>
+<h3>New Arrivals</h3>
+<p><a class="button" href="/used/cars/">Stocklist</a></p>`
+        }
+      ]
+    },
+    {
       id: "slide-essential",
       image: "/assets/slide-essential.png",
       category: "slides",
