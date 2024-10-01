@@ -123,4 +123,21 @@ h1, h2, h3, h4, h5, h6 {
     }
   ],
 },
+{
+  id: "css-9",
+  title: "Text, logos and button for reviews section (Additional Text 1)",
+  theme: "Premier 10",
+  codeblock: [
+    {
+    location: "Custom CSS",
+    code: `<h2>Customer Reviews</h2>
+<p>Read what our customers have to say</p>
+<div class="reviews-logos">
+  <img src="https://s3-eu-west-1.amazonaws.com/files.autopromotor/3736/websiteMedia/3625/17e13829-91bf-4c41-8e0b-1c61cff6802c.png" class="fr-fic fr-fil fr-dib" data-id="57256">
+  <img src="https://s3-eu-west-1.amazonaws.com/files.autopromotor/3736/websiteMedia/3625/c06435ba-1449-4fdd-bcca-c97510699a3a.png" class="fr-fic fr-fil fr-dib" data-id="57259">
+</div>
+<p><a class="button" href="/reviews/">Read Reviews</a></p>`
+    }
+  ],
+},
 ]
