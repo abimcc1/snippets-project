@@ -161,10 +161,9 @@ h1, h2, h3, h4, h5, h6 {
   codeblock: [
     {
     location: "Content Area",
-    code: `<p><span style="font-size: 24px;"><strong>USED CAR</strong></span><br>
-    <span style="font-size: 36px;"><strong>FINANCE SPECIALIST</strong></span>
-</p>
-<p style="font-size: 14px;">If you are looking for great savings on quality used cars, then you have reached the right place. [Dealer] are a specialist used car dealer based in [Town].</p>`
+    code: `<h4>Used Car</h4>
+<h3>Finance Specialist</h3>
+<p>If you are looking for great savings on quality used cars, then you have reached the right place. [Dealer] are a specialist used car dealer based in [Town].</p>`
     }
   ],
 },
