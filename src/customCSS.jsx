@@ -154,4 +154,18 @@ h1, h2, h3, h4, h5, h6 {
     }
   ],
 },
+{
+  id: "css-11",
+  title: "Finance slider text",
+  theme: "Premier 7",
+  codeblock: [
+    {
+    location: "Content Area",
+    code: `<p><span style="font-size: 24px;"><strong>USED CAR</strong></span><br>
+    <span style="font-size: 36px;"><strong>FINANCE SPECIALIST</strong></span>
+</p>
+<p>If you are looking for great savings on quality used cars, then you have reached the right place. [Dealer] are a specialist used car dealer based in [Town].</p>`
+    }
+  ],
+},
 ]
