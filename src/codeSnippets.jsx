@@ -1284,6 +1284,22 @@ export const codeSnippets = [
       ]
     },
     {
+      id: "slide-10",
+      image: "/assets/slide10.png",
+      category: "slides",
+      title: "Premier 10",
+      codeblock: [
+        {
+          title: "Default",
+          code: `<div class="hero-caption">
+<p>Welcome to Spidersnet</p>
+<h2>We can help you find your perfect car</h2>
+<p><a class="button" href="/used/cars/" tabindex="0">View Stock</a></p>
+</div>`
+        }
+      ]
+    },
+    {
       id: "slide-11",
       image: "/assets/slide11.png",
       category: "slides",
