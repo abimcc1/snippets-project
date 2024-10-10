@@ -1136,7 +1136,6 @@ export const codeSnippets = [
       title: "Premier 3",
       codeblock: [
         {
-          content: "Does not support button click through - consider an additional text box",
           code: `<div class="hero-caption">
           <h2>Buy Your Next Car From The Comfort of Your Home</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
@@ -1290,7 +1289,6 @@ export const codeSnippets = [
       title: "Premier 10",
       codeblock: [
         {
-          title: "Default",
           code: `<div class="hero-caption">
 <p>Welcome to Spidersnet</p>
 <h2>We can help you find your perfect car</h2>
@@ -1306,7 +1304,6 @@ export const codeSnippets = [
       title: "Premier 11",
       codeblock: [
         {
-          title: "Default",
           code: `<h2>Best Choice of Body Kit Exhaust</h2>
 <h3>New Arrivals</h3>
 <p><a class="button" href="/used/cars/">Stocklist</a></p>`
