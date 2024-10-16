@@ -167,4 +167,16 @@ h1, h2, h3, h4, h5, h6 {
     }
   ],
 },
+{
+  id: "css-12",
+  title: "Finance slider text",
+  theme: "Premier 10",
+  codeblock: [
+    {
+    location: "Content Area",
+    code: `<h2>Search within your price range</h2>
+<p>Use the slider below to set the minimum and maximum budget for your new car.</p>`
+    }
+  ],
+},
 ]
