@@ -179,4 +179,18 @@ h1, h2, h3, h4, h5, h6 {
     }
   ],
 },
+{
+  id: "css-13",
+  title: "Remove rounded corners from images across site",
+  theme: "Premier 10",
+  codeblock: [
+    {
+    location: "Custom CSS",
+    code: `.slick--home-slider .slide-image,
+.l-title__image .page-image img {
+border-radius: 0 !important;
+}`
+    }
+  ],
+},
 ]
