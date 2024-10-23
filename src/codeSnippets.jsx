@@ -581,6 +581,34 @@ export const codeSnippets = [
       ]
     },
     {
+      id: "style-40",
+      image: "/assets/style40.png",
+      category: "blocks",
+      codeblock: [
+        {
+          code: `<div class="additional-style additional-style-22 clearfix">
+    <div class="additional-style-wrap">
+        <div class="additional-style-inner">
+            <ul>
+                <li><img src="https://s3-eu-west-1.amazonaws.com/files.autopromotor/11933/websiteMedia/4224/1726500172-tire_repair.svg" class="fr-fic fr-dib" data-id="65532">
+                    <h4>Garage Services</h4>
+                    <p>Providing a wide array of car servicing options tailored to your needs</p>
+                </li>
+                <li><img src="https://s3-eu-west-1.amazonaws.com/files.autopromotor/11933/websiteMedia/4224/1726500179-build.svg" class="fr-fic fr-dib" data-id="65535">
+                    <h4>Repairs</h4>
+                    <p>One-stop destination for professional car repairs</p>
+                </li>
+                <li><img src="https://s3-eu-west-1.amazonaws.com/files.autopromotor/11933/websiteMedia/4224/1726500189-inventory.svg" class="fr-fic fr-dib" data-id="65538">
+                    <h4>Independent MOT</h4>
+                    <p>Proud to offer comprehensive MOT services</p>
+                </li>
+            </ul>
+        </div></div></div>
+      `
+        }
+      ]
+    },
+    {
       id: "style-23",
       image: "/assets/style23.png",
       category: "reviews",
