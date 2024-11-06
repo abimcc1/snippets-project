@@ -193,4 +193,24 @@ border-radius: 0 !important;
     }
   ],
 },
+{
+  id: "css-14",
+  title: "Remove background from Additional Text 3",
+  theme: "Premier 3",
+  codeblock: [
+    {
+    location: "Custom CSS",
+    code: `.l-node-frontpage--full__banner-outer {
+padding: 0;
+background: transparent;
+}
+.l-node-frontpage--full__banner {
+max-width: 100%;
+}
+.l-node-frontpage--full__banner-inner {
+padding: 0;
+}`
+    }
+  ],
+},
 ]
