@@ -213,4 +213,17 @@ padding: 0;
     }
   ],
 },
+{
+  id: "css-15",
+  title: "Change form dropdown arrows to white",
+  theme: "Premier 3",
+  codeblock: [
+    {
+    location: "Custom CSS",
+    code: `select {
+background-image: url(/media/dropdown.png);
+}`
+    }
+  ],
+},
 ]
