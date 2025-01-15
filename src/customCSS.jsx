@@ -226,4 +226,28 @@ background-image: url(/media/dropdown.png);
     }
   ],
 },
+{
+  id: "css-16",
+  title: "Change bullet points to ticks on homepage",
+  codeblock: [
+    {
+    location: "Custom CSS",
+    code: `.home .fr-view ul:not(.froala-two-col-grid):not(.froala-three-col-grid):not(.froala-four-col-grid) {
+    list-style-type: none;
+    margin: 0;
+}
+.home .fr-view ul:not(.froala-two-col-grid):not(.froala-three-col-grid):not(.froala-four-col-grid) li {
+    padding-left: 30px;
+    position: relative;
+}
+.home .fr-view ul:not(.froala-two-col-grid):not(.froala-three-col-grid):not(.froala-four-col-grid) li:before {
+    content: '\f00c';
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    position: absolute;
+    left: 0;
+}`
+    }
+  ],
+},
 ]

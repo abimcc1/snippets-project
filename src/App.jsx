@@ -2,10 +2,9 @@ import { useState } from 'react'
 import { useEffect } from 'react'
 import { useMemo } from 'react'
 import { codeSnippets } from './codeSnippets.jsx';
-import { tips } from './tips.jsx';
 import { customCSS } from './customCSS.jsx';
-import List from "./components/CSSList.jsx";
-import CustomCSSButton from "./components/CustomCSSButton.jsx";
+import { themeOptions } from './themeOptions.jsx';
+import PopupButton from "./components/PopupButton.jsx";
 
 import './App.css'
 
@@ -44,35 +43,6 @@ function ListItem(props) {
 
 
 
-function TipsButton(props) {
-
-  const handleOpenPopup = (event) => {
-      document.getElementById("TipsPopup").style.display = "block";
-  }
-  const handleClosePopup = (event) => {
-      document.getElementById("TipsPopup").style.display = "none";
-  }
-
-
-  return (
-    <>
-    <button id="TipsPopupButton" onClick={handleOpenPopup}>Tips</button>
-
-    <div id="TipsPopup">
-      <a className='close-button' onClick={handleClosePopup}>x</a>
-        <h2>Tips</h2>
-        <ul class="tips">
-        {props.tipsList.map( (item) => (
-              <ListItem {...item} />
-        ))}
-        </ul>
-    </div>
-  </>
-  );
-}
-
-
-
 
 
 function App() {
@@ -86,11 +56,6 @@ function App() {
 
   var filteredList = useMemo(getFilteredList, [selectedCategory, codeSnippetsList]);
 
-
-  const [tipsList, settipsList] = useState([]);
-  useEffect(() => {
-    settipsList(tips);
-  }, []);
 
   const [cssList, setcssList] = useState([]);
   useEffect(() => {
@@ -125,8 +90,8 @@ function App() {
     <>
         <div className="l-contents">
             <h1>Code Snippets</h1>
-            {/*<TipsButton tipsList={tipsList} />*/}
-            <CustomCSSButton cssList={cssList} />
+            <PopupButton text="Custom CSS/Code" content={cssList} id="CustomCSSPopup" />
+            {/*<PopupButton text="Theme Options" content={themeOptions} id="ThemeOptionsPopup" />-->*/}
 
 
             <ul className="tabs">
