@@ -1103,6 +1103,144 @@ export const codeSnippets = [
       ]
     },
     {
+      id: "style-41",
+      image: "/assets/style41.png",
+      category: "partners",
+      codeblock: [
+        {
+          code: `<div class="additional-style additional-style-41 clearfix">
+    <div class="additional-style-wrap">
+        <div class="additional-style-inner">
+            <div class="additional-style-41__logo">
+                <img src="https://img.spidersnet.co.uk/code-snippets/rac-warranty.svg">
+            </div>
+            <div class="additional-style-41__arrows">
+                <img src="https://img.spidersnet.co.uk/code-snippets/rac-arrow-orange.png">
+            </div>
+            <div class="additional-style-41__element">
+                    <h3>Drive away with&nbsp;<span>peace of mind</span></h3>
+                    <p>Our simple claims procedure means vehicles are back on the road as soon as possible</p>
+             </div>
+        </div>
+    </div>
+</div>
+<link rel="stylesheet" href="https://use.typekit.net/xhn1zlo.css">
+      `
+        }
+      ]
+    },
+    {
+      id: "style-42",
+      image: "/assets/style42.png",
+      category: "partners",
+      codeblock: [
+        {
+          code: `<div class="additional-style additional-style-42 clearfix">
+    <div class="additional-style-wrap">
+        <div class="additional-style-inner">
+            <div class="additional-style-42__logo">
+                <img src="https://img.spidersnet.co.uk/code-snippets/rac-warranty.svg">
+            </div>
+            <div class="additional-style-42__arrows">
+                <img src="https://img.spidersnet.co.uk/code-snippets/rac-arrow-grey.png">
+            </div>
+            <div class="additional-style-42__element">
+                    <h3>Drive away with peace of mind</h3>
+                    <p>Our simple claims procedure means vehicles are back on the road as soon as possible</p>
+             </div>
+        </div>
+    </div>
+</div>
+<link rel="stylesheet" href="https://use.typekit.net/xhn1zlo.css">
+      `
+        }
+      ]
+    },
+    {
+      id: "style-43",
+      image: "/assets/style43.png",
+      category: "partners",
+      codeblock: [
+        {
+          code: `<div class="additional-style additional-style-43 clearfix">
+    <div class="additional-style-wrap">
+        <div class="additional-style-inner">
+            <div class="additional-style-43__logo">
+                <img src="https://img.spidersnet.co.uk/code-snippets/rac-approved.svg">
+            </div>
+            <div class="additional-style-43__arrows">
+                <img src="https://img.spidersnet.co.uk/code-snippets/rac-arrow-orange.png">
+            </div>
+            <div class="additional-style-43__element">
+                    <h3>Proud to be an <span>RAC Approved Dealer</span></h3>
+             </div>
+        </div>
+    </div>
+</div>
+<link rel="stylesheet" href="https://use.typekit.net/xhn1zlo.css">
+      `
+        }
+      ]
+    },
+    {
+      id: "style-44",
+      image: "/assets/style44.png",
+      category: "partners",
+      codeblock: [
+        {
+          code: `<div class="additional-style additional-style-44 clearfix">
+    <div class="additional-style-wrap">
+        <div class="additional-style-inner">
+            <div class="additional-style-44__logo">
+                <img src="https://img.spidersnet.co.uk/code-snippets/rac-approved.svg">
+            </div>
+            <div class="additional-style-44__divider"></div>
+            <div class="additional-style-44__element">
+                    <ul>
+                        <li>Minimum 12 months RAC Warranty</li>
+                        <li>12 months free RAC Roadside Cover*</li>
+                        <li>Prepared to the RAC 82 point Approved Vehicle Standard</li>
+                        <span>*Vehicle-based Roadside Cover</span>
+                    </ul>
+             </div>
+        </div>
+    </div>
+</div>
+<link rel="stylesheet" href="https://use.typekit.net/xhn1zlo.css">
+      `
+        }
+      ]
+    },
+    {
+      id: "style-45",
+      image: "/assets/style45.png",
+      category: "partners",
+      codeblock: [
+        {
+          code: `<div class="additional-style additional-style-45 clearfix">
+    <div class="additional-style-wrap">
+        <div class="additional-style-inner">
+            <div class="additional-style-45__logo">
+                <img src="https://img.spidersnet.co.uk/code-snippets/rac-approved.svg">
+            </div>
+            <div class="additional-style-45__divider"></div>
+            <div class="additional-style-45__element">
+                    <ul>
+                        <li>Minimum 12 months RAC Warranty</li>
+                        <li>12 months free RAC Roadside Cover*</li>
+                        <li>Prepared to the RAC 82 point Approved Vehicle Standard</li>
+                        <span>*Vehicle-based Roadside Cover</span>
+                    </ul>
+             </div>
+        </div>
+    </div>
+</div>
+<link rel="stylesheet" href="https://use.typekit.net/xhn1zlo.css">
+      `
+        }
+      ]
+    },
+    {
       id: "slide-1",
       image: "/assets/slide1.png",
       category: "slides",
