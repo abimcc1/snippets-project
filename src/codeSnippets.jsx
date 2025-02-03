@@ -1241,6 +1241,66 @@ export const codeSnippets = [
       ]
     },
     {
+      id: "style-46",
+      image: "/assets/style46.png",
+      category: "partners",
+      codeblock: [
+        {
+          code: `<div class="additional-style additional-style-46 clearfix">
+    <div class="additional-style-wrap">
+        <div class="additional-style-inner">
+            <div class="additional-style-46__logo">
+                <img src="https://img.spidersnet.co.uk/code-snippets/rac-approved.svg">
+            </div>
+            <div class="additional-style-46__divider"></div>
+            <div class="additional-style-46__element">
+                    <h3>Why an RAC Warranty?</h3>
+                    <ul>
+                        <li>12 months free breakdown cover*</li>
+                        <li>No excess to pay</li>
+                        <li>Monthly payments to spread costsd</li>
+                        <span>*May require activation</span>
+                    </ul>
+             </div>
+        </div>
+    </div>
+</div>
+<link rel="stylesheet" href="https://use.typekit.net/xhn1zlo.css">
+      `
+        }
+      ]
+    },
+    {
+      id: "style-47",
+      image: "/assets/style47.png",
+      category: "partners",
+      codeblock: [
+        {
+          code: `<div class="additional-style additional-style-47 clearfix">
+    <div class="additional-style-wrap">
+        <div class="additional-style-inner">
+            <div class="additional-style-47__logo">
+                <img src="https://img.spidersnet.co.uk/code-snippets/rac-approved.svg">
+            </div>
+            <div class="additional-style-47__divider"></div>
+            <div class="additional-style-47__element">
+                    <h3>Why an RAC Warranty?</h3>
+                    <ul>
+                        <li>12 months free breakdown cover*</li>
+                        <li>No excess to pay</li>
+                        <li>Monthly payments to spread costsd</li>
+                        <span>*May require activation</span>
+                    </ul>
+             </div>
+        </div>
+    </div>
+</div>
+<link rel="stylesheet" href="https://use.typekit.net/xhn1zlo.css">
+      `
+        }
+      ]
+    },
+    {
       id: "slide-1",
       image: "/assets/slide1.png",
       category: "slides",
