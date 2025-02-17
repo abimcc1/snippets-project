@@ -141,7 +141,7 @@ export const codeSnippets = [
     {
       id: "style-6",
       image: "/assets/style6.png",
-      category: "reviews",
+      category: "archive",
       codeblock: [
         {
           title: "No Background",
@@ -337,7 +337,7 @@ export const codeSnippets = [
     {
       id: "style-18",
       image: "/assets/style18.png",
-      category: "reviews",
+      category: "archive",
       codeblock: [
         {
           code: `<div class="additional-style additional-style-18 clearfix">
@@ -614,7 +614,7 @@ export const codeSnippets = [
     {
       id: "style-23",
       image: "/assets/style23.png",
-      category: "reviews",
+      category: "archive",
       codeblock: [
         {
           title: "No Background",
@@ -1000,7 +1000,7 @@ export const codeSnippets = [
     {
       id: "style-36",
       image: "/assets/style36.png",
-      category: "reviews",
+      category: "archive",
       codeblock: [
         {
           code: `<div class="additional-style additional-style-36 clearfix">
@@ -1017,7 +1017,7 @@ export const codeSnippets = [
     {
       id: "style-37",
       image: "/assets/style37.png",
-      category: "reviews",
+      category: "archive",
       codeblock: [
         {
           code: `<div class="additional-style additional-style-37 clearfix">
@@ -1077,7 +1077,7 @@ export const codeSnippets = [
     {
       id: "style-39",
       image: "/assets/style39.png",
-      category: "reviews",
+      category: "archive",
       codeblock: [
         {
           code: `<div class="additional-style additional-style-39 clearfix">

@@ -82,7 +82,8 @@ function App() {
     "reviews",
     "partners",
     "social",
-    "slides"
+    "slides",
+    "archive"
   ];
 
 
