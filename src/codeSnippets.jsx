@@ -1301,6 +1301,66 @@ export const codeSnippets = [
       ]
     },
     {
+      id: "style-48",
+      image: "/assets/style48.png",
+      category: "reviews",
+      codeblock: [
+        {
+          code: `<div class="additional-style additional-style-48 clearfix">
+  <div class="additional-style-wrap">
+      <div class="additional-style-inner">
+          <div class="additional-style-48__left">
+            <img src="/basemedia/star.svg" class="fr-fic fr-dii"> <img src="/basemedia/star.svg" class="fr-fic fr-dii"> <img src="/basemedia/star.svg" class="fr-fic fr-dii"> <img src="/basemedia/star.svg" class="fr-fic fr-dii"> <img src="/basemedia/star.svg" class="fr-fic fr-dii">
+            <h3>Customer Reviews</h3>
+            <p>See what our customers have to say...</p>
+          </div>
+          <div class="additional-style-48__right">
+              <a href="PUT_LINK_HERE" target="_blank"><img src="https://img.spidersnet.co.uk/code-snippets/google-button.svg"></a>
+              <a href="PUT_LINK_HERE" target="_blank"><img src="https://img.spidersnet.co.uk/code-snippets/autotrader-button.svg"></a>
+              <a href="PUT_LINK_HERE" target="_blank"><img src="https://img.spidersnet.co.uk/code-snippets/facebook-button.svg"></a>
+           </div>
+      </div>
+  </div>
+</div>
+      `
+        }
+      ]
+    },
+    {
+      id: "style-49",
+      image: "/assets/style49.png",
+      category: "reviews",
+      codeblock: [
+        {
+          code: `<div class="additional-style additional-style-49 clearfix">
+  <div class="additional-style-wrap">
+      <div class="additional-style-inner">
+          <div class="additional-style-49__block">
+            <div class="review-logo"><img src="https://img.spidersnet.co.uk/code-snippets/google-logo.svg"></div>
+            <p class="stars">&#9733; &#9733; &#9733; &#9733; &#9733;</p>
+            <p class="rating">Rated <span>4.8</span> out of 5</p>
+            <a href="PUT_LINK_HERE" target="_blank" class="button">Read More</a>
+          </div>
+          <div class="additional-style-49__block">
+            <div class="review-logo"><img src="https://img.spidersnet.co.uk/code-snippets/at-logo.svg"></div>
+            <p class="stars">&#9733; &#9733; &#9733; &#9733; &#9733;</p>
+            <p class="rating">Rated <span>4.8</span> out of 5</p>
+            <a href="PUT_LINK_HERE" target="_blank" class="button">Read More</a>
+          </div>
+          <div class="additional-style-49__block">
+            <div class="review-logo"><img src="https://img.spidersnet.co.uk/code-snippets/facebook-logo.svg"></div>
+            <p class="stars">&#9733; &#9733; &#9733; &#9733; &#9733;</p>
+            <p class="rating">Rated <span>4.8</span> out of 5</p>
+            <a href="PUT_LINK_HERE" target="_blank" class="button">Read More</a>
+          </div>
+      </div>
+  </div>
+</div>
+      `
+        }
+      ]
+    },
+    {
       id: "slide-1",
       image: "/assets/slide1.png",
       category: "slides",

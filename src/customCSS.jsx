@@ -250,4 +250,20 @@ background-image: url(/media/dropdown.png);
     }
   ],
 },
+{
+  id: "css-17",
+  title: "Remove background pattern",
+  theme: "Premier 11",
+  codeblock: [
+    {
+    location: "Custom CSS",
+    code: `.l-node-frontpage--full__hero:before,
+.l-node-frontpage--full__search-logos:before,
+.l-footer__blocks,
+.l-title__outer {
+background-image: none;
+}`
+    }
+  ],
+},
 ]
