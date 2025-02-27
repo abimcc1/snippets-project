@@ -1038,6 +1038,7 @@ export const codeSnippets = [
       category: "reviews",
       codeblock: [
         {
+          content: "Add to additional text area",
           code: `<div class="additional-style additional-style-38 clearfix">
           <div class="additional-style-wrap">
               <div class="additional-style-inner">
@@ -1071,6 +1072,13 @@ export const codeSnippets = [
                   </ul>
               </div></div></div>
       `
+        },
+        {
+          title: "Change quote mark colour",
+          content: "Add to custom script",
+          code: `.additional-style.additional-style-38 .additional-style-inner .additional-style-reviews .additional-style-review:after {
+background: YOUR_COLOUR;
+}`
         }
       ]
     },
