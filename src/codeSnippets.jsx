@@ -1369,6 +1369,89 @@ background: YOUR_COLOUR;
       ]
     },
     {
+      id: "style-50",
+      image: "/assets/style50.png",
+      category: "blocks",
+      codeblock: [
+        {
+          code: `        <div class="additional-style additional-style-51 clearfix">
+            <div class="additional-style-wrap">
+                <div class="additional-style-inner">
+                    <div class="additional-style-text">
+                        <h4>Why Choose Us</h4>
+                        <h2>Company Name</h2>
+                        <p>Experience premium automotive excellence with our comprehensive services and exceptional customer care.</p>
+                    </div>
+                    <ul>
+                        <li>
+                            <img src="https://img.spidersnet.co.uk/code-snippets/circle-check-regular-white.svg">
+                            <div class="block-content">
+                              <h3>FCA Registered</h3>
+                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            </div>
+                        </li>
+                        <li>
+                          <img src="https://img.spidersnet.co.uk/code-snippets/circle-check-regular-white.svg">
+                            <div class="block-content">
+                              <h3>Great choice of premium brands</h3>
+                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            </div>
+                        </li>
+                        <li>
+                          <img src="https://img.spidersnet.co.uk/code-snippets/circle-check-regular-white.svg">
+                            <div class="block-content">
+                              <h3>12 Month MOT</h3>
+                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            </div>
+                        </li>
+                        <li>
+                          <img src="https://img.spidersnet.co.uk/code-snippets/circle-check-regular-white.svg">
+                          <div class="block-content">
+                            <h3>12 Month MOT</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                          </div>
+                      </li>
+                      <li>
+                        <img src="https://img.spidersnet.co.uk/code-snippets/circle-check-regular-white.svg">
+                        <div class="block-content">
+                          <h3>12 Month MOT</h3>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </div>
+                      </li>
+                      <li>
+                        <img src="https://img.spidersnet.co.uk/code-snippets/circle-check-regular-white.svg">
+                        <div class="block-content">
+                          <h3>12 Month MOT</h3>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </div>
+                    </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+      `
+        },
+        {
+          title: "Colour changes",
+          content: "Add to custom css",
+          code: `.additional-style.additional-style-51 {
+                    background: BACKGROUND_COLOUR;
+                }
+                .additional-style.additional-style-51 .additional-style-inner ul li {
+                  background: BLOCK_BACKGROUND_COLOUR;
+                }
+                .additional-style.additional-style-51 h2, .additional-style.additional-style-51 h3, .additional-style.additional-style-51 h4 {
+                    color: TITLE_COLOUR;
+                    border-color: TITLE_COLOUR;
+                }
+                .additional-style.additional-style-51 {
+                  color: TEXT_COLOUR;
+                }
+        `
+        }
+      ]
+    },
+    {
       id: "slide-1",
       image: "/assets/slide1.png",
       category: "slides",
