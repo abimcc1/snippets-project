@@ -266,4 +266,21 @@ background-image: none;
     }
   ],
 },
+{
+  id: "css-18",
+  title: "Make tables scroll horizontally on mobile",
+  codeblock: [
+    {
+    location: "Custom CSS",
+    code: `@media screen and (max-width: 47.9988em) {
+    .fr-view table {
+        display: block;
+        overflow-x: scroll;
+        white-space: nowrap;
+        width: 100% !important;
+    }
+}`
+    }
+  ],
+},
 ]
