@@ -1371,6 +1371,43 @@ background: YOUR_COLOUR;
     {
       id: "style-50",
       image: "/assets/style50.png",
+      category: "reviews",
+      codeblock: [
+        {
+          code: `          <div class="additional-style additional-style-50 clearfix">
+            <div class="additional-style-wrap">
+                <div class="additional-style-half">
+                  <div class="additional-style-review">
+                    <div class="additional-style-text">
+                      <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                        <p>&ldquo;Our fantastic team are passionate about delivering outstanding customer experiences and our mission is to ensure that you love both the FN car buying experience and the car&rdquo;</p>
+                        <p class="name">Numan, CEO FN Motors</p>
+                    </div></div>
+                </div>
+                <div class="additional-style-half">
+                  <h3>What People Think About Us</h3>
+                  <a href="/reviews/" class="button">Read More</a>
+                  <div class="rating-wrap">
+                    <div class="rating">
+                        <span>4.8</span>
+                          <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    </div>
+                    <div class="images">
+                      <img src="https://img.spidersnet.co.uk/code-snippets/award-placeholder.png">
+                      <img src="https://img.spidersnet.co.uk/code-snippets/award-placeholder.png">
+                      <img src="https://img.spidersnet.co.uk/code-snippets/award-placeholder.png">
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+      `
+        }
+      ]
+    },
+    {
+      id: "style-51",
+      image: "/assets/style51.png",
       category: "blocks",
       codeblock: [
         {
@@ -1448,6 +1485,114 @@ background: YOUR_COLOUR;
                   color: TEXT_COLOUR;
                 }
         `
+        }
+      ]
+    },
+     {
+      id: "style-52",
+      image: "/assets/style52.png",
+      category: "reviews",
+      codeblock: [
+        {
+          code: `<div class="additional-style additional-style-52 clearfix">
+            <div class="additional-style-wrap">
+              <div class="additional-style-title">
+                <h3>See What Our Customers Are Saying</h3>
+                <a href="/reviews/" class="read-reviews">Read Reviews</a>
+              </div>
+            </div>
+            <div class="additional-style-wrap">
+                <div class="additional-style-half">
+                  <div class="additional-style-review">
+                    <div class="additional-style-text">
+                      <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                        <p>&ldquo;Our fantastic team are passionate about delivering outstanding customer experiences and our mission is to ensure that you love both the FN car buying experience and the car&rdquo;</p>
+                        <p class="name">Numan, CEO FN Motors</p>
+                    </div></div>
+                </div>
+                <div class="additional-style-half">
+                  <div class="additional-style-review">
+                    <div class="additional-style-text">
+                      <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                        <p>&ldquo;Our fantastic team are passionate about delivering outstanding customer experiences and our mission is to ensure that you love both the FN car buying experience and the car&rdquo;</p>
+                        <p class="name">Numan, CEO FN Motors</p>
+                    </div></div>
+                </div>
+            </div>
+          </div>
+      `
+        },
+        {
+        title: 'Change background colour',
+          content: 'Custom CSS',
+          code: `.additional-style.additional-style-52 {
+    background-color: BACKGROUND_COLOUR;
+}
+      `
+        }
+      ]
+    },
+    {
+      id: "style-53",
+      image: "/assets/style53.png",
+      category: "reviews",
+      codeblock: [
+        {
+          code: ` <div class="additional-style additional-style-53 clearfix">
+            <div class="additional-style-wrap">
+
+                <div class="additional-style-half">
+         
+                    <div class="rating">
+                        <span>4.8</span>
+                          <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    </div>
+                    <div class="images">
+                      <img src="https://img.spidersnet.co.uk/code-snippets/award-placeholder.png">
+                      <img src="https://img.spidersnet.co.uk/code-snippets/award-placeholder.png">
+                      <img src="https://img.spidersnet.co.uk/code-snippets/award-placeholder.png">
+                    </div>
+           
+              </div>
+              <div class="additional-style-half">
+                <div class="additional-style-review">
+                  <div class="additional-style-text">
+                    <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    <h3>Customer Reviews</h3>
+                      <p>&ldquo;Our fantastic team are passionate about delivering outstanding customer experiences and our mission is to ensure that you love both the FN car buying experience and the car&rdquo;</p>
+                      <p class="name">Numan, CEO FN Motors</p>
+                      <a href="/reviews/" class="button">Read More</a>
+                  </div></div>
+              </div>
+            </div>
+          </div>
+      `
+        }
+      ]
+    },
+    {
+      id: "style-54",
+      image: "/assets/style54.png",
+      category: "reviews",
+      codeblock: [
+        {
+          code: `          <div class="additional-style additional-style-54 clearfix">
+            <div class="additional-style-wrap">
+
+                <div class="additional-style-inner">
+         
+                  <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                  <h3>Customer Reviews</h3>
+                  <p>See what our customers have to say...</p>
+                  <div class="logos">
+                    <a href="PUT_LINK_HERE" target="_blank"><img src="https://img.spidersnet.co.uk/code-snippets/google-button.svg"></a>
+                    <a href="PUT_LINK_HERE" target="_blank"><img src="https://img.spidersnet.co.uk/code-snippets/autotrader-button.svg"></a>
+                    <a href="PUT_LINK_HERE" target="_blank"><img src="https://img.spidersnet.co.uk/code-snippets/facebook-button.svg"></a>
+                  </div>
+              </div>
+            </div>
+          </div>
+      `
         }
       ]
     },
