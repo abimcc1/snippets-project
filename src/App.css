@@ -166,6 +166,13 @@ h1,
 .tabs li a:hover {
     opacity: 0.8;
 }
+.tabs li.archive {
+    float: right;
+}
+.tabs li.archive a {
+    background: #f4f4f4;
+    color: #e4e4e4; 
+}
 .tips,
 .custom-css-list,
 .theme-options-list {

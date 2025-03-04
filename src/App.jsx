@@ -152,7 +152,7 @@ function App() {
 
               <ul className="tabs categories">
                 {categories.map( (item) => (
-                  <li><a id={item} onClick={handleCategoryChange} className={(selectedCategory === item) ? "active" : ""}>{item}</a></li>
+                  <li className={item === "archive" ? "archive" : ""}><a id={item} onClick={handleCategoryChange} className={selectedCategory === item ? "active" : ""}>{item}</a></li>
                 ))}
               </ul>
 
