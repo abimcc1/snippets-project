@@ -54,10 +54,6 @@ function App() {
     setCodeSnippetsList(codeSnippets);
   }, []);
 
-  console.log("Selected theme: " + selectedTheme);
-
-  console.log("Selected category: " + selectedCategory);
-
   var filteredList = useMemo(getFilteredList, [selectedCategory, selectedTheme, codeSnippetsList]);
 
 

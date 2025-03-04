@@ -1647,6 +1647,40 @@ background: YOUR_COLOUR;
       ]
     },
     {
+      id: "style-55",
+      image: "/assets/style55.png",
+      themes: ["all"],
+      category: "social",
+      codeblock: [
+        {
+          code: `<div class="additional-style additional-style-55 clearfix">
+    <div class="additional-style-wrap">
+        <div class="additional-style-inner">
+            <div>
+                <h3>Stay Updated</h3>
+                <h3 class="light">Follow Us Today!</h3>
+            </div>
+            <div>
+                <a href="https://www.tiktok.com/@perfomancevaleting" rel="noopener noreferrer" target="_blank"><img src="https://s3-eu-west-1.amazonaws.com/files.autopromotor/12411/websiteMedia/4757/1741099266-tiktok.png" class="fr-fic fr-dii" data-id="71399"></a>
+                <a href="https://www.facebook.com/p/Performance-Valeting-100069518736967/" rel="noopener noreferrer" target="_blank"><img src="https://s3-eu-west-1.amazonaws.com/files.autopromotor/12411/websiteMedia/4757/1741099226-facebook.png" class="fr-fic fr-dii" data-id="71393"></a>
+                <a href="https://www.instagram.com/performance__valeting/" rel="noopener noreferrer" target="_blank"><img src="https://s3-eu-west-1.amazonaws.com/files.autopromotor/12411/websiteMedia/4757/1741099250-instagram.png" class="fr-fic fr-dii" data-id="71396"></a></div></div></div></div>
+      `
+        },
+        {
+          title: "Change colours",
+          content: "Add to custom css",
+          code: `.additional-style.additional-style-55 {
+    background: BACKGROUND_COLOR;
+    border-color: BOTTOM_BORDER_COLOR;
+}
+.additional-style.additional-style-social h3.light {
+    color: PRIMARY_COLOR;
+}
+      `
+        }
+      ]
+    },
+    {
       id: "slide-1",
       image: "/assets/slide1.png",
       themes: ["premier-1"],
