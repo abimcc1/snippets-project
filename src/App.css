@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 * {
     box-sizing: border-box;
 }
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
 }
 h2, h3, p {
     margin: 0;
@@ -118,6 +120,28 @@ h1,
     cursor: pointer;
 }
 
+.filters {
+    margin-bottom: 20px;
+    background: #f8f8f8;
+    padding: 20px;
+    border-bottom: 1px solid #eee;
+}
+.filters .theme-filter {
+    margin-bottom: 15px;
+}
+.filters .theme-filter label {
+    font-size: 20px;
+    margin-right: 10px;
+    font-weight: bold;
+}
+.filters .theme-filter select {
+    min-height: 30px;
+    font-size: 18px;
+    min-width: 200px;
+    text-transform: capitalize;
+    border: 1px solid #eee;
+    padding: 5px;
+}
 .tabs {
     list-style-type: none;
     margin: 0;

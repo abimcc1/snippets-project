@@ -46,15 +46,19 @@ function ListItem(props) {
 
 
 function App() {
-  const [count, setCount] = useState(0)
 
   const [codeSnippetsList, setCodeSnippetsList] = useState([]);
-  const [selectedCategory, setSelectedCategory] = useState();
+  const [selectedTheme, setSelectedTheme] = useState("all");
+  const [selectedCategory, setSelectedCategory] = useState("all");
   useEffect(() => {
     setCodeSnippetsList(codeSnippets);
   }, []);
 
-  var filteredList = useMemo(getFilteredList, [selectedCategory, codeSnippetsList]);
+  console.log("Selected theme: " + selectedTheme);
+
+  console.log("Selected category: " + selectedCategory);
+
+  var filteredList = useMemo(getFilteredList, [selectedCategory, selectedTheme, codeSnippetsList]);
 
 
   const [cssList, setcssList] = useState([]);
@@ -63,16 +67,57 @@ function App() {
   }, []);
 
   function handleCategoryChange(event) {
-    setSelectedCategory(event.target.id);
+    const id = event.target.id;
+    if (themes.includes(event.target.value)) {
+      setSelectedTheme(event.target.value);  // If the clicked item is a theme, update selectedTheme
+    } else {
+      setSelectedCategory(id);  // Otherwise, update selectedCategory
+    }
   }
   
   function getFilteredList() {
-    if (!selectedCategory) {
-      return codeSnippetsList;
+    let filtered = codeSnippetsList;
+    
+    // If selectedCategory is 'all', exclude 'archive' category
+    if (selectedCategory === "all") {
+      filtered = filtered.filter((item) => item.category !== "archive");
+    } else if (selectedCategory && selectedCategory !== "all") {
+      // Filter by selected category if it's not 'all'
+      filtered = filtered.filter((item) => item.category === selectedCategory);
     }
-    return codeSnippetsList.filter((item) => item.category === selectedCategory);
+    
+    // Filter by theme if selectedTheme is not 'all'
+    if (selectedTheme && selectedTheme !== "all") {
+      filtered = filtered.filter((item) => {
+        return (
+          Array.isArray(item.themes) &&
+          (item.themes.includes(selectedTheme) || item.themes.includes("all"))
+        ); // Check if the theme is selected or if the theme is "all"
+      });
+    }
+
+
+    return filtered;
   }
 
+  const themes = [
+    "all",
+    "premier-1",
+    "premier-2",
+    "premier-3",
+    "premier-4",
+    "premier-5",
+    "premier-6",
+    "premier-7",
+    "premier-8",
+    "premier-9",
+    "premier-10",
+    "premier-11",
+    "essential-1",
+    "essential-2",
+    "essential-3",
+    "essential-4"
+  ]
 
   const categories = [
     "all",
@@ -95,11 +140,24 @@ function App() {
             {/*<PopupButton text="Theme Options" content={themeOptions} id="ThemeOptionsPopup" />-->*/}
 
 
-            <ul className="tabs">
-              {categories.map( (item) => (
-                <li><a id={ (item === "all") ? "" : item } onClick={handleCategoryChange} className={(selectedCategory === item) ? "active" : ""}>{item}</a></li>
-              ))}
-            </ul>
+            <div class="filters">
+              <div class="theme-filter">
+                <label>Theme:</label>
+                <select onChange={handleCategoryChange}>
+                  {themes.map( (item) => (
+                    <option value={item}>{item}</option>
+                  ))}
+                </select>
+              </div>
+
+              <ul className="tabs categories">
+                {categories.map( (item) => (
+                  <li><a id={item} onClick={handleCategoryChange} className={(selectedCategory === item) ? "active" : ""}>{item}</a></li>
+                ))}
+              </ul>
+
+            </div>
+            
 
         </div>
 
