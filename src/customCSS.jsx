@@ -283,4 +283,16 @@ background-image: none;
     }
   ],
 },
+{
+  id: "css-19",
+  title: "Hide advanced search on homepage",
+  codeblock: [
+    {
+    location: "Custom CSS",
+    code: `.front .block-search-block #used-search-block .advanced-search-button {
+display: none !important;
+}`
+    }
+  ],
+},
 ]
