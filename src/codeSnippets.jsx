@@ -564,6 +564,14 @@ export const codeSnippets = [
           </div>
       </div>
       `
+        },
+        {
+          title: "Change Icon Background Colour",
+          content: "Add to custom css",
+          code: `.additional-style.additional-style-21 .additional-style-inner ul li img {
+          background-color: PUT_COLOUR_HERE;
+          }
+      `
         }
       ]
     },
@@ -594,6 +602,14 @@ export const codeSnippets = [
               </div>
           </div>
       </div>
+      `
+        },
+        {
+          title: "Change Icon Background Colour",
+          content: "Add to custom css",
+          code: `.additional-style.additional-style-22 .additional-style-inner ul li img {
+          background-color: PUT_COLOUR_HERE;
+          }
       `
         }
       ]
@@ -879,6 +895,14 @@ export const codeSnippets = [
                       </li>
                   </ul>
               </div></div></div>
+      `
+        },
+        {
+          title: "Change Icon Background Colour",
+          content: "Add to custom css",
+          code: `.additional-style.additional-style-29 .additional-style-inner ul li img {
+          background-color: PUT_COLOUR_HERE;
+          }
       `
         }
       ]
