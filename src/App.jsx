@@ -27,6 +27,7 @@ function ListItem(props) {
       {(props.title !== undefined) ? (<h2>{props.title}</h2>) : "" }
         {props.codeblock.map( (item) => (
           <>
+          <h3>{item.name}</h3>
           <h3>{item.title}</h3>
           <p>{item.content}</p>
           <div id="textarea">

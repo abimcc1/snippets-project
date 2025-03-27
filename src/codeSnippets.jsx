@@ -1,6 +1,7 @@
 export const codeSnippets = [
     {
       id: "style-1",
+      title: "1.1",
       image: "/assets/style1.png",
       themes: ["premier-1", "premier-2"],
       category: "text",
@@ -35,6 +36,7 @@ export const codeSnippets = [
     },
     {
       id: "style-3",
+      title: "2.1",
       image: "/assets/style3.png",
       themes: ["all"],
       category: "images",
@@ -267,6 +269,7 @@ export const codeSnippets = [
     },
     {
       id: "style-13",
+      title: "5.1",
       image: "/assets/style13.png",
       themes: ["all"],
       category: "partners",
@@ -282,6 +285,7 @@ export const codeSnippets = [
     },
     {
       id: "style-15",
+      title: "5.2",
       image: "/assets/style15.png",
       themes: ["all"],
       category: "partners",
@@ -312,6 +316,7 @@ export const codeSnippets = [
     },
     {
       id: "style-16",
+      title: "6.1",
       image: "/assets/style16.png",
       themes: ["all"],
       category: "social",
@@ -327,6 +332,7 @@ export const codeSnippets = [
     },
     {
       id: "style-17",
+      title: "6.2",
       image: "/assets/style17.png",
       themes: ["all"],
       category: "social",
@@ -395,6 +401,7 @@ export const codeSnippets = [
     },
     {
       id: "style-19",
+      title: "1.2",
       image: "/assets/style19.png",
       themes: ["all"],
       category: "text",
@@ -447,6 +454,7 @@ export const codeSnippets = [
     },
     {
       id: "style-20",
+      title: "2.2",
       image: "/assets/style20.png",
       themes: ["all"],
       category: "images",
@@ -495,6 +503,7 @@ export const codeSnippets = [
     },
     {
       id: "style-21",
+      title: "3.1",
       image: "/assets/style21.png",
       themes: ["all"],
       category: "blocks",
@@ -577,6 +586,7 @@ export const codeSnippets = [
     },
     {
       id: "style-22",
+      title: "3.2",
       image: "/assets/style22.png",
       themes: ["all"],
       category: "blocks",
@@ -616,6 +626,7 @@ export const codeSnippets = [
     },
     {
       id: "style-40",
+      title: "3.3",
       image: "/assets/style40.png",
       themes: ["all"],
       category: "blocks",
@@ -724,6 +735,7 @@ export const codeSnippets = [
     },
     {
       id: "style-24",
+      title: "5.3",
       image: "/assets/style24.png",
       themes: ["all"],
       category: "partners",
@@ -754,6 +766,7 @@ export const codeSnippets = [
     },
     {
       id: "style-25",
+      title: "5.4",
       image: "/assets/style25.png",
       themes: ["all"],
       category: "partners",
@@ -783,6 +796,7 @@ export const codeSnippets = [
     },
     {
       id: "style-26",
+      title: "5.5",
       image: "/assets/style26.png",
       themes: ["all"],
       category: "partners",
@@ -829,6 +843,7 @@ export const codeSnippets = [
     },
     {
       id: "style-27",
+      title: "5.6",
       image: "/assets/style27.png",
       themes: ["all"],
       category: "partners",
@@ -853,6 +868,7 @@ export const codeSnippets = [
     },
     {
       id: "style-28",
+      title: "1.3",
       image: "/assets/style28.png",
       themes: ["all"],
       category: "text",
@@ -874,6 +890,7 @@ export const codeSnippets = [
     },
     {
       id: "style-29",
+      title: "3.4",
       image: "/assets/style29.png",
       themes: ["all"],
       category: "blocks",
@@ -909,6 +926,7 @@ export const codeSnippets = [
     },
     {
       id: "style-30",
+      title: "5.7",
       image: "/assets/style30.png",
       themes: ["all"],
       category: "partners",
@@ -938,6 +956,7 @@ export const codeSnippets = [
     },
     {
       id: "style-31",
+      title: "5.8",
       image: "/assets/style31.png",
       themes: ["all"],
       category: "partners",
@@ -966,6 +985,7 @@ export const codeSnippets = [
     },
     {
       id: "style-32",
+      title: "5.9",
       image: "/assets/style32.png",
       themes: ["all"],
       category: "partners",
@@ -994,6 +1014,7 @@ export const codeSnippets = [
     },
     {
       id: "style-33",
+      title: "5.10",
       image: "/assets/style33.png",
       themes: ["all"],
       category: "partners",
@@ -1013,6 +1034,7 @@ export const codeSnippets = [
     },
     {
       id: "style-34",
+      title: "1.4",
       image: "/assets/style34.png",
       themes: ["all"],
       category: "text",
@@ -1034,6 +1056,7 @@ export const codeSnippets = [
     },
     {
       id: "style-35",
+      title: "1.5",
       image: "/assets/style35.png",
       themes: ["all"],
       category: "text",
@@ -1092,6 +1115,7 @@ export const codeSnippets = [
     },
     {
       id: "style-38",
+      title: "4.1",
       image: "/assets/style38.png",
       themes: ["all"],
       category: "reviews",
@@ -1172,6 +1196,7 @@ background: YOUR_COLOUR;
     },
     {
       id: "style-41",
+      title: "5.11",
       image: "/assets/style41.png",
       themes: ["all"],
       category: "partners",
@@ -1200,6 +1225,7 @@ background: YOUR_COLOUR;
     },
     {
       id: "style-42",
+      title: "5.12",
       image: "/assets/style42.png",
       themes: ["all"],
       category: "partners",
@@ -1228,6 +1254,7 @@ background: YOUR_COLOUR;
     },
     {
       id: "style-43",
+      title: "5.13",
       image: "/assets/style43.png",
       themes: ["all"],
       category: "partners",
@@ -1255,6 +1282,7 @@ background: YOUR_COLOUR;
     },
     {
       id: "style-44",
+      title: "5.14",
       image: "/assets/style44.png",
       themes: ["all"],
       category: "partners",
@@ -1285,6 +1313,7 @@ background: YOUR_COLOUR;
     },
     {
       id: "style-45",
+      title: "5.15",
       image: "/assets/style45.png",
       themes: ["all"],
       category: "partners",
@@ -1315,6 +1344,7 @@ background: YOUR_COLOUR;
     },
     {
       id: "style-46",
+      title: "5.16",
       image: "/assets/style46.png",
       themes: ["all"],
       category: "partners",
@@ -1346,6 +1376,7 @@ background: YOUR_COLOUR;
     },
     {
       id: "style-47",
+      title: "5.17",
       image: "/assets/style47.png",
       themes: ["all"],
       category: "partners",
@@ -1377,6 +1408,7 @@ background: YOUR_COLOUR;
     },
     {
       id: "style-48",
+      title: "4.2",
       image: "/assets/style48.png",
       themes: ["all"],
       category: "reviews",
@@ -1404,6 +1436,7 @@ background: YOUR_COLOUR;
     },
     {
       id: "style-49",
+      title: "4.3",
       image: "/assets/style49.png",
       themes: ["all"],
       category: "reviews",
@@ -1439,6 +1472,7 @@ background: YOUR_COLOUR;
     },
     {
       id: "style-50",
+      title: "4.4",
       image: "/assets/style50.png",
       themes: ["all"],
       category: "reviews",
@@ -1477,6 +1511,7 @@ background: YOUR_COLOUR;
     },
     {
       id: "style-51",
+      title: "3.5",
       image: "/assets/style51.png",
       themes: ["all"],
       category: "blocks",
@@ -1561,6 +1596,7 @@ background: YOUR_COLOUR;
     },
      {
       id: "style-52",
+      title: "4.5",
       image: "/assets/style52.png",
       themes: ["all"],
       category: "reviews",
@@ -1606,6 +1642,7 @@ background: YOUR_COLOUR;
     },
     {
       id: "style-53",
+      title: "4.6",
       image: "/assets/style53.png",
       themes: ["all"],
       category: "reviews",
@@ -1645,6 +1682,7 @@ background: YOUR_COLOUR;
     },
     {
       id: "style-54",
+      title: "4.7",
       image: "/assets/style54.png",
       themes: ["all"],
       category: "reviews",
@@ -1672,6 +1710,7 @@ background: YOUR_COLOUR;
     },
     {
       id: "style-55",
+      title: "6.3",
       image: "/assets/style55.png",
       themes: ["all"],
       category: "social",
