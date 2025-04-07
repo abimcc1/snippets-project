@@ -24,7 +24,19 @@ function ListItem(props) {
         <img src={props.image} alt="" />
       </div>
       <div className="l-main__code">
-      {(props.title !== undefined) ? (<h2>{props.title}</h2>) : "" }
+      <div className="l-main__code--header">
+        {(props.title !== undefined) ? (<h2>{props.title}</h2>) : "" }
+        {
+          // Only render the list if "all" is not in the array
+          !props.themes.includes('all') ? (
+            <ul className="themes">
+              {props.themes.map((theme, index) => (
+                <li key={index}>{theme}</li>
+              ))}
+            </ul>
+          ) : null // Render nothing if "all" is present
+        }
+        </div>
         {props.codeblock.map( (item) => (
           <>
           <h3>{item.name}</h3>

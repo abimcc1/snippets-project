@@ -1410,26 +1410,316 @@ background: YOUR_COLOUR;
       id: "style-48",
       title: "4.2",
       image: "/assets/style48.png",
-      themes: ["all"],
+      themes: ["premier-1","premier-2","premier-3","premier-4","premier-5","premier-6","premier-7","premier-8","premier-10","premier-11","essential-1","essential-2"],
       category: "reviews",
       codeblock: [
         {
-          code: `<div class="additional-style additional-style-48 clearfix">
-  <div class="additional-style-wrap">
-      <div class="additional-style-inner">
-          <div class="additional-style-48__left">
-            <img src="/basemedia/star.svg" class="fr-fic fr-dii"> <img src="/basemedia/star.svg" class="fr-fic fr-dii"> <img src="/basemedia/star.svg" class="fr-fic fr-dii"> <img src="/basemedia/star.svg" class="fr-fic fr-dii"> <img src="/basemedia/star.svg" class="fr-fic fr-dii">
-            <h3>Customer Reviews</h3>
-            <p>See what our customers have to say...</p>
+          code: `            <style>
+              .additional-style.additional-style-48 {
+                background: #1597F4;
+                position: relative;
+                padding: 50px 0;
+              }
+              .additional-style.additional-style-48 .additional-style-inner {
+                width: 100%;
+                float: left;
+                padding-right: 0.9375rem;
+                padding-left: 0.9375rem;
+                position: relative;
+                text-align: center;
+              }
+              @media screen and (min-width: 48em) {
+                .additional-style.additional-style-48 .additional-style-inner {
+                  @media screen and (min-width: 48em) {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    gap: 30px;
+                    text-align: left;
+                }
+                }
+              }
+              @media screen and (max-width: 47.9988em) {
+                .additional-style.additional-style-48__left {
+                        margin-bottom: 20px;
+                }
+              }
+              .additional-style.additional-style-48__right {
+                  display: flex;
+                  gap: 10px;
+              }
+              @media screen and (min-width: 48em) {
+                .additional-style.additional-style-48__right {
+                  text-align: right;
+                }
+              }
+              .additional-style.additional-style-48 h2, 
+              .additional-style.additional-style-48 h3, 
+              .additional-style.additional-style-48 p, 
+              .additional-style.additional-style-48 ul {
+                color: #fff;
+                margin-bottom: 0;
+              }
+              .additional-style.additional-style-48 h3 {
+                  font-weight: 500;
+                  font-size: 30px;
+              }
+              @media screen and (min-width: 48em) {
+                .additional-style.additional-style-48 h3 {
+                  font-size: 42px;
+                  line-height: 1;
+                }
+              }
+              @media screen and (min-width: 48em) {
+                .additional-style.additional-style-48 p {
+                      font-size: 20px;
+                  }
+              }
+              .additional-style.additional-style-48 a:hover {
+                  opacity: 0.8;
+              }
+            </style>
+
+            <div class="additional-style additional-style-48 clearfix">
+              <div class="additional-style-wrap">
+                  <div class="additional-style-inner">
+                      <div class="additional-style-48__left">
+                        <img src="/basemedia/star.svg" class="fr-fic fr-dii"> <img src="/basemedia/star.svg" class="fr-fic fr-dii"> <img src="/basemedia/star.svg" class="fr-fic fr-dii"> <img src="/basemedia/star.svg" class="fr-fic fr-dii"> <img src="/basemedia/star.svg" class="fr-fic fr-dii">
+                        <h3>Customer Reviews</h3>
+                        <p>See what our customers have to say...</p>
+                      </div>
+                      <div class="additional-style-48__right">
+                          <a href="PUT_LINK_HERE" target="_blank"><img src="https://img.spidersnet.co.uk/code-snippets/google-button.svg"></a>
+                          <a href="PUT_LINK_HERE" target="_blank"><img src="https://img.spidersnet.co.uk/code-snippets/autotrader-button.svg"></a>
+                          <a href="PUT_LINK_HERE" target="_blank"><img src="https://img.spidersnet.co.uk/code-snippets/facebook-button.svg"></a>
+                       </div>
+                  </div>
+              </div>
+            </div>
+      `
+        }
+      ]
+    },
+    {
+      id: "style-48.1",
+      title: "4.2",
+      image: "/assets/style48.1.png",
+      themes: ["premier-9","essential-3"],
+      category: "reviews",
+      codeblock: [
+        {
+          code: `          <style>
+            .additional-style.additional-style-48 {
+              background: #363636;
+              filter: drop-shadow(0px 4px 25px rgba(0, 0, 0, 0.2));
+              border-radius: 20px;
+              margin-left: 15px;
+              margin-right: 15px;
+              position: relative;
+              padding: 50px 0;
+            }
+            .additional-style.additional-style-48 .additional-style-wrap {
+              clear: both;
+              margin-right: auto;
+              margin-left: auto;
+              max-width: 1920px;
+            }
+            @media screen and (min-width: 75em) {
+              .additional-style.additional-style-48 .additional-style-wrap {
+                padding-left: 50px;
+                padding-right: 50px;
+              }
+            }
+            @media screen and (min-width: 90em) {
+              .additional-style.additional-style-48 .additional-style-wrap {
+                padding-left: 70px;
+                padding-right: 70px;
+              }
+            }
+            .additional-style.additional-style-48 .additional-style-inner {
+              width: 100%;
+              float: left;
+              padding-right: 0.9375rem;
+              padding-left: 0.9375rem;
+              position: relative;
+              text-align: center;
+            }
+            @media screen and (min-width: 48em) {
+              .additional-style.additional-style-48 .additional-style-inner {
+                @media screen and (min-width: 48em) {
+                  display: flex;
+                  align-items: center;
+                  justify-content: space-between;
+                  gap: 30px;
+                  text-align: left;
+              }
+              }
+            }
+            @media screen and (max-width: 47.9988em) {
+              .additional-style.additional-style-48__left {
+                      margin-bottom: 20px;
+              }
+            }
+            .additional-style.additional-style-48__right {
+                display: flex;
+                gap: 10px;
+            }
+            @media screen and (min-width: 48em) {
+              .additional-style.additional-style-48__right {
+                text-align: right;
+              }
+            }
+            .additional-style.additional-style-48 h2, 
+            .additional-style.additional-style-48 h3, 
+            .additional-style.additional-style-48 p, 
+            .additional-style.additional-style-48 ul {
+              color: #fff;
+              margin-bottom: 0;
+            }
+            .additional-style.additional-style-48 h3 {
+                font-weight: 500;
+                font-size: 30px;
+            }
+            @media screen and (min-width: 48em) {
+              .additional-style.additional-style-48 h3 {
+                font-size: 42px;
+                line-height: 1;
+              }
+            }
+            @media screen and (min-width: 48em) {
+              .additional-style.additional-style-48 p {
+                    font-size: 20px;
+                }
+            }
+            .additional-style.additional-style-48 a:hover {
+                opacity: 0.8;
+            }
+          </style>
+
+          <div class="additional-style additional-style-48 clearfix">
+            <div class="additional-style-wrap">
+                <div class="additional-style-inner">
+                    <div class="additional-style-48__left">
+                      <img src="/basemedia/star.svg" class="fr-fic fr-dii"> <img src="/basemedia/star.svg" class="fr-fic fr-dii"> <img src="/basemedia/star.svg" class="fr-fic fr-dii"> <img src="/basemedia/star.svg" class="fr-fic fr-dii"> <img src="/basemedia/star.svg" class="fr-fic fr-dii">
+                      <h3>Customer Reviews</h3>
+                      <p>See what our customers have to say...</p>
+                    </div>
+                    <div class="additional-style-48__right">
+                        <a href="PUT_LINK_HERE" target="_blank"><img src="https://img.spidersnet.co.uk/code-snippets/google-button.svg"></a>
+                        <a href="PUT_LINK_HERE" target="_blank"><img src="https://img.spidersnet.co.uk/code-snippets/autotrader-button.svg"></a>
+                        <a href="PUT_LINK_HERE" target="_blank"><img src="https://img.spidersnet.co.uk/code-snippets/facebook-button.svg"></a>
+                     </div>
+                </div>
+            </div>
           </div>
-          <div class="additional-style-48__right">
-              <a href="PUT_LINK_HERE" target="_blank"><img src="https://img.spidersnet.co.uk/code-snippets/google-button.svg"></a>
-              <a href="PUT_LINK_HERE" target="_blank"><img src="https://img.spidersnet.co.uk/code-snippets/autotrader-button.svg"></a>
-              <a href="PUT_LINK_HERE" target="_blank"><img src="https://img.spidersnet.co.uk/code-snippets/facebook-button.svg"></a>
-           </div>
-      </div>
-  </div>
-</div>
+      `
+        }
+      ]
+    },
+    {
+      id: "style-48.2",
+      title: "4.2",
+      image: "/assets/style48.2.png",
+      themes: ["essential-4"],
+      category: "reviews",
+      codeblock: [
+        {
+          code: `<style>
+            .additional-style.additional-style-48 {
+              position: relative;
+            }
+            .additional-style.additional-style-48 .additional-style-wrap {
+              clear: both;
+              margin-right: auto;
+              margin-left: auto;
+              max-width: 1300px;
+            }
+            .additional-style.additional-style-48 .additional-style-inner {
+              width: 100%;
+              float: left;
+              padding-right: 0.9375rem;
+              padding-left: 0.9375rem;
+              position: relative;
+              text-align: center;
+            }
+            .additional-style.additional-style-48 .additional-style-bg {
+              border-radius: 20px;
+              border: 5px solid #FFF;
+              background: #F3F3F3;
+              box-shadow: 0px 0px 60px 0px rgba(50, 52, 55, 0.20);
+              padding-top: 30px;
+              padding-bottom: 30px;
+            }
+            @media screen and (min-width: 48em) {
+              .additional-style.additional-style-48 .additional-style-bg {
+                @media screen and (min-width: 48em) {
+                  display: flex;
+                  align-items: center;
+                  justify-content: space-between;
+                  gap: 30px;
+                  text-align: left;
+                  padding: 50px;
+              }
+              }
+            }
+            @media screen and (max-width: 47.9988em) {
+              .additional-style.additional-style-48__left {
+                      margin-bottom: 20px;
+              }
+            }
+            .additional-style.additional-style-48__right {
+                display: flex;
+                gap: 10px;
+            }
+            @media screen and (min-width: 48em) {
+              .additional-style.additional-style-48__right {
+                text-align: right;
+              }
+            }
+            .additional-style.additional-style-48 h2, 
+            .additional-style.additional-style-48 h3, 
+            .additional-style.additional-style-48 p, 
+            .additional-style.additional-style-48 ul {
+              margin-bottom: 0;
+            }
+            .additional-style.additional-style-48 h3 {
+                font-weight: 500;
+                font-size: 30px;
+            }
+            @media screen and (min-width: 48em) {
+              .additional-style.additional-style-48 h3 {
+                font-size: 42px;
+                line-height: 1;
+              }
+            }
+            @media screen and (min-width: 48em) {
+              .additional-style.additional-style-48 p {
+                    font-size: 20px;
+                }
+            }
+            .additional-style.additional-style-48 a:hover {
+                opacity: 0.8;
+            }
+          </style>
+
+          <div class="additional-style additional-style-48 clearfix">
+            <div class="additional-style-wrap">
+                <div class="additional-style-inner">
+                  <div class="additional-style-bg">
+                    <div class="additional-style-48__left">
+                      <img src="/basemedia/star.svg" class="fr-fic fr-dii"> <img src="/basemedia/star.svg" class="fr-fic fr-dii"> <img src="/basemedia/star.svg" class="fr-fic fr-dii"> <img src="/basemedia/star.svg" class="fr-fic fr-dii"> <img src="/basemedia/star.svg" class="fr-fic fr-dii">
+                      <h3>Customer Reviews</h3>
+                      <p>See what our customers have to say...</p>
+                    </div>
+                    <div class="additional-style-48__right">
+                        <a href="PUT_LINK_HERE" target="_blank"><img src="https://img.spidersnet.co.uk/code-snippets/google-button.svg"></a>
+                        <a href="PUT_LINK_HERE" target="_blank"><img src="https://img.spidersnet.co.uk/code-snippets/autotrader-button.svg"></a>
+                        <a href="PUT_LINK_HERE" target="_blank"><img src="https://img.spidersnet.co.uk/code-snippets/facebook-button.svg"></a>
+                     </div>
+                  </div>
+                </div>
+            </div>
+          </div>
       `
         }
       ]
@@ -1438,35 +1728,692 @@ background: YOUR_COLOUR;
       id: "style-49",
       title: "4.3",
       image: "/assets/style49.png",
-      themes: ["all"],
+      themes: ["premier-1","premier-2","premier-3","premier-4","premier-5","premier-6","premier-7","premier-8","essential-1"],
       category: "reviews",
       codeblock: [
         {
-          code: `<div class="additional-style additional-style-49 clearfix">
-  <div class="additional-style-wrap">
-      <div class="additional-style-inner">
-          <div class="additional-style-49__block">
-            <div class="review-logo"><img src="https://img.spidersnet.co.uk/code-snippets/google-logo.svg"></div>
-            <p class="stars">&#9733; &#9733; &#9733; &#9733; &#9733;</p>
-            <p class="rating">Rated <span>4.8</span> out of 5</p>
-            <a href="PUT_LINK_HERE" target="_blank" class="button">Read More</a>
+          code: `         <style>
+            .additional-style.additional-style-49 {
+              background: url(https://img.spidersnet.co.uk/code-snippets/style-49-bg.jpg) no-repeat center;
+              background-size: cover;
+              padding: 20px 0;
+            }
+            .additional-style.additional-style-49 .additional-style-wrap {
+              clear: both;
+              margin-right: auto;
+              margin-left: auto;
+              max-width: 1200px;
+            }
+            .additional-style.additional-style-49 .additional-style-inner {
+              width: 100%;
+              float: left;
+              padding-right: 0.9375rem;
+              padding-left: 0.9375rem;
+              position: relative; 
+            }
+            .additional-style.additional-style-49 .additional-style-49__block {
+              border-radius: 6px;
+              background: rgba(255, 255, 255, 0.75);
+              padding: 20px;
+              flex: 1;
+              text-align: center;
+              margin-bottom: 10px;
+            }
+            .additional-style.additional-style-49 .additional-style-49__block .review-logo {
+                height: 40px;
+            }
+            .additional-style.additional-style-49 .additional-style-49__block .stars {
+                color: #1597F4;
+                font-size: 23px;
+            }
+            .additional-style.additional-style-49 .additional-style-49__block .rating {
+                color: #000;
+                font-size: 20px;
+                line-height: 1;
+                margin-bottom: 25px;
+            }
+            .additional-style.additional-style-49 .additional-style-49__block .rating span {
+              font-size: 58px;
+            }
+            .additional-style.additional-style-49 .additional-style-49__block .button {
+                margin-bottom: 0;
+            }
+            @media screen and (min-width: 48em) {
+              .additional-style.additional-style-49 {
+                padding: 60px 0;
+              }
+              .additional-style.additional-style-49 .additional-style-inner {
+                display: flex;
+                justify-content: space-between;
+                gap: 42px;
+              }
+              .additional-style.additional-style-49 .additional-style-49__block {
+                padding: 40px;
+              }
+            }
+          </style>
+
+          <div class="additional-style additional-style-49 clearfix">
+            <div class="additional-style-wrap">
+                <div class="additional-style-inner">
+                    <div class="additional-style-49__block">
+                      <div class="review-logo"><img src="https://img.spidersnet.co.uk/code-snippets/google-logo.svg"></div>
+                      <p class="stars">&#9733; &#9733; &#9733; &#9733; &#9733;</p>
+                      <p class="rating">Rated <span>4.8</span> out of 5</p>
+                      <a href="PUT_LINK_HERE" target="_blank" class="button">Read More</a>
+                    </div>
+                    <div class="additional-style-49__block">
+                      <div class="review-logo"><img src="https://img.spidersnet.co.uk/code-snippets/at-logo.svg"></div>
+                      <p class="stars">&#9733; &#9733; &#9733; &#9733; &#9733;</p>
+                      <p class="rating">Rated <span>4.8</span> out of 5</p>
+                      <a href="PUT_LINK_HERE" target="_blank" class="button">Read More</a>
+                    </div>
+                    <div class="additional-style-49__block">
+                      <div class="review-logo"><img src="https://img.spidersnet.co.uk/code-snippets/facebook-logo.svg"></div>
+                      <p class="stars">&#9733; &#9733; &#9733; &#9733; &#9733;</p>
+                      <p class="rating">Rated <span>4.8</span> out of 5</p>
+                      <a href="PUT_LINK_HERE" target="_blank" class="button">Read More</a>
+                    </div>
+                </div>
+            </div>
           </div>
-          <div class="additional-style-49__block">
-            <div class="review-logo"><img src="https://img.spidersnet.co.uk/code-snippets/at-logo.svg"></div>
-            <p class="stars">&#9733; &#9733; &#9733; &#9733; &#9733;</p>
-            <p class="rating">Rated <span>4.8</span> out of 5</p>
-            <a href="PUT_LINK_HERE" target="_blank" class="button">Read More</a>
-          </div>
-          <div class="additional-style-49__block">
-            <div class="review-logo"><img src="https://img.spidersnet.co.uk/code-snippets/facebook-logo.svg"></div>
-            <p class="stars">&#9733; &#9733; &#9733; &#9733; &#9733;</p>
-            <p class="rating">Rated <span>4.8</span> out of 5</p>
-            <a href="PUT_LINK_HERE" target="_blank" class="button">Read More</a>
-          </div>
-      </div>
-  </div>
-</div>
       `
+        }
+      ]
+    },
+    {
+      id: "style-49.1",
+      title: "4.3",
+      image: "/assets/style49.1.png",
+      themes: ["premier-9"],
+      category: "reviews",
+      codeblock: [
+        {
+          code: ` <style>
+            .additional-style.additional-style-49 {
+              background: url(https://img.spidersnet.co.uk/code-snippets/style-49-bg.jpg) no-repeat center;
+              background-size: cover;
+              padding: 20px 0;
+              filter: drop-shadow(0px 4px 25px rgba(0, 0, 0, 0.2));
+              border-radius: 20px;
+              margin-left: 15px;
+              margin-right: 15px;
+              position: relative;
+            }
+            .additional-style.additional-style-49 .additional-style-wrap {
+              clear: both;
+              margin-right: auto;
+              margin-left: auto;
+              max-width: 1920px;
+            }
+            @media screen and (min-width: 75em) {
+              .additional-style.additional-style-49 .additional-style-wrap {
+                padding-left: 50px;
+                padding-right: 50px;
+              }
+            }
+            @media screen and (min-width: 90em) {
+              .additional-style.additional-style-49 .additional-style-wrap {
+                padding-left: 70px;
+                padding-right: 70px;
+              }
+            }
+            .additional-style.additional-style-49 .additional-style-inner {
+              width: 100%;
+              float: left;
+              padding-right: 0.9375rem;
+              padding-left: 0.9375rem;
+              position: relative; 
+            }
+            .additional-style.additional-style-49 .additional-style-49__block {
+              border-radius: 6px;
+              background: rgba(255, 255, 255, 0.75);
+              padding: 20px;
+              flex: 1;
+              text-align: center;
+              margin-bottom: 10px;
+            }
+            .additional-style.additional-style-49 .additional-style-49__block .review-logo {
+                height: 40px;
+            }
+            .additional-style.additional-style-49 .additional-style-49__block .stars {
+                color: #1597F4;
+                font-size: 23px;
+            }
+            .additional-style.additional-style-49 .additional-style-49__block .rating {
+                color: #000;
+                font-size: 20px;
+                line-height: 1;
+                margin-bottom: 25px;
+            }
+            .additional-style.additional-style-49 .additional-style-49__block .rating span {
+              font-size: 58px;
+            }
+            .additional-style.additional-style-49 .additional-style-49__block .button {
+                margin-bottom: 0;
+            }
+            @media screen and (min-width: 48em) {
+              .additional-style.additional-style-49 {
+                padding: 60px 0;
+              }
+              .additional-style.additional-style-49 .additional-style-inner {
+                display: flex;
+                justify-content: space-between;
+                gap: 42px;
+              }
+              .additional-style.additional-style-49 .additional-style-49__block {
+                padding: 40px;
+              }
+            }
+          </style>
+
+          <div class="additional-style additional-style-49 clearfix">
+            <div class="additional-style-wrap">
+                <div class="additional-style-inner">
+                    <div class="additional-style-49__block">
+                      <div class="review-logo"><img src="https://img.spidersnet.co.uk/code-snippets/google-logo.svg"></div>
+                      <p class="stars">&#9733; &#9733; &#9733; &#9733; &#9733;</p>
+                      <p class="rating">Rated <span>4.8</span> out of 5</p>
+                      <a href="PUT_LINK_HERE" target="_blank" class="button">Read More</a>
+                    </div>
+                    <div class="additional-style-49__block">
+                      <div class="review-logo"><img src="https://img.spidersnet.co.uk/code-snippets/at-logo.svg"></div>
+                      <p class="stars">&#9733; &#9733; &#9733; &#9733; &#9733;</p>
+                      <p class="rating">Rated <span>4.8</span> out of 5</p>
+                      <a href="PUT_LINK_HERE" target="_blank" class="button">Read More</a>
+                    </div>
+                    <div class="additional-style-49__block">
+                      <div class="review-logo"><img src="https://img.spidersnet.co.uk/code-snippets/facebook-logo.svg"></div>
+                      <p class="stars">&#9733; &#9733; &#9733; &#9733; &#9733;</p>
+                      <p class="rating">Rated <span>4.8</span> out of 5</p>
+                      <a href="PUT_LINK_HERE" target="_blank" class="button">Read More</a>
+                    </div>
+                </div>
+            </div>
+          </div>
+`
+        }
+      ]
+    },
+    {
+      id: "style-49.2",
+      title: "4.3",
+      image: "/assets/style49.2.png",
+      themes: ["premier-10"],
+      category: "reviews",
+      codeblock: [
+        {
+          code: `<style>
+            .additional-style.additional-style-49 {
+              background: url(https://img.spidersnet.co.uk/code-snippets/style-49-bg.jpg) no-repeat center;
+              background-size: cover;
+              padding: 20px 0;
+            }
+            .additional-style.additional-style-49 .additional-style-wrap {
+              clear: both;
+              margin-right: auto;
+              margin-left: auto;
+              max-width: 1300px;
+            }
+            .additional-style.additional-style-49 .additional-style-inner {
+              width: 100%;
+              float: left;
+              padding-right: 0.9375rem;
+              padding-left: 0.9375rem;
+              position: relative; 
+            }
+            .additional-style.additional-style-49 .additional-style-49__block {
+              border-radius: 6px;
+              background: #fff;
+              padding: 20px;
+              flex: 1;
+              text-align: center;
+              margin-bottom: 10px;
+            }
+            .additional-style.additional-style-49 .additional-style-49__block .review-logo {
+                height: 40px;
+            }
+            .additional-style.additional-style-49 .additional-style-49__block .stars {
+                color: #1597F4;
+                font-size: 23px;
+            }
+            .additional-style.additional-style-49 .additional-style-49__block .rating {
+                color: #000;
+                font-size: 20px;
+                line-height: 1;
+                margin-bottom: 25px;
+            }
+            .additional-style.additional-style-49 .additional-style-49__block .rating span {
+              font-size: 58px;
+            }
+            .additional-style.additional-style-49 .additional-style-49__block .button {
+                margin-bottom: 0;
+            }
+            @media screen and (min-width: 48em) {
+              .additional-style.additional-style-49 {
+                padding: 60px 0;
+              }
+              .additional-style.additional-style-49 .additional-style-inner {
+                display: flex;
+                justify-content: space-between;
+                gap: 42px;
+              }
+              .additional-style.additional-style-49 .additional-style-49__block {
+                padding: 40px;
+              }
+            }
+          </style>
+
+          <div class="additional-style additional-style-49 clearfix">
+            <div class="additional-style-wrap">
+                <div class="additional-style-inner">
+                    <div class="additional-style-49__block">
+                      <div class="review-logo"><img src="https://img.spidersnet.co.uk/code-snippets/google-logo.svg"></div>
+                      <p class="stars">&#9733; &#9733; &#9733; &#9733; &#9733;</p>
+                      <p class="rating">Rated <span>4.8</span> out of 5</p>
+                      <a href="PUT_LINK_HERE" target="_blank" class="button">Read More</a>
+                    </div>
+                    <div class="additional-style-49__block">
+                      <div class="review-logo"><img src="https://img.spidersnet.co.uk/code-snippets/at-logo.svg"></div>
+                      <p class="stars">&#9733; &#9733; &#9733; &#9733; &#9733;</p>
+                      <p class="rating">Rated <span>4.8</span> out of 5</p>
+                      <a href="PUT_LINK_HERE" target="_blank" class="button">Read More</a>
+                    </div>
+                    <div class="additional-style-49__block">
+                      <div class="review-logo"><img src="https://img.spidersnet.co.uk/code-snippets/facebook-logo.svg"></div>
+                      <p class="stars">&#9733; &#9733; &#9733; &#9733; &#9733;</p>
+                      <p class="rating">Rated <span>4.8</span> out of 5</p>
+                      <a href="PUT_LINK_HERE" target="_blank" class="button">Read More</a>
+                    </div>
+                </div>
+            </div>
+          </div>`
+        }
+      ]
+    },
+    {
+      id: "style-49.3",
+      title: "4.3",
+      image: "/assets/style49.3.png",
+      themes: ["premier-11"],
+      category: "reviews",
+      codeblock: [
+        {
+          code: `          <style>
+            .additional-style.additional-style-49 {
+              padding: 20px 0;
+            }
+            .additional-style.additional-style-49 .additional-style-wrap {
+              clear: both;
+              margin-right: auto;
+              margin-left: auto;
+              max-width: 1300px;
+            }
+            .additional-style.additional-style-49 .additional-style-inner {
+              width: 100%;
+              float: left;
+              padding-right: 0.9375rem;
+              padding-left: 0.9375rem;
+              position: relative; 
+            }
+            .additional-style.additional-style-49 .additional-style-49__block {
+              border: 1px solid #1597F4;
+              padding: 20px;
+              flex: 1;
+              text-align: center;
+              margin-bottom: 10px;
+            }
+            .additional-style.additional-style-49 .additional-style-49__block .review-logo {
+                height: 40px;
+            }
+            .additional-style.additional-style-49 .additional-style-49__block .stars {
+                color: #1597F4;
+                font-size: 23px;
+            }
+            .additional-style.additional-style-49 .additional-style-49__block .rating {
+                font-size: 20px;
+                line-height: 1;
+                margin-bottom: 25px;
+            }
+            .additional-style.additional-style-49 .additional-style-49__block .rating span {
+              font-size: 58px;
+            }
+            .additional-style.additional-style-49 .additional-style-49__block .button {
+                margin-bottom: 0;
+            }
+            @media screen and (min-width: 48em) {
+              .additional-style.additional-style-49 {
+                padding: 60px 0;
+              }
+              .additional-style.additional-style-49 .additional-style-inner {
+                display: flex;
+                justify-content: space-between;
+                gap: 42px;
+              }
+              .additional-style.additional-style-49 .additional-style-49__block {
+                padding: 40px;
+              }
+            }
+          </style>
+
+          <div class="additional-style additional-style-49 clearfix">
+            <div class="additional-style-wrap">
+                <div class="additional-style-inner">
+                    <div class="additional-style-49__block">
+                      <div class="review-logo"><img src="https://img.spidersnet.co.uk/code-snippets/google-logo.svg"></div>
+                      <p class="stars">&#9733; &#9733; &#9733; &#9733; &#9733;</p>
+                      <p class="rating">Rated <span>4.8</span> out of 5</p>
+                      <a href="PUT_LINK_HERE" target="_blank" class="button">Read More</a>
+                    </div>
+                    <div class="additional-style-49__block">
+                      <div class="review-logo"><img src="https://img.spidersnet.co.uk/code-snippets/at-logo.svg"></div>
+                      <p class="stars">&#9733; &#9733; &#9733; &#9733; &#9733;</p>
+                      <p class="rating">Rated <span>4.8</span> out of 5</p>
+                      <a href="PUT_LINK_HERE" target="_blank" class="button">Read More</a>
+                    </div>
+                    <div class="additional-style-49__block">
+                      <div class="review-logo"><img src="https://img.spidersnet.co.uk/code-snippets/facebook-logo.svg"></div>
+                      <p class="stars">&#9733; &#9733; &#9733; &#9733; &#9733;</p>
+                      <p class="rating">Rated <span>4.8</span> out of 5</p>
+                      <a href="PUT_LINK_HERE" target="_blank" class="button">Read More</a>
+                    </div>
+                </div>
+            </div>
+          </div>`
+        }
+      ]
+    },
+    {
+      id: "style-49.4",
+      title: "4.3",
+      image: "/assets/style49.4.png",
+      themes: ["essential-2"],
+      category: "reviews",
+      codeblock: [
+        {
+          code: `         <style>
+            .additional-style.additional-style-49 {
+              background: url(https://img.spidersnet.co.uk/code-snippets/style-49-bg.jpg) no-repeat center;
+              background-size: cover;
+              padding: 20px 0;
+            }
+            .additional-style.additional-style-49 .additional-style-wrap {
+              clear: both;
+              margin-right: auto;
+              margin-left: auto;
+              max-width: 1200px;
+            }
+            .additional-style.additional-style-49 .additional-style-inner {
+              width: 100%;
+              float: left;
+              padding-right: 0.9375rem;
+              padding-left: 0.9375rem;
+              position: relative; 
+            }
+            .additional-style.additional-style-49 .additional-style-49__block {
+              background: rgba(255, 255, 255, 0.75);
+              padding: 20px;
+              flex: 1;
+              text-align: center;
+              margin-bottom: 10px;
+            }
+            .additional-style.additional-style-49 .additional-style-49__block .review-logo {
+                height: 40px;
+            }
+            .additional-style.additional-style-49 .additional-style-49__block .stars {
+                color: #1597F4;
+                font-size: 23px;
+            }
+            .additional-style.additional-style-49 .additional-style-49__block .rating {
+                color: #000;
+                font-size: 20px;
+                line-height: 1;
+                margin-bottom: 25px;
+            }
+            .additional-style.additional-style-49 .additional-style-49__block .rating span {
+              font-size: 58px;
+            }
+            .additional-style.additional-style-49 .additional-style-49__block .button {
+                margin-bottom: 0;
+                position: relative;
+            }
+            .additional-style.additional-style-49 .additional-style-49__block .button:before {
+              content: '';
+              background: #f7901e;
+              position: absolute;
+              top: 0;
+              right: calc(10% + -25px);
+              bottom: 0;
+              width: 25px;
+              transform: skewX(-20deg);
+            }
+            @media screen and (min-width: 48em) {
+              .additional-style.additional-style-49 {
+                padding: 60px 0;
+              }
+              .additional-style.additional-style-49 .additional-style-inner {
+                display: flex;
+                justify-content: space-between;
+                gap: 42px;
+              }
+              .additional-style.additional-style-49 .additional-style-49__block {
+                padding: 40px;
+              }
+            }
+          </style>
+
+          <div class="additional-style additional-style-49 clearfix">
+            <div class="additional-style-wrap">
+                <div class="additional-style-inner">
+                    <div class="additional-style-49__block">
+                      <div class="review-logo"><img src="https://img.spidersnet.co.uk/code-snippets/google-logo.svg"></div>
+                      <p class="stars">&#9733; &#9733; &#9733; &#9733; &#9733;</p>
+                      <p class="rating">Rated <span>4.8</span> out of 5</p>
+                      <a href="PUT_LINK_HERE" target="_blank" class="button">Read More</a>
+                    </div>
+                    <div class="additional-style-49__block">
+                      <div class="review-logo"><img src="https://img.spidersnet.co.uk/code-snippets/at-logo.svg"></div>
+                      <p class="stars">&#9733; &#9733; &#9733; &#9733; &#9733;</p>
+                      <p class="rating">Rated <span>4.8</span> out of 5</p>
+                      <a href="PUT_LINK_HERE" target="_blank" class="button">Read More</a>
+                    </div>
+                    <div class="additional-style-49__block">
+                      <div class="review-logo"><img src="https://img.spidersnet.co.uk/code-snippets/facebook-logo.svg"></div>
+                      <p class="stars">&#9733; &#9733; &#9733; &#9733; &#9733;</p>
+                      <p class="rating">Rated <span>4.8</span> out of 5</p>
+                      <a href="PUT_LINK_HERE" target="_blank" class="button">Read More</a>
+                    </div>
+                </div>
+            </div>
+          </div>
+      `
+        }
+      ]
+    },
+    {
+      id: "style-49.5",
+      title: "4.3",
+      image: "/assets/style49.5.png",
+      themes: ["essential-3"],
+      category: "reviews",
+      codeblock: [
+        {
+          code: `<style>
+            .additional-style.additional-style-49 {
+              clear: both;
+              margin-right: auto;
+              margin-left: auto;
+              max-width: 1280px;
+            }
+            .additional-style.additional-style-49 .additional-style-wrap {
+              width: 100%;
+              float: left;
+              padding-right: 0.9375rem;
+              padding-left: 0.9375rem;
+              position: relative; 
+            }
+            .additional-style.additional-style-49 .additional-style-inner {
+              background: url(https://img.spidersnet.co.uk/code-snippets/style-49-bg.jpg) no-repeat center;
+              background-size: cover;
+              padding: 60px;
+              border-radius: 30px;
+            }
+            .additional-style.additional-style-49 .additional-style-49__block {
+              background: rgba(255, 255, 255, 0.75);
+              border-radius: 55px 0px;
+              padding: 20px;
+              flex: 1;
+              text-align: center;
+              margin-bottom: 10px;
+            }
+            .additional-style.additional-style-49 .additional-style-49__block .review-logo {
+                height: 40px;
+            }
+            .additional-style.additional-style-49 .additional-style-49__block .stars {
+                color: #1597F4;
+                font-size: 23px;
+            }
+            .additional-style.additional-style-49 .additional-style-49__block .rating {
+                color: #000;
+                font-size: 20px;
+                line-height: 1;
+                margin-bottom: 25px;
+            }
+            .additional-style.additional-style-49 .additional-style-49__block .rating span {
+              font-size: 58px;
+            }
+            .additional-style.additional-style-49 .additional-style-49__block .button {
+                margin-bottom: 0;
+            }
+            @media screen and (min-width: 48em) {
+              .additional-style.additional-style-49 .additional-style-inner {
+                display: flex;
+                justify-content: space-between;
+                gap: 42px;
+                padding: 60px;
+              }
+            }
+          </style>
+
+          <div class="additional-style additional-style-49 clearfix">
+            <div class="additional-style-wrap">
+                <div class="additional-style-inner">
+                    <div class="additional-style-49__block">
+                      <div class="review-logo"><img src="https://img.spidersnet.co.uk/code-snippets/google-logo.svg"></div>
+                      <p class="stars">&#9733; &#9733; &#9733; &#9733; &#9733;</p>
+                      <p class="rating">Rated <span>4.8</span> out of 5</p>
+                      <a href="PUT_LINK_HERE" target="_blank" class="button">Read More</a>
+                    </div>
+                    <div class="additional-style-49__block">
+                      <div class="review-logo"><img src="https://img.spidersnet.co.uk/code-snippets/at-logo.svg"></div>
+                      <p class="stars">&#9733; &#9733; &#9733; &#9733; &#9733;</p>
+                      <p class="rating">Rated <span>4.8</span> out of 5</p>
+                      <a href="PUT_LINK_HERE" target="_blank" class="button">Read More</a>
+                    </div>
+                    <div class="additional-style-49__block">
+                      <div class="review-logo"><img src="https://img.spidersnet.co.uk/code-snippets/facebook-logo.svg"></div>
+                      <p class="stars">&#9733; &#9733; &#9733; &#9733; &#9733;</p>
+                      <p class="rating">Rated <span>4.8</span> out of 5</p>
+                      <a href="PUT_LINK_HERE" target="_blank" class="button">Read More</a>
+                    </div>
+                </div>
+            </div>
+          </div>`
+        }
+      ]
+    },
+    {
+      id: "style-49.6",
+      title: "4.3",
+      image: "/assets/style49.6.png",
+      themes: ["essential-4"],
+      category: "reviews",
+      codeblock: [
+        {
+          code: `<style>
+            .additional-style.additional-style-49 {
+              clear: both;
+              margin-right: auto;
+              margin-left: auto;
+              max-width: 1300px;
+            }
+            .additional-style.additional-style-49 .additional-style-wrap {
+              width: 100%;
+              float: left;
+              padding-right: 0.9375rem;
+              padding-left: 0.9375rem;
+              position: relative; 
+            }
+            .additional-style.additional-style-49 .additional-style-inner {
+            }
+            .additional-style.additional-style-49 .additional-style-49__block {
+              border-radius: 20px;
+              border: 5px solid #FFF;
+              background: #F3F3F3;
+              box-shadow: 0px 0px 60px 0px rgba(50, 52, 55, 0.20);
+              padding: 20px;
+              flex: 1;
+              text-align: center;
+              margin-bottom: 10px;
+            }
+            .additional-style.additional-style-49 .additional-style-49__block .review-logo {
+                height: 40px;
+            }
+            .additional-style.additional-style-49 .additional-style-49__block .stars {
+                color: #1597F4;
+                font-size: 23px;
+            }
+            .additional-style.additional-style-49 .additional-style-49__block .rating {
+                color: #000;
+                font-size: 20px;
+                line-height: 1;
+                margin-bottom: 25px;
+            }
+            .additional-style.additional-style-49 .additional-style-49__block .rating span {
+              font-size: 58px;
+            }
+            .additional-style.additional-style-49 .additional-style-49__block .button {
+                margin-bottom: 0;
+            }
+            @media screen and (min-width: 48em) {
+              .additional-style.additional-style-49 {
+
+              }
+              .additional-style.additional-style-49 .additional-style-inner {
+                display: flex;
+                justify-content: space-between;
+                gap: 42px;
+              }
+              .additional-style.additional-style-49 .additional-style-49__block {
+                padding: 40px;
+              }
+            }
+          </style>
+
+          <div class="additional-style additional-style-49 clearfix">
+            <div class="additional-style-wrap">
+                <div class="additional-style-inner">
+                    <div class="additional-style-49__block">
+                      <div class="review-logo"><img src="https://img.spidersnet.co.uk/code-snippets/google-logo.svg"></div>
+                      <p class="stars">&#9733; &#9733; &#9733; &#9733; &#9733;</p>
+                      <p class="rating">Rated <span>4.8</span> out of 5</p>
+                      <a href="PUT_LINK_HERE" target="_blank" class="button">Read More</a>
+                    </div>
+                    <div class="additional-style-49__block">
+                      <div class="review-logo"><img src="https://img.spidersnet.co.uk/code-snippets/at-logo.svg"></div>
+                      <p class="stars">&#9733; &#9733; &#9733; &#9733; &#9733;</p>
+                      <p class="rating">Rated <span>4.8</span> out of 5</p>
+                      <a href="PUT_LINK_HERE" target="_blank" class="button">Read More</a>
+                    </div>
+                    <div class="additional-style-49__block">
+                      <div class="review-logo"><img src="https://img.spidersnet.co.uk/code-snippets/facebook-logo.svg"></div>
+                      <p class="stars">&#9733; &#9733; &#9733; &#9733; &#9733;</p>
+                      <p class="rating">Rated <span>4.8</span> out of 5</p>
+                      <a href="PUT_LINK_HERE" target="_blank" class="button">Read More</a>
+                    </div>
+                </div>
+            </div>
+          </div>`
         }
       ]
     },
@@ -1474,11 +2421,125 @@ background: YOUR_COLOUR;
       id: "style-50",
       title: "4.4",
       image: "/assets/style50.png",
-      themes: ["all"],
+      themes: ["premier-1","premier-2","premier-3","premier-4","premier-5","premier-6","premier-7","premier-8","essential-1","essential-2"],
       category: "reviews",
       codeblock: [
         {
-          code: `          <div class="additional-style additional-style-50 clearfix">
+          code: `
+          <style>
+            .additional-style.additional-style-50 h2,
+            .additional-style.additional-style-50 h3, 
+            .additional-style.additional-style-50 p, 
+            .additional-style.additional-style-50 ul {
+                    color: #fff;
+                    margin-bottom: 0;
+              }
+            .additional-style.additional-style-50 h3 {
+                    font-weight: 500;
+                    font-size: 30px;
+                    margin-bottom: 20px;
+            }
+            .additional-style.additional-style-50 a:hover {
+                  opacity: 0.8;
+            }
+            .additional-style.additional-style-50 {
+              background: url(https://img.spidersnet.co.uk/code-snippets/style-50-bg.jpg) no-repeat center;
+              background-size: cover;
+              padding: 20px 0;
+            }
+            .additional-style.additional-style-50 .additional-style-wrap {
+                  text-align: center;
+            }
+            .additional-style.additional-style-50 .additional-style-half {
+              width: 100%;
+              float: left;
+              padding-right: 0.9375rem;
+              padding-left: 0.9375rem;
+              position: relative;
+            }
+            .additional-style.additional-style-50 .button {
+                background: transparent;
+                color: #fff;
+                border: 1px solid #fff;
+                margin-bottom: 25px;
+            }
+            .additional-style.additional-style-50 .rating-wrap {
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  gap: 20px;
+            }
+            .additional-style.additional-style-50 .rating-wrap .rating {
+                  color: #fff;
+                  flex-shrink: 0;
+            }
+            .additional-style.additional-style-50 .rating-wrap .rating span {
+                font-size: 50px;
+                font-weight: bold;
+                line-height: 1;
+            }
+            .additional-style.additional-style-50 .rating-wrap .rating .stars {
+                font-size: 20px;
+            }
+            .additional-style.additional-style-50 .rating-wrap .images {
+                    display: flex;
+                    gap: 10px;
+            }
+            .additional-style.additional-style-50 .rating-wrap .images img { 
+              max-width: 30%; 
+            }
+            .additional-style.additional-style-50 .additional-style-review {
+                border-radius: 8px;
+                border: 1px solid #FFF;
+                padding: 30px;
+            }
+            .additional-style.additional-style-50 .additional-style-review .stars {
+                color: #fff;
+                margin-bottom: 10px;
+            }
+            .additional-style.additional-style-50 .additional-style-review p {
+                font-size: 20px;
+            }
+            .additional-style.additional-style-50 .additional-style-review .name {
+                  font-size: 14px;
+                  text-transform: uppercase;
+                  letter-spacing: 0.25px;
+                  margin-top: 15px;
+            }
+          @media screen and (max-width: 47.9988em) {
+            .additional-style.additional-style-50 .additional-style-review {
+              margin-bottom: 20px;
+            }
+          }
+          @media screen and (min-width: 48em) {
+            .additional-style.additional-style-50 h3 {
+              font-size: 32px;
+              line-height: 1;
+            }
+            .additional-style.additional-style-50 p {
+              font-size: 20px;
+            }
+            .additional-style.additional-style-50 {
+              padding: 60px 0;
+            }
+            .additional-style.additional-style-50 .additional-style-wrap {
+              display: flex;
+              align-items: center;
+            }
+            .additional-style.additional-style-50 .additional-style-half {
+              width: 50%;
+            }
+            .additional-style.additional-style-50 .rating-wrap {
+              gap: 40px;
+            }
+            .additional-style.additional-style-50 .rating-wrap .rating span {
+              font-size: 90px;
+            }
+          }
+          </style>
+
+
+          <div class="additional-style additional-style-50 clearfix">
             <div class="additional-style-wrap">
                 <div class="additional-style-half">
                   <div class="additional-style-review">
@@ -1510,6 +2571,793 @@ background: YOUR_COLOUR;
       ]
     },
     {
+      id: "style-50.1",
+      title: "4.4",
+      image: "/assets/style50.1.png",
+      themes: ["premier-9"],
+      category: "reviews",
+      codeblock: [
+        {
+          code: `          <style>
+            .additional-style.additional-style-50 h2,
+            .additional-style.additional-style-50 h3, 
+            .additional-style.additional-style-50 p, 
+            .additional-style.additional-style-50 ul {
+                    color: #fff;
+                    margin-bottom: 0;
+              }
+            .additional-style.additional-style-50 h3 {
+                    font-weight: 500;
+                    font-size: 30px;
+                    margin-bottom: 20px;
+            }
+            .additional-style.additional-style-50 a:hover {
+                  opacity: 0.8;
+            }
+            .additional-style.additional-style-50 {
+              text-align: center;
+              margin-right: auto;
+              margin-left: auto;
+              max-width: 1920px;
+              padding-left: 15px;
+              padding-right: 15px;
+            }
+            @media screen and (min-width: 75em) {
+              .additional-style.additional-style-50 {
+                  padding-left: 50px;
+                  padding-right: 50px;
+              }
+            }
+            @media screen and (min-width: 90em) {
+              .additional-style.additional-style-50 {
+                  padding-left: 70px;
+                  padding-right: 70px;
+              }
+            }
+            .additional-style.additional-style-50 .additional-style-wrap {
+              background: url(https://img.spidersnet.co.uk/code-snippets/style-50-bg.jpg) no-repeat center;
+              background-size: cover;
+              padding: 20px 0;
+              max-width: 100%;
+              border-radius: 20px;
+            }
+            .additional-style.additional-style-50 .additional-style-half {
+              width: 100%;
+              float: left;
+              padding-right: 0.9375rem;
+              padding-left: 0.9375rem;
+              position: relative;
+            }
+            .additional-style.additional-style-50 .button {
+                background: transparent;
+                color: #fff;
+                border: 1px solid #fff;
+                margin-bottom: 25px;
+            }
+            .additional-style.additional-style-50 .rating-wrap {
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  gap: 20px;
+            }
+            .additional-style.additional-style-50 .rating-wrap .rating {
+                  color: #fff;
+                  flex-shrink: 0;
+            }
+            .additional-style.additional-style-50 .rating-wrap .rating span {
+                font-size: 50px;
+                font-weight: bold;
+                line-height: 1;
+            }
+            .additional-style.additional-style-50 .rating-wrap .rating .stars {
+                font-size: 20px;
+            }
+            .additional-style.additional-style-50 .rating-wrap .images {
+                    display: flex;
+                    gap: 10px;
+            }
+            .additional-style.additional-style-50 .rating-wrap .images img { 
+              max-width: 30%; 
+            }
+            .additional-style.additional-style-50 .additional-style-review {
+                border-radius: 8px;
+                border: 1px solid #FFF;
+                padding: 30px;
+            }
+            .additional-style.additional-style-50 .additional-style-review .stars {
+                color: #fff;
+                margin-bottom: 10px;
+            }
+            .additional-style.additional-style-50 .additional-style-review p {
+                font-size: 20px;
+            }
+            .additional-style.additional-style-50 .additional-style-review .name {
+                  font-size: 14px;
+                  text-transform: uppercase;
+                  letter-spacing: 0.25px;
+                  margin-top: 15px;
+            }
+          @media screen and (max-width: 47.9988em) {
+            .additional-style.additional-style-50 .additional-style-review {
+              margin-bottom: 20px;
+            }
+          }
+          @media screen and (min-width: 48em) {
+            .additional-style.additional-style-50 h3 {
+              font-size: 32px;
+              line-height: 1;
+            }
+            .additional-style.additional-style-50 p {
+              font-size: 20px;
+            }
+            .additional-style.additional-style-50 .additional-style-wrap {
+              display: flex;
+              align-items: center;
+              padding: 60px 20px;
+            }
+            .additional-style.additional-style-50 .additional-style-half {
+              width: 50%;
+            }
+            .additional-style.additional-style-50 .rating-wrap {
+              gap: 40px;
+            }
+            .additional-style.additional-style-50 .rating-wrap .rating span {
+              font-size: 90px;
+            }
+          }
+          </style>
+
+
+          <div class="additional-style additional-style-50 clearfix">
+            <div class="additional-style-wrap">
+                <div class="additional-style-half">
+                  <div class="additional-style-review">
+                    <div class="additional-style-text">
+                      <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                        <p>&ldquo;Our fantastic team are passionate about delivering outstanding customer experiences and our mission is to ensure that you love both the FN car buying experience and the car&rdquo;</p>
+                        <p class="name">Numan, CEO FN Motors</p>
+                    </div></div>
+                </div>
+                <div class="additional-style-half">
+                  <h3>What People Think About Us</h3>
+                  <a href="/reviews/" class="button">Read More</a>
+                  <div class="rating-wrap">
+                    <div class="rating">
+                        <span>4.8</span>
+                          <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    </div>
+                    <div class="images">
+                      <img src="https://img.spidersnet.co.uk/code-snippets/award-placeholder.png">
+                      <img src="https://img.spidersnet.co.uk/code-snippets/award-placeholder.png">
+                      <img src="https://img.spidersnet.co.uk/code-snippets/award-placeholder.png">
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+      `
+        }
+      ]
+    },
+    {
+      id: "style-50.2",
+      title: "4.4",
+      image: "/assets/style50.2.png",
+      themes: ["premier-10"],
+      category: "reviews",
+      codeblock: [
+        {
+          code: ` <style>
+            .additional-style.additional-style-50 h2,
+            .additional-style.additional-style-50 h3, 
+            .additional-style.additional-style-50 ul {
+                    color: #fff;
+                    margin-bottom: 0;
+              }
+              .additional-style.additional-style-50 p {
+              margin-bottom: 0;
+            }
+            .additional-style.additional-style-50 h3 {
+                    font-weight: 500;
+                    font-size: 30px;
+                    margin-bottom: 20px;
+            }
+            .additional-style.additional-style-50 a:hover {
+                  opacity: 0.8;
+            }
+            .additional-style.additional-style-50 {
+              background: #2B63D9;
+              background-size: cover;
+              padding: 20px 0;
+            }
+            .additional-style.additional-style-50 .additional-style-wrap {
+                  text-align: center;
+            }
+            .additional-style.additional-style-50 .additional-style-half {
+              width: 100%;
+              float: left;
+              padding-right: 0.9375rem;
+              padding-left: 0.9375rem;
+              position: relative;
+            }
+            .additional-style.additional-style-50 .button {
+                background: transparent;
+                color: #fff;
+                border: 1px solid #fff;
+                margin-bottom: 25px;
+            }
+            .additional-style.additional-style-50 .rating-wrap {
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  gap: 20px;
+            }
+            .additional-style.additional-style-50 .rating-wrap .rating {
+                  color: #fff;
+                  flex-shrink: 0;
+            }
+            .additional-style.additional-style-50 .rating-wrap .rating span {
+                font-size: 50px;
+                font-weight: bold;
+                line-height: 1;
+            }
+            .additional-style.additional-style-50 .rating-wrap .rating .stars {
+                font-size: 20px;
+            }
+            .additional-style.additional-style-50 .rating-wrap .images {
+                    display: flex;
+                    gap: 10px;
+            }
+            .additional-style.additional-style-50 .rating-wrap .images img { 
+              max-width: 30%; 
+            }
+            .additional-style.additional-style-50 .additional-style-review {
+                border-radius: 8px;
+                background: #fff;
+                padding: 30px;
+            }
+            .additional-style.additional-style-50 .additional-style-review .stars {
+                margin-bottom: 10px;
+            }
+            .additional-style.additional-style-50 .additional-style-review p {
+                font-size: 20px;
+            }
+            .additional-style.additional-style-50 .additional-style-review .name {
+                  font-size: 14px;
+                  text-transform: uppercase;
+                  letter-spacing: 0.25px;
+                  margin-top: 15px;
+            }
+          @media screen and (max-width: 47.9988em) {
+            .additional-style.additional-style-50 .additional-style-review {
+              margin-bottom: 20px;
+            }
+          }
+          @media screen and (min-width: 48em) {
+            .additional-style.additional-style-50 h3 {
+              font-size: 32px;
+              line-height: 1;
+            }
+            .additional-style.additional-style-50 p {
+              font-size: 20px;
+            }
+            .additional-style.additional-style-50 {
+              padding: 60px 0;
+            }
+            .additional-style.additional-style-50 .additional-style-wrap {
+              display: flex;
+              align-items: center;
+            }
+            .additional-style.additional-style-50 .additional-style-half {
+              width: 50%;
+            }
+            .additional-style.additional-style-50 .rating-wrap {
+              gap: 40px;
+            }
+            .additional-style.additional-style-50 .rating-wrap .rating span {
+              font-size: 90px;
+            }
+          }
+          </style>
+
+
+          <div class="additional-style additional-style-50 clearfix">
+            <div class="additional-style-wrap">
+                <div class="additional-style-half">
+                  <div class="additional-style-review">
+                    <div class="additional-style-text">
+                      <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                        <p>&ldquo;Our fantastic team are passionate about delivering outstanding customer experiences and our mission is to ensure that you love both the FN car buying experience and the car&rdquo;</p>
+                        <p class="name">Numan, CEO FN Motors</p>
+                    </div></div>
+                </div>
+                <div class="additional-style-half">
+                  <h3>What People Think About Us</h3>
+                  <a href="/reviews/" class="button">Read More</a>
+                  <div class="rating-wrap">
+                    <div class="rating">
+                        <span>4.8</span>
+                          <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    </div>
+                    <div class="images">
+                      <img src="https://img.spidersnet.co.uk/code-snippets/award-placeholder.png">
+                      <img src="https://img.spidersnet.co.uk/code-snippets/award-placeholder.png">
+                      <img src="https://img.spidersnet.co.uk/code-snippets/award-placeholder.png">
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+
+`
+        }
+      ]
+    },
+    {
+      id: "style-50.3",
+      title: "4.4",
+      image: "/assets/style50.3.png",
+      themes: ["premier-11"],
+      category: "reviews",
+      codeblock: [
+        {
+          code: `          <style>
+            .additional-style.additional-style-50 h2,
+            .additional-style.additional-style-50 h3, 
+            .additional-style.additional-style-50 p, 
+            .additional-style.additional-style-50 ul {
+                    color: #fff;
+                    margin-bottom: 0;
+              }
+            .additional-style.additional-style-50 h3 {
+                    font-weight: 500;
+                    font-size: 30px;
+                    margin-bottom: 20px;
+            }
+            .additional-style.additional-style-50 a:hover {
+                  opacity: 0.8;
+            }
+            .additional-style.additional-style-50 {
+              padding: 20px 0;
+            }
+            .additional-style.additional-style-50 .additional-style-wrap {
+                  text-align: center;
+            }
+            .additional-style.additional-style-50 .additional-style-half {
+              width: 100%;
+              float: left;
+              padding-right: 0.9375rem;
+              padding-left: 0.9375rem;
+              position: relative;
+            }
+            .additional-style.additional-style-50 .button {
+                margin-bottom: 25px;
+            }
+            .additional-style.additional-style-50 .rating-wrap {
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  gap: 20px;
+            }
+            .additional-style.additional-style-50 .rating-wrap .rating {
+                  color: #fff;
+                  flex-shrink: 0;
+            }
+            .additional-style.additional-style-50 .rating-wrap .rating span {
+                font-size: 50px;
+                font-weight: bold;
+                line-height: 1;
+            }
+            .additional-style.additional-style-50 .rating-wrap .rating .stars {
+                font-size: 20px;
+            }
+            .additional-style.additional-style-50 .rating-wrap .images {
+                    display: flex;
+                    gap: 10px;
+            }
+            .additional-style.additional-style-50 .rating-wrap .images img { 
+              max-width: 30%; 
+            }
+            .additional-style.additional-style-50 .additional-style-review {
+                border: 1px solid #FFF;
+                padding: 30px;
+            }
+            .additional-style.additional-style-50 .additional-style-review .stars {
+                color: #fff;
+                margin-bottom: 10px;
+            }
+            .additional-style.additional-style-50 .additional-style-review p {
+                font-size: 20px;
+            }
+            .additional-style.additional-style-50 .additional-style-review .name {
+                  font-size: 14px;
+                  text-transform: uppercase;
+                  letter-spacing: 0.25px;
+                  margin-top: 15px;
+            }
+          @media screen and (max-width: 47.9988em) {
+            .additional-style.additional-style-50 .additional-style-review {
+              margin-bottom: 20px;
+            }
+          }
+          @media screen and (min-width: 48em) {
+            .additional-style.additional-style-50 h3 {
+              font-size: 32px;
+              line-height: 1;
+            }
+            .additional-style.additional-style-50 p {
+              font-size: 20px;
+            }
+            .additional-style.additional-style-50 {
+              padding: 60px 0;
+            }
+            .additional-style.additional-style-50 .additional-style-wrap {
+              display: flex;
+              align-items: center;
+            }
+            .additional-style.additional-style-50 .additional-style-half {
+              width: 50%;
+            }
+            .additional-style.additional-style-50 .rating-wrap {
+              gap: 40px;
+            }
+            .additional-style.additional-style-50 .rating-wrap .rating span {
+              font-size: 90px;
+            }
+          }
+          </style>
+
+
+          <div class="additional-style additional-style-50 clearfix">
+            <div class="additional-style-wrap">
+                <div class="additional-style-half">
+                  <div class="additional-style-review">
+                    <div class="additional-style-text">
+                      <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                        <p>&ldquo;Our fantastic team are passionate about delivering outstanding customer experiences and our mission is to ensure that you love both the FN car buying experience and the car&rdquo;</p>
+                        <p class="name">Numan, CEO FN Motors</p>
+                    </div></div>
+                </div>
+                <div class="additional-style-half">
+                  <h3>What People Think About Us</h3>
+                  <a href="/reviews/" class="button">Read More</a>
+                  <div class="rating-wrap">
+                    <div class="rating">
+                        <span>4.8</span>
+                          <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    </div>
+                    <div class="images">
+                      <img src="https://img.spidersnet.co.uk/code-snippets/award-placeholder.png">
+                      <img src="https://img.spidersnet.co.uk/code-snippets/award-placeholder.png">
+                      <img src="https://img.spidersnet.co.uk/code-snippets/award-placeholder.png">
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+`
+        }
+      ]
+    },
+    {
+      id: "style-50.4",
+      title: "4.4",
+      image: "/assets/style50.4.png",
+      themes: ["essential-3"],
+      category: "reviews",
+      codeblock: [
+        {
+          code: `         <style>
+            .additional-style.additional-style-50 h2,
+            .additional-style.additional-style-50 h3, 
+            .additional-style.additional-style-50 p, 
+            .additional-style.additional-style-50 ul {
+                    color: #fff;
+                    margin-bottom: 0;
+              }
+            .additional-style.additional-style-50 h3 {
+                    font-weight: 500;
+                    font-size: 30px;
+                    margin-bottom: 20px;
+            }
+            .additional-style.additional-style-50 a:hover {
+                  opacity: 0.8;
+            }
+            .additional-style.additional-style-50 {
+              text-align: center;
+              margin-right: auto;
+              margin-left: auto;
+              max-width: 1280px;
+            }
+            .additional-style.additional-style-50 .additional-style-inner {
+              background: url(https://img.spidersnet.co.uk/code-snippets/style-50-bg.jpg) no-repeat center;
+              background-size: cover;
+              padding: 20px 0;
+              max-width: 100%;
+              border-radius: 20px;
+            }
+            .additional-style.additional-style-50 .additional-style-wrap {
+              width: 100%;
+              float: left;
+              padding-right: 0.9375rem;
+              padding-left: 0.9375rem;
+              position: relative;
+            }
+            .additional-style.additional-style-50 .additional-style-half {
+              width: 100%;
+              float: left;
+              padding-right: 0.9375rem;
+              padding-left: 0.9375rem;
+              position: relative;
+            }
+            .additional-style.additional-style-50 .button {
+                margin-bottom: 25px;
+            }
+            .additional-style.additional-style-50 .rating-wrap {
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  gap: 20px;
+            }
+            .additional-style.additional-style-50 .rating-wrap .rating {
+                  color: #fff;
+                  flex-shrink: 0;
+            }
+            .additional-style.additional-style-50 .rating-wrap .rating span {
+                font-size: 50px;
+                font-weight: bold;
+                line-height: 1;
+            }
+            .additional-style.additional-style-50 .rating-wrap .rating .stars {
+                font-size: 20px;
+            }
+            .additional-style.additional-style-50 .rating-wrap .images {
+                    display: flex;
+                    gap: 10px;
+            }
+            .additional-style.additional-style-50 .rating-wrap .images img { 
+              max-width: 30%; 
+            }
+            .additional-style.additional-style-50 .additional-style-review {
+                border-radius: 60px 0px;
+                border: 1px solid #FFF;
+                padding: 30px;
+            }
+            .additional-style.additional-style-50 .additional-style-review .stars {
+                color: #fff;
+                margin-bottom: 10px;
+            }
+            .additional-style.additional-style-50 .additional-style-review p {
+                font-size: 20px;
+            }
+            .additional-style.additional-style-50 .additional-style-review .name {
+                  font-size: 14px;
+                  text-transform: uppercase;
+                  letter-spacing: 0.25px;
+                  margin-top: 15px;
+            }
+          @media screen and (max-width: 47.9988em) {
+            .additional-style.additional-style-50 .additional-style-review {
+              margin-bottom: 20px;
+            }
+          }
+          @media screen and (min-width: 48em) {
+            .additional-style.additional-style-50 h3 {
+              font-size: 32px;
+              line-height: 1;
+            }
+            .additional-style.additional-style-50 p {
+              font-size: 20px;
+            }
+            .additional-style.additional-style-50 .additional-style-inner {
+              display: flex;
+              align-items: center;
+              padding: 60px 20px;
+            }
+            .additional-style.additional-style-50 .additional-style-half {
+              width: 50%;
+            }
+            .additional-style.additional-style-50 .rating-wrap {
+              gap: 40px;
+            }
+            .additional-style.additional-style-50 .rating-wrap .rating span {
+              font-size: 90px;
+            }
+          }
+          </style>
+
+
+          <div class="additional-style additional-style-50 clearfix">
+            <div class="additional-style-wrap">
+              <div class="additional-style-inner">
+                <div class="additional-style-half">
+                  <div class="additional-style-review">
+                    <div class="additional-style-text">
+                      <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                        <p>&ldquo;Our fantastic team are passionate about delivering outstanding customer experiences and our mission is to ensure that you love both the FN car buying experience and the car&rdquo;</p>
+                        <p class="name">Numan, CEO FN Motors</p>
+                    </div></div>
+                </div>
+                <div class="additional-style-half">
+                  <h3>What People Think About Us</h3>
+                  <a href="/reviews/" class="button">Read More</a>
+                  <div class="rating-wrap">
+                    <div class="rating">
+                        <span>4.8</span>
+                          <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    </div>
+                    <div class="images">
+                      <img src="https://img.spidersnet.co.uk/code-snippets/award-placeholder.png">
+                      <img src="https://img.spidersnet.co.uk/code-snippets/award-placeholder.png">
+                      <img src="https://img.spidersnet.co.uk/code-snippets/award-placeholder.png">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>`
+        }
+      ]
+    },
+    {
+      id: "style-50.5",
+      title: "4.4",
+      image: "/assets/style50.5.png",
+      themes: ["essential-4"],
+      category: "reviews",
+      codeblock: [
+        {
+          code: `<style>
+            .additional-style.additional-style-50 h2,
+            .additional-style.additional-style-50 h3, 
+            .additional-style.additional-style-50 p, 
+            .additional-style.additional-style-50 ul {
+                    margin-bottom: 0;
+              }
+            .additional-style.additional-style-50 h3 {
+                    font-weight: 500;
+                    font-size: 30px;
+                    margin-bottom: 20px;
+            }
+            .additional-style.additional-style-50 a:hover {
+                  opacity: 0.8;
+            }
+            .additional-style.additional-style-50 {
+              text-align: center;
+              margin-right: auto;
+              margin-left: auto;
+              max-width: 1300px;
+            }
+            .additional-style.additional-style-50 .additional-style-inner {
+              border-radius: 20px;
+              border: 5px solid #FFF;
+              background: #F3F3F3;
+              box-shadow: 0px 0px 60px 0px rgba(50, 52, 55, 0.20);
+              padding: 20px 0;
+              max-width: 100%;
+              border-radius: 20px;
+            }
+            .additional-style.additional-style-50 .additional-style-wrap {
+              width: 100%;
+              float: left;
+              padding-right: 0.9375rem;
+              padding-left: 0.9375rem;
+              position: relative;
+            }
+            .additional-style.additional-style-50 .additional-style-half {
+              width: 100%;
+              float: left;
+              padding-right: 0.9375rem;
+              padding-left: 0.9375rem;
+              position: relative;
+            }
+            .additional-style.additional-style-50 .button {
+                margin-bottom: 25px;
+            }
+            .additional-style.additional-style-50 .rating-wrap {
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  gap: 20px;
+            }
+            .additional-style.additional-style-50 .rating-wrap .rating {
+                  flex-shrink: 0;
+            }
+            .additional-style.additional-style-50 .rating-wrap .rating span {
+                font-size: 50px;
+                font-weight: bold;
+                line-height: 1;
+            }
+            .additional-style.additional-style-50 .rating-wrap .rating .stars {
+                font-size: 20px;
+            }
+            .additional-style.additional-style-50 .rating-wrap .images {
+                    display: flex;
+                    gap: 10px;
+            }
+            .additional-style.additional-style-50 .rating-wrap .images img { 
+              max-width: 30%; 
+            }
+            .additional-style.additional-style-50 .additional-style-review {
+                padding: 30px;
+            }
+            .additional-style.additional-style-50 .additional-style-review .stars {
+                margin-bottom: 10px;
+                color: #F4DC7C;
+            }
+            .additional-style.additional-style-50 .additional-style-review p {
+                font-size: 20px;
+            }
+            .additional-style.additional-style-50 .additional-style-review .name {
+                  font-size: 14px;
+                  text-transform: uppercase;
+                  letter-spacing: 0.25px;
+                  margin-top: 15px;
+            }
+          @media screen and (max-width: 47.9988em) {
+            .additional-style.additional-style-50 .additional-style-review {
+              margin-bottom: 20px;
+            }
+          }
+          @media screen and (min-width: 48em) {
+            .additional-style.additional-style-50 h3 {
+              font-size: 32px;
+              line-height: 1;
+            }
+            .additional-style.additional-style-50 p {
+              font-size: 20px;
+            }
+            .additional-style.additional-style-50 .additional-style-inner {
+              display: flex;
+              align-items: center;
+              padding: 60px 20px;
+            }
+            .additional-style.additional-style-50 .additional-style-half {
+              width: 50%;
+            }
+            .additional-style.additional-style-50 .rating-wrap {
+              gap: 40px;
+            }
+            .additional-style.additional-style-50 .rating-wrap .rating span {
+              font-size: 90px;
+            }
+          }
+          </style>
+
+
+          <div class="additional-style additional-style-50 clearfix">
+            <div class="additional-style-wrap">
+              <div class="additional-style-inner">
+                <div class="additional-style-half">
+                  <div class="additional-style-review">
+                    <div class="additional-style-text">
+                      <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                        <p>&ldquo;Our fantastic team are passionate about delivering outstanding customer experiences and our mission is to ensure that you love both the FN car buying experience and the car&rdquo;</p>
+                        <p class="name">Numan, CEO FN Motors</p>
+                    </div></div>
+                </div>
+                <div class="additional-style-half">
+                  <h3>What People Think About Us</h3>
+                  <a href="/reviews/" class="button">Read More</a>
+                  <div class="rating-wrap">
+                    <div class="rating">
+                        <span>4.8</span>
+                          <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    </div>
+                    <div class="images">
+                      <img src="https://img.spidersnet.co.uk/code-snippets/award-placeholder.png">
+                      <img src="https://img.spidersnet.co.uk/code-snippets/award-placeholder.png">
+                      <img src="https://img.spidersnet.co.uk/code-snippets/award-placeholder.png">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>`
+        }
+      ]
+    },
+    {
       id: "style-51",
       title: "3.5",
       image: "/assets/style51.png",
@@ -1517,7 +3365,7 @@ background: YOUR_COLOUR;
       category: "blocks",
       codeblock: [
         {
-          code: `        <div class="additional-style additional-style-51 clearfix">
+          code: `<div class="additional-style additional-style-51 clearfix">
             <div class="additional-style-wrap">
                 <div class="additional-style-inner">
                     <div class="additional-style-text">
@@ -1571,8 +3419,7 @@ background: YOUR_COLOUR;
                     </ul>
                 </div>
             </div>
-        </div>
-      `
+        </div>`
         },
         {
           title: "Colour changes",
@@ -1594,15 +3441,133 @@ background: YOUR_COLOUR;
         }
       ]
     },
-     {
+    {
       id: "style-52",
       title: "4.5",
       image: "/assets/style52.png",
-      themes: ["all"],
+      themes: ["premier-1","premier-2","premier-3","premier-4","premier-5","premier-6","premier-7","premier-8","essential-1","essential-2"],
       category: "reviews",
       codeblock: [
         {
-          code: `<div class="additional-style additional-style-52 clearfix">
+          code: `<style>
+
+            .additional-style.additional-style-52 h2,
+            .additional-style.additional-style-52 h3, 
+            .additional-style.additional-style-52 p, 
+            .additional-style.additional-style-52 ul {
+                    color: #fff;
+                    margin-bottom: 0;
+            }
+            .additional-style.additional-style-52 h3 {
+                  font-weight: 500;
+                  font-size: 30px;
+            }
+            .additional-style.additional-style-52 a:hover {
+                opacity: 0.8;
+            }
+            .additional-style.additional-style-52 {
+                background-image: url(https://img.spidersnet.co.uk/code-snippets/style-52-bg.jpg);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                background-color: #1597F4;
+                background-blend-mode: multiply;
+                padding: 20px 0;
+              }
+              .additional-style.additional-style-52 .additional-style-wrap {
+                  max-width: 1200px;
+                  margin-right: auto;
+                  margin-left: auto;
+                  text-align: center;
+              }
+              .additional-style.additional-style-52 .additional-style-title {
+                  width: 100%;
+                  float: left;
+                  padding-right: 0.9375rem;
+                  padding-left: 0.9375rem;
+                  margin-bottom: 20px;
+                  text-align: center;
+                  position: relative;
+              }
+              .additional-style.additional-style-52 .additional-style-title h3 {
+                margin-bottom: 20px;
+                position: relative;
+              }
+              .additional-style.additional-style-52 .additional-style-title h3:after {
+                    content: '';
+                    height: 4px;
+                    width: 70px;
+                    background: #fff;
+                    display: block;
+                    margin: 0 auto;
+                    margin-top: 20px;
+              }
+              .additional-style.additional-style-52 .read-reviews {
+                  color: #fff;
+                  text-transform: uppercase;
+              }
+              .additional-style.additional-style-52 .additional-style-half {
+                width: 100%;
+                float: left;
+                padding-right: 0.9375rem;
+                padding-left: 0.9375rem;
+              }
+              .additional-style.additional-style-52 .additional-style-review {
+                border-radius: 8px;
+                border: 1px solid #FFF;
+                padding: 30px;
+              }
+              .additional-style.additional-style-52 .additional-style-review .stars {
+                    color: #fff;
+                    margin-bottom: 10px;
+                }
+                .additional-style.additional-style-52 .additional-style-review p {
+                    font-size: 20px;
+                }
+                .additional-style.additional-style-52 .additional-style-review .name {
+                    font-size: 14px;
+                    text-transform: uppercase;
+                    letter-spacing: 0.25px;
+                    margin-top: 15px;
+                }
+
+            @media screen and (max-width: 47.9988em) {
+              .additional-style.additional-style-52 .additional-style-review {
+                margin-bottom: 20px;
+              }
+            }
+          @media screen and (min-width: 48em) {
+            .additional-style.additional-style-52 h3 {
+              font-size: 42px;
+              line-height: 1;
+            }
+            .additional-style.additional-style-52 p {
+                  font-size: 20px;
+            }
+            .additional-style.additional-style-52 {
+              padding: 60px 0;
+            }
+            .additional-style.additional-style-52 .additional-style-wrap {
+                display: flex;
+                align-items: center;
+            }
+            .additional-style.additional-style-52 .additional-style-title h3 {
+              font-size: 32px;
+              max-width: 80%;
+              margin-left: auto;
+              margin-right: auto;
+            }
+            .additional-style.additional-style-52 .read-reviews {
+              position: absolute;
+              top: 0;
+              right: 15px;
+            }
+            .additional-style.additional-style-52 .additional-style-half {
+              width: 50%;
+            }
+          }
+          </style>
+          <div class="additional-style additional-style-52 clearfix">
             <div class="additional-style-wrap">
               <div class="additional-style-title">
                 <h3>See What Our Customers Are Saying</h3>
@@ -1629,14 +3594,723 @@ background: YOUR_COLOUR;
             </div>
           </div>
       `
-        },
+        }
+      ]
+    },
+    {
+      id: "style-52.2",
+      title: "4.5",
+      image: "/assets/style52.2.png",
+      themes: ["premier-9"],
+      category: "reviews",
+      codeblock: [
         {
-        title: 'Change background colour',
-          content: 'Custom CSS',
-          code: `.additional-style.additional-style-52 {
-    background-color: BACKGROUND_COLOUR;
-}
-      `
+          code: `<style>
+
+            .additional-style.additional-style-52 h2,
+            .additional-style.additional-style-52 h3, 
+            .additional-style.additional-style-52 p, 
+            .additional-style.additional-style-52 ul {
+                    color: #fff;
+                    margin-bottom: 0;
+            }
+            .additional-style.additional-style-52 h3 {
+                  font-weight: 500;
+                  font-size: 30px;
+            }
+            .additional-style.additional-style-52 a:hover {
+                opacity: 0.8;
+            }
+            .additional-style.additional-style-52 {
+              text-align: center;
+              margin-right: auto;
+              margin-left: auto;
+              max-width: 1920px;
+              padding-left: 15px;
+              padding-right: 15px;
+            }
+            @media screen and (min-width: 75em) {
+              .additional-style.additional-style-52 {
+                  padding-left: 50px;
+                  padding-right: 50px;
+              }
+            }
+            @media screen and (min-width: 90em) {
+              .additional-style.additional-style-52 {
+                  padding-left: 70px;
+                  padding-right: 70px;
+              }
+            }
+              .additional-style.additional-style-52 .additional-style-wrap {
+                  max-width: 1200px;
+                  margin-right: auto;
+                  margin-left: auto;
+                  text-align: center;
+              }
+              .additional-style.additional-style-52 .additional-style-bg {
+                background-image: url(https://img.spidersnet.co.uk/code-snippets/style-52-bg.jpg);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                background-color: #3A3E49;
+                background-blend-mode: color-burn;
+                padding: 20px 0;
+                border-radius: 20px;
+              }
+              .additional-style.additional-style-52 .additional-style-title {
+                  width: 100%;
+                  float: left;
+                  padding-right: 0.9375rem;
+                  padding-left: 0.9375rem;
+                  margin-bottom: 20px;
+                  text-align: center;
+                  position: relative;
+              }
+              .additional-style.additional-style-52 .additional-style-title h3 {
+                margin-bottom: 20px;
+                position: relative;
+              }
+              .additional-style.additional-style-52 .read-reviews {
+                  color: #fff;
+                  text-transform: uppercase;
+              }
+              .additional-style.additional-style-52 .additional-style-half {
+                width: 100%;
+                float: left;
+                padding-right: 0.9375rem;
+                padding-left: 0.9375rem;
+              }
+              .additional-style.additional-style-52 .additional-style-review {
+                border-radius: 8px;
+                border: 1px solid #FFF;
+                padding: 30px;
+              }
+              .additional-style.additional-style-52 .additional-style-review .stars {
+                    color: #fff;
+                    margin-bottom: 10px;
+                }
+                .additional-style.additional-style-52 .additional-style-review p {
+                    font-size: 20px;
+                }
+                .additional-style.additional-style-52 .additional-style-review .name {
+                    font-size: 14px;
+                    text-transform: uppercase;
+                    letter-spacing: 0.25px;
+                    margin-top: 15px;
+                }
+
+            @media screen and (max-width: 47.9988em) {
+              .additional-style.additional-style-52 .additional-style-review {
+                margin-bottom: 20px;
+              }
+            }
+          @media screen and (min-width: 48em) {
+            .additional-style.additional-style-52 h3 {
+              font-size: 42px;
+              line-height: 1;
+            }
+            .additional-style.additional-style-52 p {
+                  font-size: 20px;
+            }
+            .additional-style.additional-style-52 .additional-style-bg {
+              padding: 60px 0;
+            }
+            .additional-style.additional-style-52 .additional-style-wrap {
+                display: flex;
+                align-items: center;
+            }
+            .additional-style.additional-style-52 .additional-style-title h3 {
+              font-size: 32px;
+              max-width: 80%;
+              margin-left: auto;
+              margin-right: auto;
+            }
+            .additional-style.additional-style-52 .read-reviews {
+              position: absolute;
+              top: 0;
+              right: 15px;
+            }
+            .additional-style.additional-style-52 .additional-style-half {
+              width: 50%;
+            }
+          }
+          </style>
+          <div class="additional-style additional-style-52 clearfix">
+              <div class="additional-style-bg">
+                <div class="additional-style-wrap">
+                  <div class="additional-style-title">
+                    <h3>See What Our Customers Are Saying</h3>
+                    <a href="/reviews/" class="read-reviews">Read Reviews</a>
+                  </div>
+                </div>
+                <div class="additional-style-wrap">
+                    <div class="additional-style-half">
+                      <div class="additional-style-review">
+                        <div class="additional-style-text">
+                          <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                            <p>&ldquo;Our fantastic team are passionate about delivering outstanding customer experiences and our mission is to ensure that you love both the FN car buying experience and the car&rdquo;</p>
+                            <p class="name">Numan, CEO FN Motors</p>
+                        </div></div>
+                    </div>
+                    <div class="additional-style-half">
+                      <div class="additional-style-review">
+                        <div class="additional-style-text">
+                          <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                            <p>&ldquo;Our fantastic team are passionate about delivering outstanding customer experiences and our mission is to ensure that you love both the FN car buying experience and the car&rdquo;</p>
+                            <p class="name">Numan, CEO FN Motors</p>
+                        </div></div>
+                    </div>
+                  </div>
+            </div>
+          </div>`
+        }
+      ]
+    },
+    {
+      id: "style-52.3",
+      title: "4.5",
+      image: "/assets/style52.3.png",
+      themes: ["premier-10"],
+      category: "reviews",
+      codeblock: [
+        {
+          code: ` <style>
+
+            .additional-style.additional-style-52 h2,
+            .additional-style.additional-style-52 h3, 
+            .additional-style.additional-style-52 p, 
+            .additional-style.additional-style-52 ul {
+                    color: #fff;
+                    margin-bottom: 0;
+            }
+            .additional-style.additional-style-52 h3 {
+                  font-weight: 500;
+                  font-size: 30px;
+            }
+            .additional-style.additional-style-52 a:hover {
+                opacity: 0.8;
+            }
+            .additional-style.additional-style-52 {
+                padding: 20px 0;
+                background-color: #2B63D9;
+                background-image: url(/media/bg-pattern.png);
+                background-position: top left;
+              }
+              .additional-style.additional-style-52 .additional-style-wrap {
+                  max-width: 1300px;
+                  margin-right: auto;
+                  margin-left: auto;
+                  text-align: center;
+              }
+              .additional-style.additional-style-52 .additional-style-title {
+                  width: 100%;
+                  float: left;
+                  padding-right: 0.9375rem;
+                  padding-left: 0.9375rem;
+                  margin-bottom: 20px;
+                  text-align: center;
+                  position: relative;
+              }
+              .additional-style.additional-style-52 .additional-style-title h3 {
+                margin-bottom: 20px;
+                position: relative;
+              }
+              .additional-style.additional-style-52 .read-reviews {
+                  color: #fff;
+                  text-transform: uppercase;
+              }
+              .additional-style.additional-style-52 .additional-style-half {
+                width: 100%;
+                float: left;
+                padding-right: 0.9375rem;
+                padding-left: 0.9375rem;
+              }
+              .additional-style.additional-style-52 .additional-style-review {
+                border-radius: 8px;
+                border: 1px solid #FFF;
+                padding: 30px;
+              }
+              .additional-style.additional-style-52 .additional-style-review .stars {
+                    color: #fff;
+                    margin-bottom: 10px;
+                }
+                .additional-style.additional-style-52 .additional-style-review p {
+                    font-size: 20px;
+                }
+                .additional-style.additional-style-52 .additional-style-review .name {
+                    font-size: 14px;
+                    text-transform: uppercase;
+                    letter-spacing: 0.25px;
+                    margin-top: 15px;
+                }
+
+            @media screen and (max-width: 47.9988em) {
+              .additional-style.additional-style-52 .additional-style-review {
+                margin-bottom: 20px;
+              }
+            }
+          @media screen and (min-width: 48em) {
+            .additional-style.additional-style-52 h3 {
+              font-size: 42px;
+              line-height: 1;
+            }
+            .additional-style.additional-style-52 p {
+                  font-size: 20px;
+            }
+            .additional-style.additional-style-52 {
+              padding: 60px 0;
+            }
+            .additional-style.additional-style-52 .additional-style-wrap {
+                display: flex;
+                align-items: center;
+            }
+            .additional-style.additional-style-52 .additional-style-title h3 {
+              font-size: 32px;
+              max-width: 80%;
+              margin-left: auto;
+              margin-right: auto;
+            }
+            .additional-style.additional-style-52 .read-reviews {
+              position: absolute;
+              top: 0;
+              right: 15px;
+            }
+            .additional-style.additional-style-52 .additional-style-half {
+              width: 50%;
+            }
+          }
+          </style>
+          <div class="additional-style additional-style-52 clearfix">
+            <div class="additional-style-wrap">
+              <div class="additional-style-title">
+                <h3>See What Our Customers Are Saying</h3>
+                <a href="/reviews/" class="read-reviews">Read Reviews</a>
+              </div>
+            </div>
+            <div class="additional-style-wrap">
+                <div class="additional-style-half">
+                  <div class="additional-style-review">
+                    <div class="additional-style-text">
+                      <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                        <p>&ldquo;Our fantastic team are passionate about delivering outstanding customer experiences and our mission is to ensure that you love both the FN car buying experience and the car&rdquo;</p>
+                        <p class="name">Numan, CEO FN Motors</p>
+                    </div></div>
+                </div>
+                <div class="additional-style-half">
+                  <div class="additional-style-review">
+                    <div class="additional-style-text">
+                      <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                        <p>&ldquo;Our fantastic team are passionate about delivering outstanding customer experiences and our mission is to ensure that you love both the FN car buying experience and the car&rdquo;</p>
+                        <p class="name">Numan, CEO FN Motors</p>
+                    </div></div>
+                </div>
+            </div>
+          </div>`
+        }
+      ]
+    },
+    {
+      id: "style-52.4",
+      title: "4.5",
+      image: "/assets/style52.4.png",
+      themes: ["premier-11"],
+      category: "reviews",
+      codeblock: [
+        {
+          code: `<style>
+
+            .additional-style.additional-style-52 h2,
+            .additional-style.additional-style-52 h3, 
+            .additional-style.additional-style-52 p, 
+            .additional-style.additional-style-52 ul {
+                    color: #fff;
+                    margin-bottom: 0;
+            }
+            .additional-style.additional-style-52 h3 {
+                  font-weight: 500;
+                  font-size: 30px;
+            }
+            .additional-style.additional-style-52 a:hover {
+                opacity: 0.8;
+            }
+            .additional-style.additional-style-52 {
+                padding: 20px 0;
+              }
+              .additional-style.additional-style-52 .additional-style-wrap {
+                  max-width: 1300px;
+                  margin-right: auto;
+                  margin-left: auto;
+                  text-align: center;
+              }
+              .additional-style.additional-style-52 .additional-style-title {
+                  width: 100%;
+                  float: left;
+                  padding-right: 0.9375rem;
+                  padding-left: 0.9375rem;
+                  margin-bottom: 20px;
+                  text-align: center;
+                  position: relative;
+              }
+              .additional-style.additional-style-52 .additional-style-title h3 {
+                margin-bottom: 20px;
+                position: relative;
+              }
+              .additional-style.additional-style-52 .read-reviews {
+                  color: #fff;
+                  text-transform: uppercase;
+              }
+              .additional-style.additional-style-52 .additional-style-half {
+                width: 100%;
+                float: left;
+                padding-right: 0.9375rem;
+                padding-left: 0.9375rem;
+              }
+              .additional-style.additional-style-52 .additional-style-review {
+                border: 1px solid #FFF;
+                padding: 30px;
+              }
+              .additional-style.additional-style-52 .additional-style-review .stars {
+                    color: #fff;
+                    margin-bottom: 10px;
+                }
+                .additional-style.additional-style-52 .additional-style-review p {
+                    font-size: 20px;
+                }
+                .additional-style.additional-style-52 .additional-style-review .name {
+                    font-size: 14px;
+                    text-transform: uppercase;
+                    letter-spacing: 0.25px;
+                    margin-top: 15px;
+                }
+
+            @media screen and (max-width: 47.9988em) {
+              .additional-style.additional-style-52 .additional-style-review {
+                margin-bottom: 20px;
+              }
+            }
+          @media screen and (min-width: 48em) {
+            .additional-style.additional-style-52 h3 {
+              font-size: 42px;
+              line-height: 1;
+            }
+            .additional-style.additional-style-52 p {
+                  font-size: 20px;
+            }
+            .additional-style.additional-style-52 {
+              padding: 60px 0;
+            }
+            .additional-style.additional-style-52 .additional-style-wrap {
+                display: flex;
+                align-items: center;
+            }
+            .additional-style.additional-style-52 .additional-style-title h3 {
+              font-size: 32px;
+              max-width: 80%;
+              margin-left: auto;
+              margin-right: auto;
+            }
+            .additional-style.additional-style-52 .read-reviews {
+              position: absolute;
+              top: 0;
+              right: 15px;
+            }
+            .additional-style.additional-style-52 .additional-style-half {
+              width: 50%;
+            }
+          }
+          </style>
+          <div class="additional-style additional-style-52 clearfix">
+            <div class="additional-style-wrap">
+              <div class="additional-style-title">
+                <h3>See What Our Customers Are Saying</h3>
+                <a href="/reviews/" class="read-reviews">Read Reviews</a>
+              </div>
+            </div>
+            <div class="additional-style-wrap">
+                <div class="additional-style-half">
+                  <div class="additional-style-review">
+                    <div class="additional-style-text">
+                      <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                        <p>&ldquo;Our fantastic team are passionate about delivering outstanding customer experiences and our mission is to ensure that you love both the FN car buying experience and the car&rdquo;</p>
+                        <p class="name">Numan, CEO FN Motors</p>
+                    </div></div>
+                </div>
+                <div class="additional-style-half">
+                  <div class="additional-style-review">
+                    <div class="additional-style-text">
+                      <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                        <p>&ldquo;Our fantastic team are passionate about delivering outstanding customer experiences and our mission is to ensure that you love both the FN car buying experience and the car&rdquo;</p>
+                        <p class="name">Numan, CEO FN Motors</p>
+                    </div></div>
+                </div>
+            </div>
+          </div>`
+        }
+      ]
+    },
+    {
+      id: "style-52.5",
+      title: "4.5",
+      image: "/assets/style52.5.png",
+      themes: ["essential-3"],
+      category: "reviews",
+      codeblock: [
+        {
+          code: `<style>
+
+            .additional-style.additional-style-52 h2,
+            .additional-style.additional-style-52 h3, 
+            .additional-style.additional-style-52 ul {
+                    color: #fff;
+                    margin-bottom: 0;
+            }
+            .additional-style.additional-style-52 p {
+              margin-bottom: 0;
+            }
+            .additional-style.additional-style-52 h3 {
+                  font-weight: 500;
+                  font-size: 30px;
+            }
+            .additional-style.additional-style-52 a:hover {
+                opacity: 0.8;
+            }
+            .additional-style.additional-style-52 {
+                background-image: url(https://img.spidersnet.co.uk/code-snippets/style-52-bg.jpg);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                background-color: #0F4C85;
+                background-blend-mode: color-burn;
+                padding: 20px 0;
+              }
+              .additional-style.additional-style-52 .additional-style-wrap {
+                  max-width: 1200px;
+                  margin-right: auto;
+                  margin-left: auto;
+                  text-align: center;
+              }
+              .additional-style.additional-style-52 .additional-style-title {
+                  width: 100%;
+                  float: left;
+                  padding-right: 0.9375rem;
+                  padding-left: 0.9375rem;
+                  margin-bottom: 20px;
+                  text-align: center;
+                  position: relative;
+              }
+              .additional-style.additional-style-52 .additional-style-title h3 {
+                margin-bottom: 20px;
+                position: relative;
+              }
+              .additional-style.additional-style-52 .read-reviews {
+                  color: #fff;
+                  text-transform: uppercase;
+              }
+              .additional-style.additional-style-52 .additional-style-half {
+                width: 100%;
+                float: left;
+                padding-right: 0.9375rem;
+                padding-left: 0.9375rem;
+              }
+              .additional-style.additional-style-52 .additional-style-review {
+                border-radius: 60px 0px;
+                background: rgba(255,255,255,0.9);
+                padding: 30px;
+                color: #000;
+              }
+              .additional-style.additional-style-52 .additional-style-review .stars {
+                    margin-bottom: 10px;
+                }
+                .additional-style.additional-style-52 .additional-style-review p {
+                    font-size: 20px;
+                }
+                .additional-style.additional-style-52 .additional-style-review .name {
+                    font-size: 14px;
+                    text-transform: uppercase;
+                    letter-spacing: 0.25px;
+                    margin-top: 15px;
+                }
+
+            @media screen and (max-width: 47.9988em) {
+              .additional-style.additional-style-52 .additional-style-review {
+                margin-bottom: 20px;
+              }
+            }
+          @media screen and (min-width: 48em) {
+            .additional-style.additional-style-52 h3 {
+              font-size: 42px;
+              line-height: 1;
+            }
+            .additional-style.additional-style-52 p {
+                  font-size: 20px;
+            }
+            .additional-style.additional-style-52 {
+              padding: 60px 0;
+            }
+            .additional-style.additional-style-52 .additional-style-wrap {
+                display: flex;
+                align-items: center;
+            }
+            .additional-style.additional-style-52 .additional-style-title h3 {
+              font-size: 32px;
+              max-width: 80%;
+              margin-left: auto;
+              margin-right: auto;
+            }
+            .additional-style.additional-style-52 .read-reviews {
+              position: absolute;
+              top: 0;
+              right: 15px;
+            }
+            .additional-style.additional-style-52 .additional-style-half {
+              width: 50%;
+            }
+          }
+          </style>
+          <div class="additional-style additional-style-52 clearfix">
+            <div class="additional-style-wrap">
+              <div class="additional-style-title">
+                <h3>See What Our Customers Are Saying</h3>
+                <a href="/reviews/" class="read-reviews">Read Reviews</a>
+              </div>
+            </div>
+            <div class="additional-style-wrap">
+                <div class="additional-style-half">
+                  <div class="additional-style-review">
+                    <div class="additional-style-text">
+                      <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                        <p>&ldquo;Our fantastic team are passionate about delivering outstanding customer experiences and our mission is to ensure that you love both the FN car buying experience and the car&rdquo;</p>
+                        <p class="name">Numan, CEO FN Motors</p>
+                    </div></div>
+                </div>
+                <div class="additional-style-half">
+                  <div class="additional-style-review">
+                    <div class="additional-style-text">
+                      <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                        <p>&ldquo;Our fantastic team are passionate about delivering outstanding customer experiences and our mission is to ensure that you love both the FN car buying experience and the car&rdquo;</p>
+                        <p class="name">Numan, CEO FN Motors</p>
+                    </div></div>
+                </div>
+            </div>
+          </div>
+`
+        }
+      ]
+    },
+    {
+      id: "style-52.5",
+      title: "4.6",
+      image: "/assets/style52.6.png",
+      themes: ["essential-4"],
+      category: "reviews",
+      codeblock: [
+        {
+          code: `
+          <style>
+
+            .additional-style.additional-style-52 h2,
+            .additional-style.additional-style-52 h3, 
+            .additional-style.additional-style-52 p, 
+            .additional-style.additional-style-52 ul {
+                    margin-bottom: 0;
+            }
+            .additional-style.additional-style-52 h3 {
+                  font-weight: 500;
+                  font-size: 30px;
+            }
+            .additional-style.additional-style-52 a:hover {
+                opacity: 0.8;
+            }
+            .additional-style.additional-style-52 {
+                padding: 20px 0;
+              }
+              .additional-style.additional-style-52 .additional-style-wrap {
+                  max-width: 1300px;
+                  margin-right: auto;
+                  margin-left: auto;
+                  text-align: center;
+              }
+              .additional-style.additional-style-52 .additional-style-title {
+                  width: 100%;
+                  float: left;
+                  padding-right: 0.9375rem;
+                  padding-left: 0.9375rem;
+                  margin-bottom: 20px;
+                  position: relative;
+              }
+              .additional-style.additional-style-52 .additional-style-title h3 {
+                margin-bottom: 20px;
+                position: relative;
+              }
+              .additional-style.additional-style-52 .additional-style-full {
+                width: 100%;
+                float: left;
+                padding-right: 0.9375rem;
+                padding-left: 0.9375rem;
+              }
+              .additional-style.additional-style-52 .additional-style-review .stars {
+                    margin-bottom: 10px;
+                }
+                .additional-style.additional-style-52 .additional-style-review p {
+                    font-size: 20px;
+                }
+                .additional-style.additional-style-52 .additional-style-review .name {
+                    font-size: 20px;
+                    font-weight: 600;
+                    margin-top: 15px;
+                }
+                .additional-style.additional-style-52 .additional-style-review {
+                  margin-bottom: 40px;
+                }
+          @media screen and (min-width: 48em) {
+            .additional-style.additional-style-52 h3 {
+              font-size: 42px;
+              line-height: 1;
+            }
+            .additional-style.additional-style-52 p {
+                  font-size: 20px;
+            }
+            .additional-style.additional-style-52 {
+              padding: 60px 0;
+            }
+            .additional-style.additional-style-52 .additional-style-wrap {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .additional-style.additional-style-52 .additional-style-title h3 {
+              font-size: 32px;
+              max-width: 80%;
+              margin-left: auto;
+              margin-right: auto;
+            }
+            .additional-style.additional-style-52 .additional-style-full {
+              width: 70%;
+              float: none;
+              margin: 0 auto;
+            }
+          }
+          </style>
+          <div class="additional-style additional-style-52 clearfix">
+            <div class="additional-style-wrap">
+              <div class="additional-style-title">
+                <h3>See What Our Customers Are Saying</h3>
+              </div>
+            </div>
+            <div class="additional-style-wrap">
+                <div class="additional-style-full">
+                  <div class="additional-style-review">
+                    <div class="additional-style-text">
+                      <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                        <p>&ldquo;Our fantastic team are passionate about delivering outstanding customer experiences and our mission is to ensure that you love both the FN car buying experience and the car&rdquo;</p>
+                        <p class="name">Numan, CEO FN Motors</p>
+                    </div></div>
+                </div>
+            </div>
+            <div class="additional-style-wrap">
+              <a href="/reviews/" class="button">Read Reviews</a>
+            </div>
+          </div>`
         }
       ]
     },
@@ -1644,11 +4318,126 @@ background: YOUR_COLOUR;
       id: "style-53",
       title: "4.6",
       image: "/assets/style53.png",
-      themes: ["all"],
+      themes: ["premier-1","premier-2","premier-3","premier-4","premier-5","premier-6","premier-7","premier-8","premier-10","essential-1","essential-2"],
       category: "reviews",
       codeblock: [
         {
-          code: ` <div class="additional-style additional-style-53 clearfix">
+          code: ` <style>
+            .additional-style.additional-style-53 h2, 
+            .additional-style.additional-style-53 h3, 
+            .additional-style.additional-style-53 p, 
+            .additional-style.additional-style-53 ul {
+                  color: #fff;
+                  margin-bottom: 0;
+            }
+            .additional-style.additional-style-53 h3 {
+                font-weight: 500;
+                font-size: 30px;
+            }
+            .additional-style.additional-style-53 a:hover {
+                opacity: 0.8;
+            }
+            .additional-style.additional-style-53 {
+              background: url(https://img.spidersnet.co.uk/code-snippets/style-53-bg.jpg) no-repeat center;
+              background-size: cover;
+              padding: 20px 0;
+            }
+            .additional-style.additional-style-53 .additional-style-wrap {
+                max-width: 1300px;
+                margin-right: auto;
+                margin-left: auto;
+                text-align: center;
+            }
+            .additional-style.additional-style-53  .additional-style-half {
+              width: 100%;
+              float: left;
+              padding-right: 0.9375rem;
+              padding-left: 0.9375rem;
+            }
+            .additional-style.additional-style-53 .rating {
+              color: #fff;
+              flex-shrink: 0;
+              margin-bottom: 20px;
+            }
+            .additional-style.additional-style-53 .rating span {
+              font-size: 50px;
+              font-weight: bold;
+              line-height: 1;
+            }
+            .additional-style.additional-style-53 .rating .stars {
+              font-size: 20px;
+            }
+            .additional-style.additional-style-53 .images {
+                display: flex;
+                justify-content: center;
+                gap: 10px;
+            }
+            .additional-style.additional-style-53 .images img { 
+              max-width: 30%; 
+            }
+            .additional-style.additional-style-53 .additional-style-review {
+              border-radius: 8px;
+              border-radius: 8px;
+              background: rgba(255, 255, 255, 0.85);
+              padding: 30px;
+            }
+            .additional-style.additional-style-53 .additional-style-review h3, 
+            .additional-style.additional-style-53 .additional-style-review p { 
+              color: #000; 
+            }
+            .additional-style.additional-style-53 .additional-style-review h3 {
+              margin-bottom: 30px;
+            }
+            .additional-style.additional-style-53 .additional-style-review .stars {
+                margin-bottom: 5px;
+                color: #E8BF19;
+                font-size: 24px;
+            }
+            .additional-style.additional-style-53 .additional-style-review p {
+                font-size: 18px;
+            }
+            .additional-style.additional-style-53 .additional-style-review .name {
+                font-size: 14px;
+                text-transform: uppercase;
+                letter-spacing: 0.25px;
+                margin-top: 15px;
+            }
+            .additional-style.additional-style-53 .additional-style-review .button {
+                margin-top: 30px;
+            }
+            @media screen and (max-width: 47.9988em) {
+              .additional-style.additional-style-53 .additional-style-review {
+                margin-top: 20px;
+              }
+            }
+            @media screen and (min-width: 48em) {
+              .additional-style.additional-style-53 h3 {
+                font-size: 42px;
+                line-height: 1;
+              }
+              .additional-style.additional-style-53 p {
+                font-size: 20px;
+              }
+              .additional-style.additional-style-53 {
+                padding: 60px 0;
+              }
+              .additional-style.additional-style-53 .additional-style-wrap {
+                display: flex;
+                align-items: center;
+              }
+              .additional-style.additional-style-53  .additional-style-half {
+                width: 50%;
+              }
+              .additional-style.additional-style-53 .rating span {
+                font-size: 90px;
+              }
+              .additional-style.additional-style-53 .additional-style-review h3 {
+                font-size: 32px;
+              }
+            }
+          </style>
+
+          <div class="additional-style additional-style-53 clearfix">
             <div class="additional-style-wrap">
 
                 <div class="additional-style-half">
@@ -1676,7 +4465,644 @@ background: YOUR_COLOUR;
               </div>
             </div>
           </div>
+      
       `
+        }
+      ]
+    },
+    {
+      id: "style-53.1",
+      title: "4.6",
+      image: "/assets/style53.1.png",
+      themes: ["premier-9"],
+      category: "reviews",
+      codeblock: [
+        {
+          code: `          <style>
+            .additional-style.additional-style-53 h2, 
+            .additional-style.additional-style-53 h3, 
+            .additional-style.additional-style-53 p, 
+            .additional-style.additional-style-53 ul {
+                  color: #fff;
+                  margin-bottom: 0;
+            }
+            .additional-style.additional-style-53 h3 {
+                font-weight: 500;
+                font-size: 30px;
+            }
+            .additional-style.additional-style-53 a:hover {
+                opacity: 0.8;
+            }
+            .additional-style.additional-style-53 {
+              clear: both;
+              margin-right: auto;
+              margin-left: auto;
+              max-width: 1920px;
+              padding-left: 15px;
+              padding-right: 15px;
+            }
+            @media screen and (min-width: 75em) {
+              .additional-style.additional-style-53 {
+                padding-left: 50px;
+                padding-right: 50px;
+              }
+            }
+            @media screen and (min-width: 90em) {
+              .additional-style.additional-style-53 {
+                padding-left: 70px;
+                padding-right: 70px;
+              }
+            }
+            .additional-style.additional-style-53 .additional-style-wrap {
+                max-width: 100%;
+                background: url(https://img.spidersnet.co.uk/code-snippets/style-53-bg.jpg) no-repeat center;
+                background-size: cover;
+                padding: 20px 0;
+                border-radius: 20px;
+                text-align: center;
+            }
+            .additional-style.additional-style-53  .additional-style-half {
+              width: 100%;
+              float: left;
+              padding-right: 0.9375rem;
+              padding-left: 0.9375rem;
+            }
+            .additional-style.additional-style-53 .rating {
+              color: #fff;
+              flex-shrink: 0;
+              margin-bottom: 20px;
+            }
+            .additional-style.additional-style-53 .rating span {
+              font-size: 50px;
+              font-weight: bold;
+              line-height: 1;
+            }
+            .additional-style.additional-style-53 .rating .stars {
+              font-size: 20px;
+            }
+            .additional-style.additional-style-53 .images {
+                display: flex;
+                justify-content: center;
+                gap: 10px;
+            }
+            .additional-style.additional-style-53 .images img { 
+              max-width: 30%; 
+            }
+            .additional-style.additional-style-53 .additional-style-review {
+              border-radius: 8px;
+              border-radius: 8px;
+              background: rgba(255, 255, 255, 0.85);
+              padding: 30px;
+            }
+            .additional-style.additional-style-53 .additional-style-review h3, 
+            .additional-style.additional-style-53 .additional-style-review p { 
+              color: #000; 
+            }
+            .additional-style.additional-style-53 .additional-style-review h3 {
+              margin-bottom: 30px;
+            }
+            .additional-style.additional-style-53 .additional-style-review .stars {
+                margin-bottom: 5px;
+                color: #E8BF19;
+                font-size: 24px;
+            }
+            .additional-style.additional-style-53 .additional-style-review p {
+                font-size: 18px;
+            }
+            .additional-style.additional-style-53 .additional-style-review .name {
+                font-size: 14px;
+                text-transform: uppercase;
+                letter-spacing: 0.25px;
+                margin-top: 15px;
+            }
+            .additional-style.additional-style-53 .additional-style-review .button {
+                margin-top: 30px;
+            }
+            @media screen and (max-width: 47.9988em) {
+              .additional-style.additional-style-53 .additional-style-review {
+                margin-top: 20px;
+              }
+            }
+            @media screen and (min-width: 48em) {
+              .additional-style.additional-style-53 h3 {
+                font-size: 42px;
+                line-height: 1;
+              }
+              .additional-style.additional-style-53 p {
+                font-size: 20px;
+              }
+              .additional-style.additional-style-53 {
+              
+              }
+              .additional-style.additional-style-53 .additional-style-wrap {
+                display: flex;
+                align-items: center;
+                padding: 60px 30px;
+              }
+              .additional-style.additional-style-53  .additional-style-half {
+                width: 50%;
+              }
+              .additional-style.additional-style-53 .rating span {
+                font-size: 90px;
+              }
+              .additional-style.additional-style-53 .additional-style-review h3 {
+                font-size: 32px;
+              }
+            }
+          </style>
+
+          <div class="additional-style additional-style-53 clearfix">
+            <div class="additional-style-wrap">
+
+                <div class="additional-style-half">
+         
+                    <div class="rating">
+                        <span>4.8</span>
+                          <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    </div>
+                    <div class="images">
+                      <img src="https://img.spidersnet.co.uk/code-snippets/award-placeholder.png">
+                      <img src="https://img.spidersnet.co.uk/code-snippets/award-placeholder.png">
+                      <img src="https://img.spidersnet.co.uk/code-snippets/award-placeholder.png">
+                    </div>
+           
+              </div>
+              <div class="additional-style-half">
+                <div class="additional-style-review">
+                  <div class="additional-style-text">
+                    <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    <h3>Customer Reviews</h3>
+                      <p>&ldquo;Our fantastic team are passionate about delivering outstanding customer experiences and our mission is to ensure that you love both the FN car buying experience and the car&rdquo;</p>
+                      <p class="name">Numan, CEO FN Motors</p>
+                      <a href="/reviews/" class="button">Read More</a>
+                  </div></div>
+              </div>
+            </div>
+          </div>`
+        }
+      ]
+    },
+    {
+      id: "style-53.2",
+      title: "4.6",
+      image: "/assets/style53.2.png",
+      themes: ["premier-10"],
+      category: "reviews",
+      codeblock: [
+        {
+          code: `          <style>
+            .additional-style.additional-style-53 h2, 
+            .additional-style.additional-style-53 h3, 
+            .additional-style.additional-style-53 p, 
+            .additional-style.additional-style-53 ul {
+                  color: #fff;
+                  margin-bottom: 0;
+            }
+            .additional-style.additional-style-53 h3 {
+                font-weight: 500;
+                font-size: 30px;
+            }
+            .additional-style.additional-style-53 a:hover {
+                opacity: 0.8;
+            }
+            .additional-style.additional-style-53 {
+              background: url(https://img.spidersnet.co.uk/code-snippets/style-53-bg.jpg) no-repeat center;
+              background-size: cover;
+              padding: 20px 0;
+            }
+            .additional-style.additional-style-53 .additional-style-wrap {
+                max-width: 1300px;
+                margin-right: auto;
+                margin-left: auto;
+                text-align: center;
+            }
+            .additional-style.additional-style-53  .additional-style-half {
+              width: 100%;
+              float: left;
+              padding-right: 0.9375rem;
+              padding-left: 0.9375rem;
+            }
+            .additional-style.additional-style-53 .rating {
+              color: #fff;
+              flex-shrink: 0;
+              margin-bottom: 20px;
+            }
+            .additional-style.additional-style-53 .rating span {
+              font-size: 50px;
+              font-weight: bold;
+              line-height: 1;
+            }
+            .additional-style.additional-style-53 .rating .stars {
+              font-size: 20px;
+            }
+            .additional-style.additional-style-53 .images {
+                display: flex;
+                justify-content: center;
+                gap: 10px;
+            }
+            .additional-style.additional-style-53 .images img { 
+              max-width: 30%; 
+            }
+            .additional-style.additional-style-53 .additional-style-review {
+              border: 1px solid #fff;
+              padding: 30px;
+            }
+            .additional-style.additional-style-53 .additional-style-review h3 {
+              margin-bottom: 30px;
+            }
+            .additional-style.additional-style-53 .additional-style-review .stars {
+                margin-bottom: 5px;
+                color: #fff;
+                font-size: 24px;
+            }
+            .additional-style.additional-style-53 .additional-style-review p {
+                font-size: 18px;
+            }
+            .additional-style.additional-style-53 .additional-style-review .name {
+                font-size: 14px;
+                text-transform: uppercase;
+                letter-spacing: 0.25px;
+                margin-top: 15px;
+            }
+            .additional-style.additional-style-53 .additional-style-review .button {
+                margin-top: 30px;
+            }
+            @media screen and (max-width: 47.9988em) {
+              .additional-style.additional-style-53 .additional-style-review {
+                margin-top: 20px;
+              }
+            }
+            @media screen and (min-width: 48em) {
+              .additional-style.additional-style-53 h3 {
+                font-size: 42px;
+                line-height: 1;
+              }
+              .additional-style.additional-style-53 p {
+                font-size: 20px;
+              }
+              .additional-style.additional-style-53 {
+                padding: 60px 0;
+              }
+              .additional-style.additional-style-53 .additional-style-wrap {
+                display: flex;
+                align-items: center;
+              }
+              .additional-style.additional-style-53  .additional-style-half {
+                width: 50%;
+              }
+              .additional-style.additional-style-53 .rating span {
+                font-size: 90px;
+              }
+              .additional-style.additional-style-53 .additional-style-review h3 {
+                font-size: 32px;
+              }
+            }
+          </style>
+
+          <div class="additional-style additional-style-53 clearfix">
+            <div class="additional-style-wrap">
+
+                <div class="additional-style-half">
+         
+                    <div class="rating">
+                        <span>4.8</span>
+                          <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    </div>
+                    <div class="images">
+                      <img src="https://img.spidersnet.co.uk/code-snippets/award-placeholder.png">
+                      <img src="https://img.spidersnet.co.uk/code-snippets/award-placeholder.png">
+                      <img src="https://img.spidersnet.co.uk/code-snippets/award-placeholder.png">
+                    </div>
+           
+              </div>
+              <div class="additional-style-half">
+                <div class="additional-style-review">
+                  <div class="additional-style-text">
+                    <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    <h3>Customer Reviews</h3>
+                      <p>&ldquo;Our fantastic team are passionate about delivering outstanding customer experiences and our mission is to ensure that you love both the FN car buying experience and the car&rdquo;</p>
+                      <p class="name">Numan, CEO FN Motors</p>
+                      <a href="/reviews/" class="button">Read More</a>
+                  </div></div>
+              </div>
+            </div>
+          </div>`
+        }
+      ]
+    },
+    {
+      id: "style-53.3",
+      title: "4.6",
+      image: "/assets/style53.3.png",
+      themes: ["essential-3"],
+      category: "reviews",
+      codeblock: [
+        {
+          code: `
+          <style>
+            .additional-style.additional-style-53 h2, 
+            .additional-style.additional-style-53 h3, 
+            .additional-style.additional-style-53 p, 
+            .additional-style.additional-style-53 ul {
+                  color: #fff;
+                  margin-bottom: 0;
+            }
+            .additional-style.additional-style-53 h3 {
+                font-weight: 500;
+                font-size: 30px;
+            }
+            .additional-style.additional-style-53 a:hover {
+                opacity: 0.8;
+            }
+            .additional-style.additional-style-53 {
+              max-width: 1280px;
+              margin-right: auto;
+              margin-left: auto;
+              text-align: center;
+              padding-left: 15px;
+              padding-right: 15px;
+            }
+            .additional-style.additional-style-53 .additional-style-wrap {
+                background: url(https://img.spidersnet.co.uk/code-snippets/style-53-bg.jpg) no-repeat center;
+                background-size: cover;
+                padding: 20px 0;
+                border-radius: 20px;
+            }
+            .additional-style.additional-style-53  .additional-style-half {
+              width: 100%;
+              float: left;
+              padding-right: 0.9375rem;
+              padding-left: 0.9375rem;
+            }
+            .additional-style.additional-style-53 .rating {
+              color: #fff;
+              flex-shrink: 0;
+              margin-bottom: 20px;
+            }
+            .additional-style.additional-style-53 .rating span {
+              font-size: 50px;
+              font-weight: bold;
+              line-height: 1;
+            }
+            .additional-style.additional-style-53 .rating .stars {
+              font-size: 20px;
+            }
+            .additional-style.additional-style-53 .images {
+                display: flex;
+                justify-content: center;
+                gap: 10px;
+            }
+            .additional-style.additional-style-53 .images img { 
+              max-width: 30%; 
+            }
+            .additional-style.additional-style-53 .additional-style-review {
+              border-radius: 50px 0px;
+              background: rgba(255, 255, 255, 0.85);
+              padding: 30px;
+            }
+            .additional-style.additional-style-53 .additional-style-review h3, 
+            .additional-style.additional-style-53 .additional-style-review p { 
+              color: #000; 
+            }
+            .additional-style.additional-style-53 .additional-style-review h3 {
+              margin-bottom: 30px;
+            }
+            .additional-style.additional-style-53 .additional-style-review .stars {
+                margin-bottom: 5px;
+                color: #E8BF19;
+                font-size: 24px;
+            }
+            .additional-style.additional-style-53 .additional-style-review p {
+                font-size: 18px;
+            }
+            .additional-style.additional-style-53 .additional-style-review .name {
+                font-size: 14px;
+                text-transform: uppercase;
+                letter-spacing: 0.25px;
+                margin-top: 15px;
+            }
+            .additional-style.additional-style-53 .additional-style-review .button {
+                margin-top: 30px;
+            }
+            @media screen and (max-width: 47.9988em) {
+              .additional-style.additional-style-53 .additional-style-review {
+                margin-top: 20px;
+              }
+            }
+            @media screen and (min-width: 48em) {
+              .additional-style.additional-style-53 h3 {
+                font-size: 42px;
+                line-height: 1;
+              }
+              .additional-style.additional-style-53 p {
+                font-size: 20px;
+              }
+              .additional-style.additional-style-53 {
+              }
+              .additional-style.additional-style-53 .additional-style-wrap {
+                display: flex;
+                align-items: center;
+                padding: 60px 30px;
+              }
+              .additional-style.additional-style-53  .additional-style-half {
+                width: 50%;
+              }
+              .additional-style.additional-style-53 .rating span {
+                font-size: 90px;
+              }
+              .additional-style.additional-style-53 .additional-style-review h3 {
+                font-size: 32px;
+              }
+            }
+          </style>
+
+          <div class="additional-style additional-style-53 clearfix">
+            <div class="additional-style-wrap">
+
+                <div class="additional-style-half">
+         
+                    <div class="rating">
+                        <span>4.8</span>
+                          <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    </div>
+                    <div class="images">
+                      <img src="https://img.spidersnet.co.uk/code-snippets/award-placeholder.png">
+                      <img src="https://img.spidersnet.co.uk/code-snippets/award-placeholder.png">
+                      <img src="https://img.spidersnet.co.uk/code-snippets/award-placeholder.png">
+                    </div>
+           
+              </div>
+              <div class="additional-style-half">
+                <div class="additional-style-review">
+                  <div class="additional-style-text">
+                    <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    <h3>Customer Reviews</h3>
+                      <p>&ldquo;Our fantastic team are passionate about delivering outstanding customer experiences and our mission is to ensure that you love both the FN car buying experience and the car&rdquo;</p>
+                      <p class="name">Numan, CEO FN Motors</p>
+                      <a href="/reviews/" class="button">Read More</a>
+                  </div></div>
+              </div>
+            </div>
+          </div>
+ 
+`
+        }
+      ]
+    },
+    {
+      id: "style-53.4",
+      title: "4.6",
+      image: "/assets/style53.4.png",
+      themes: ["essential-4"],
+      category: "reviews",
+      codeblock: [
+        {
+          code: `          <style>
+            .additional-style.additional-style-53 h2, 
+            .additional-style.additional-style-53 h3, 
+            .additional-style.additional-style-53 p, 
+            .additional-style.additional-style-53 ul {
+                  color: #fff;
+                  margin-bottom: 0;
+            }
+            .additional-style.additional-style-53 h3 {
+                font-weight: 500;
+                font-size: 30px;
+            }
+            .additional-style.additional-style-53 a:hover {
+                opacity: 0.8;
+            }
+            .additional-style.additional-style-53 {
+              max-width: 1280px;
+              margin-right: auto;
+              margin-left: auto;
+              text-align: center;
+              padding-left: 15px;
+              padding-right: 15px;
+            }
+            .additional-style.additional-style-53 .additional-style-wrap {
+                background: url(https://img.spidersnet.co.uk/code-snippets/style-53-bg.jpg) no-repeat center;
+                background-size: cover;
+                padding: 20px 0;
+                border-radius: 20px;
+            }
+            .additional-style.additional-style-53  .additional-style-half {
+              width: 100%;
+              float: left;
+              padding-right: 0.9375rem;
+              padding-left: 0.9375rem;
+            }
+            .additional-style.additional-style-53 .rating {
+              color: #fff;
+              flex-shrink: 0;
+              margin-bottom: 20px;
+            }
+            .additional-style.additional-style-53 .rating span {
+              font-size: 50px;
+              font-weight: bold;
+              line-height: 1;
+            }
+            .additional-style.additional-style-53 .rating .stars {
+              font-size: 20px;
+            }
+            .additional-style.additional-style-53 .images {
+                display: flex;
+                justify-content: center;
+                gap: 10px;
+            }
+            .additional-style.additional-style-53 .images img { 
+              max-width: 30%; 
+            }
+            .additional-style.additional-style-53 .additional-style-review {
+              border-radius: 20px;
+              background: rgba(255, 255, 255, 0.85);
+              padding: 30px;
+            }
+            .additional-style.additional-style-53 .additional-style-review h3, 
+            .additional-style.additional-style-53 .additional-style-review p { 
+              color: #000; 
+            }
+            .additional-style.additional-style-53 .additional-style-review h3 {
+              margin-bottom: 30px;
+            }
+            .additional-style.additional-style-53 .additional-style-review .stars {
+                margin-bottom: 5px;
+                color: #E8BF19;
+                font-size: 24px;
+            }
+            .additional-style.additional-style-53 .additional-style-review p {
+                font-size: 18px;
+            }
+            .additional-style.additional-style-53 .additional-style-review .name {
+                font-size: 14px;
+                text-transform: uppercase;
+                letter-spacing: 0.25px;
+                margin-top: 15px;
+            }
+            .additional-style.additional-style-53 .additional-style-review .button {
+                margin-top: 30px;
+            }
+            @media screen and (max-width: 47.9988em) {
+              .additional-style.additional-style-53 .additional-style-review {
+                margin-top: 20px;
+              }
+            }
+            @media screen and (min-width: 48em) {
+              .additional-style.additional-style-53 h3 {
+                font-size: 42px;
+                line-height: 1;
+              }
+              .additional-style.additional-style-53 p {
+                font-size: 20px;
+              }
+              .additional-style.additional-style-53 {
+              }
+              .additional-style.additional-style-53 .additional-style-wrap {
+                display: flex;
+                align-items: center;
+                padding: 60px 30px;
+              }
+              .additional-style.additional-style-53  .additional-style-half {
+                width: 50%;
+              }
+              .additional-style.additional-style-53 .rating span {
+                font-size: 90px;
+              }
+              .additional-style.additional-style-53 .additional-style-review h3 {
+                font-size: 32px;
+              }
+            }
+          </style>
+
+          <div class="additional-style additional-style-53 clearfix">
+            <div class="additional-style-wrap">
+
+                <div class="additional-style-half">
+         
+                    <div class="rating">
+                        <span>4.8</span>
+                          <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    </div>
+                    <div class="images">
+                      <img src="https://img.spidersnet.co.uk/code-snippets/award-placeholder.png">
+                      <img src="https://img.spidersnet.co.uk/code-snippets/award-placeholder.png">
+                      <img src="https://img.spidersnet.co.uk/code-snippets/award-placeholder.png">
+                    </div>
+           
+              </div>
+              <div class="additional-style-half">
+                <div class="additional-style-review">
+                  <div class="additional-style-text">
+                    <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    <h3>Customer Reviews</h3>
+                      <p>&ldquo;Our fantastic team are passionate about delivering outstanding customer experiences and our mission is to ensure that you love both the FN car buying experience and the car&rdquo;</p>
+                      <p class="name">Numan, CEO FN Motors</p>
+                      <a href="/reviews/" class="button">Read More</a>
+                  </div></div>
+              </div>
+            </div>
+          </div>
+ `
         }
       ]
     },
@@ -1684,11 +5110,74 @@ background: YOUR_COLOUR;
       id: "style-54",
       title: "4.7",
       image: "/assets/style54.png",
-      themes: ["all"],
+      themes: ["premier-1","premier-2","premier-3","premier-4","premier-5","premier-6","premier-7","premier-8","premier-10","premier-11","essential-1","essential-2"],
       category: "reviews",
       codeblock: [
         {
-          code: `          <div class="additional-style additional-style-54 clearfix">
+          code: `<style>
+            .additional-style.additional-style-54 h2, 
+            .additional-style.additional-style-54 h3, 
+            .additional-style.additional-style-54 p, 
+            .additional-style.additional-style-54 ul {
+                color: #fff;
+                margin-bottom: 0;
+            }
+            .additional-style.additional-style-54 h3 {
+                font-weight: 500;
+                font-size: 30px;
+            }
+            .additional-style.additional-style-54 a:hover {
+                opacity: 0.8;
+            }
+            .additional-style.additional-style-54 {
+              background-image: url(https://img.spidersnet.co.uk/code-snippets/style-54-bg.jpg);
+              background-repeat: no-repeat;
+              background-position: center;
+              background-size: cover;
+              padding: 20px 0;
+            }
+            .additional-style.additional-style-54 .additional-style-wrap {
+              max-width: 1200px;
+              margin-right: auto;
+              margin-left: auto;
+            }
+            .additional-style.additional-style-54 .additional-style-inner {
+              width: 100%;
+              float: left;
+              padding-right: 0.9375rem;
+              padding-left: 0.9375rem;
+            }
+            .additional-style.additional-style-54 .stars {
+                color: #E8BF19;
+                font-size: 24px;
+            }
+            .additional-style.additional-style-54 p {
+                margin-bottom: 20px;
+            }
+            .additional-style.additional-style-54 .logos {
+                display: flex;
+                gap: 10px;
+            }
+            @media screen and (min-width: 48em) {
+              .additional-style.additional-style-54 h3 {
+                font-size: 42px;
+                line-height: 1;
+              }
+              additional-style.additional-style-54 p {
+                    font-size: 20px;
+              }
+              .additional-style.additional-style-54 {
+                padding: 60px 0;
+              }
+              .additional-style.additional-style-54 h3 {
+                font-size: 32px;
+              }
+              .additional-style.additional-style-54 p {
+                font-size: 20px;
+              }
+            }
+          </style>
+          <div class="additional-style additional-style-54 clearfix">
             <div class="additional-style-wrap">
 
                 <div class="additional-style-inner">
@@ -1705,6 +5194,206 @@ background: YOUR_COLOUR;
             </div>
           </div>
       `
+        }
+      ]
+    },
+    {
+      id: "style-54.1",
+      title: "4.7",
+      image: "/assets/style54.1.png",
+      themes: ["premier-9"],
+      category: "reviews",
+      codeblock: [
+        {
+          code: `
+          <style>
+            .additional-style.additional-style-54 h2, 
+            .additional-style.additional-style-54 h3, 
+            .additional-style.additional-style-54 p, 
+            .additional-style.additional-style-54 ul {
+                color: #fff;
+                margin-bottom: 0;
+            }
+            .additional-style.additional-style-54 h3 {
+                font-weight: 500;
+                font-size: 30px;
+            }
+            .additional-style.additional-style-54 a:hover {
+                opacity: 0.8;
+            }
+            .additional-style.additional-style-54 {
+              clear: both;
+              margin-right: auto;
+              margin-left: auto;
+              max-width: 1920px;
+              padding-left: 15px;
+              padding-right: 15px;
+            }
+            @media screen and (min-width: 75em) {
+              .additional-style.additional-style-54 {
+                padding-left: 50px;
+                padding-right: 50px;
+              }
+            }
+            @media screen and (min-width: 90em) {
+              .additional-style.additional-style-54 {
+                padding-left: 70px;
+                padding-right: 70px;
+              }
+            }
+            .additional-style.additional-style-54 .additional-style-wrap {
+              max-width: 100%;
+              background-image: url(https://img.spidersnet.co.uk/code-snippets/style-54-bg.jpg);
+              background-repeat: no-repeat;
+              background-position: center;
+              background-size: cover;
+              padding: 20px 0;
+              border-radius: 20px;
+            }
+            .additional-style.additional-style-54 .additional-style-inner {
+              width: 100%;
+              float: left;
+              padding-right: 0.9375rem;
+              padding-left: 0.9375rem;
+            }
+            .additional-style.additional-style-54 .stars {
+                color: #E8BF19;
+                font-size: 24px;
+            }
+            .additional-style.additional-style-54 p {
+                margin-bottom: 20px;
+            }
+            .additional-style.additional-style-54 .logos {
+                display: flex;
+                gap: 10px;
+            }
+            @media screen and (min-width: 48em) {
+              .additional-style.additional-style-54 h3 {
+                font-size: 42px;
+                line-height: 1;
+              }
+              additional-style.additional-style-54 p {
+                    font-size: 20px;
+              }
+              .additional-style.additional-style-54 .additional-style-wrap {
+                padding: 60px 30px;
+              }
+              .additional-style.additional-style-54 h3 {
+                font-size: 32px;
+              }
+              .additional-style.additional-style-54 p {
+                font-size: 20px;
+              }
+            }
+          </style>
+          <div class="additional-style additional-style-54 clearfix">
+            <div class="additional-style-wrap">
+
+                <div class="additional-style-inner">
+         
+                  <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                  <h3>Customer Reviews</h3>
+                  <p>See what our customers have to say...</p>
+                  <div class="logos">
+                    <a href="PUT_LINK_HERE" target="_blank"><img src="https://img.spidersnet.co.uk/code-snippets/google-button.svg"></a>
+                    <a href="PUT_LINK_HERE" target="_blank"><img src="https://img.spidersnet.co.uk/code-snippets/autotrader-button.svg"></a>
+                    <a href="PUT_LINK_HERE" target="_blank"><img src="https://img.spidersnet.co.uk/code-snippets/facebook-button.svg"></a>
+                  </div>
+              </div>
+            </div>
+          </div>
+      `
+        }
+      ]
+    },
+    {
+      id: "style-54.2",
+      title: "4.7",
+      image: "/assets/style54.2.png",
+      themes: ["essential-3","essential-4"],
+      category: "reviews",
+      codeblock: [
+        {
+          code: `          <style>
+            .additional-style.additional-style-54 h2, 
+            .additional-style.additional-style-54 h3, 
+            .additional-style.additional-style-54 p, 
+            .additional-style.additional-style-54 ul {
+                color: #fff;
+                margin-bottom: 0;
+            }
+            .additional-style.additional-style-54 h3 {
+                font-weight: 500;
+                font-size: 30px;
+            }
+            .additional-style.additional-style-54 a:hover {
+                opacity: 0.8;
+            }
+            .additional-style.additional-style-54 {
+              max-width: 1300px;
+              margin-right: auto;
+              margin-left: auto;
+            }
+            .additional-style.additional-style-54 .additional-style-wrap {
+              background-image: url(https://img.spidersnet.co.uk/code-snippets/style-54-bg.jpg);
+              background-repeat: no-repeat;
+              background-position: center;
+              background-size: cover;
+              padding: 20px 0;
+              border-radius: 20px;
+            }
+            .additional-style.additional-style-54 .additional-style-inner {
+              width: 100%;
+              float: left;
+              padding-right: 0.9375rem;
+              padding-left: 0.9375rem;
+            }
+            .additional-style.additional-style-54 .stars {
+                color: #E8BF19;
+                font-size: 24px;
+            }
+            .additional-style.additional-style-54 p {
+                margin-bottom: 20px;
+            }
+            .additional-style.additional-style-54 .logos {
+                display: flex;
+                gap: 10px;
+            }
+            @media screen and (min-width: 48em) {
+              .additional-style.additional-style-54 h3 {
+                font-size: 42px;
+                line-height: 1;
+              }
+              additional-style.additional-style-54 p {
+                    font-size: 20px;
+              }
+              .additional-style.additional-style-54 .additional-style-wrap {
+                padding: 60px 30px;
+              }
+              .additional-style.additional-style-54 h3 {
+                font-size: 32px;
+              }
+              .additional-style.additional-style-54 p {
+                font-size: 20px;
+              }
+            }
+          </style>
+          <div class="additional-style additional-style-54 clearfix">
+            <div class="additional-style-wrap">
+
+                <div class="additional-style-inner">
+         
+                  <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                  <h3>Customer Reviews</h3>
+                  <p>See what our customers have to say...</p>
+                  <div class="logos">
+                    <a href="PUT_LINK_HERE" target="_blank"><img src="https://img.spidersnet.co.uk/code-snippets/google-button.svg"></a>
+                    <a href="PUT_LINK_HERE" target="_blank"><img src="https://img.spidersnet.co.uk/code-snippets/autotrader-button.svg"></a>
+                    <a href="PUT_LINK_HERE" target="_blank"><img src="https://img.spidersnet.co.uk/code-snippets/facebook-button.svg"></a>
+                  </div>
+              </div>
+            </div>
+          </div>`
         }
       ]
     },

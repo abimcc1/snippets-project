@@ -42,12 +42,33 @@ p {
     width: 29%;
 }
 
+.l-main__code--header {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.l-main__code .themes {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    margin-bottom: 15px;
+}
+.l-main__code .themes li {
+    background: #eee;
+    display: inline-block;
+    border-radius: 20px;
+    padding: 2px 7px;
+    margin-right: 3px;
+    margin-bottom: 3px;
+    font-size: 12px;
+}
+
 .images {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
-.images li {
+.images > li {
     display: block;
     clear: both;
     border-bottom: 1px solid #eee;
