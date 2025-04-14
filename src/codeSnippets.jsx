@@ -3479,6 +3479,7 @@ background: YOUR_COLOUR;
                   margin-right: auto;
                   margin-left: auto;
                   text-align: center;
+
               }
               .additional-style.additional-style-52 .additional-style-title {
                   width: 100%;
@@ -3516,6 +3517,7 @@ background: YOUR_COLOUR;
                 border-radius: 8px;
                 border: 1px solid #FFF;
                 padding: 30px;
+                height: 100%;
               }
               .additional-style.additional-style-52 .additional-style-review .stars {
                     color: #fff;
@@ -3549,7 +3551,7 @@ background: YOUR_COLOUR;
             }
             .additional-style.additional-style-52 .additional-style-wrap {
                 display: flex;
-                align-items: center;
+                align-items: stretch;
             }
             .additional-style.additional-style-52 .additional-style-title h3 {
               font-size: 32px;
@@ -3684,6 +3686,7 @@ background: YOUR_COLOUR;
                 border-radius: 8px;
                 border: 1px solid #FFF;
                 padding: 30px;
+                height: 100%;
               }
               .additional-style.additional-style-52 .additional-style-review .stars {
                     color: #fff;
@@ -3717,7 +3720,7 @@ background: YOUR_COLOUR;
             }
             .additional-style.additional-style-52 .additional-style-wrap {
                 display: flex;
-                align-items: center;
+                align-items: stretch;
             }
             .additional-style.additional-style-52 .additional-style-title h3 {
               font-size: 32px;
@@ -3829,6 +3832,7 @@ background: YOUR_COLOUR;
                 border-radius: 8px;
                 border: 1px solid #FFF;
                 padding: 30px;
+                height: 100%;
               }
               .additional-style.additional-style-52 .additional-style-review .stars {
                     color: #fff;
@@ -3862,7 +3866,7 @@ background: YOUR_COLOUR;
             }
             .additional-style.additional-style-52 .additional-style-wrap {
                 display: flex;
-                align-items: center;
+                align-items: stretch;
             }
             .additional-style.additional-style-52 .additional-style-title h3 {
               font-size: 32px;
@@ -3968,6 +3972,7 @@ background: YOUR_COLOUR;
               .additional-style.additional-style-52 .additional-style-review {
                 border: 1px solid #FFF;
                 padding: 30px;
+                height: 100%;
               }
               .additional-style.additional-style-52 .additional-style-review .stars {
                     color: #fff;
@@ -4001,7 +4006,7 @@ background: YOUR_COLOUR;
             }
             .additional-style.additional-style-52 .additional-style-wrap {
                 display: flex;
-                align-items: center;
+                align-items: stretch;
             }
             .additional-style.additional-style-52 .additional-style-title h3 {
               font-size: 32px;
@@ -4117,6 +4122,7 @@ background: YOUR_COLOUR;
                 background: rgba(255,255,255,0.9);
                 padding: 30px;
                 color: #000;
+                height: 100%;
               }
               .additional-style.additional-style-52 .additional-style-review .stars {
                     margin-bottom: 10px;
@@ -4149,7 +4155,7 @@ background: YOUR_COLOUR;
             }
             .additional-style.additional-style-52 .additional-style-wrap {
                 display: flex;
-                align-items: center;
+                align-items: stretch;
             }
             .additional-style.additional-style-52 .additional-style-title h3 {
               font-size: 32px;
@@ -4261,6 +4267,7 @@ background: YOUR_COLOUR;
                 }
                 .additional-style.additional-style-52 .additional-style-review {
                   margin-bottom: 40px;
+                  height: 100%;
                 }
           @media screen and (min-width: 48em) {
             .additional-style.additional-style-52 h3 {
@@ -4275,7 +4282,7 @@ background: YOUR_COLOUR;
             }
             .additional-style.additional-style-52 .additional-style-wrap {
                 display: flex;
-                align-items: center;
+                align-items: stretch;
                 justify-content: center;
             }
             .additional-style.additional-style-52 .additional-style-title h3 {
