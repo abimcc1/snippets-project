@@ -1283,7 +1283,7 @@ background: YOUR_COLOUR;
     {
       id: "style-44",
       title: "5.14",
-      image: "/assets/style44.png",
+      image: "/assets/style45.png",
       themes: ["all"],
       category: "partners",
       codeblock: [
@@ -1314,7 +1314,7 @@ background: YOUR_COLOUR;
     {
       id: "style-45",
       title: "5.15",
-      image: "/assets/style45.png",
+      image: "/assets/style44.png",
       themes: ["all"],
       category: "partners",
       codeblock: [
