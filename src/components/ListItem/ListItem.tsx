@@ -8,7 +8,7 @@ export default function ListItem(props:any) {
 
 
     // Copy button function
-    const handleFocus = async (event: React.ChangeEvent<HTMLInputElement>) => {
+    const handleFocus = async (event: React.FocusEvent<HTMLButtonElement>) => {
       const parentElement = event.target.parentElement;
       if (!parentElement) return;
     
