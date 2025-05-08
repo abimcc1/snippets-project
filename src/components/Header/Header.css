@@ -1,0 +1,37 @@
+
+.l-header {
+    border-bottom: 1.5px solid #662FEB;
+    background: #FFF;
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.10);
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 40px;
+    @media screen and (max-width: 600px) {
+      margin-bottom: 20px;
+    }
+  }
+  .l-header .logo-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .l-header .logo-wrap img,
+  .l-header .logo-wrap h1 {
+    padding: 0px 10px;
+    
+  }
+  .l-header .logo-wrap img {
+    border-right: 1px solid #222;
+    @media screen and (max-width: 600px) {
+      max-height: 20px;
+    }
+  }
+  .l-header h1 {
+    margin-bottom: 2px;
+    font-size: 22px;
+    font-weight: 600;
+    @media screen and (max-width: 600px) {
+      font-size: 15px;
+    }
+}
