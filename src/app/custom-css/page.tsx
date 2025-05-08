@@ -8,7 +8,7 @@ export default function CustomCSS() {
 
 
   const [inputText, setInputText] = useState("");
-  let inputHandler = (e) => {
+  let inputHandler = (e: React.ChangeEvent<HTMLInputElement>)  => {
     //convert input text to lower case
     var lowerCase = e.target.value.toLowerCase();
     setInputText(lowerCase);

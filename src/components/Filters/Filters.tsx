@@ -48,7 +48,7 @@ const Filters: React.FC<FiltersProps> = ({
                 href="#"
                 onClick={(e) => {
                   e.preventDefault();
-                  handleCategoryChange(category);
+                  handleCategoryChange?.(category);
                 }}
                 className={selectedCategory === category ? 'active' : ''}
               >

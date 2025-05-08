@@ -4,16 +4,20 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCopy } from '@fortawesome/free-solid-svg-icons'
 import  './ListItem.css';
 
-export default function ListItem(props) {
+export default function ListItem(props:any) {
 
 
     // Copy button function
     const handleFocus = async (event: React.ChangeEvent<HTMLInputElement>) => {
-        const parentElement = event.target.parentNode;
-        const targetElement = parentElement.firstElementChild;
-        targetElement.select();
-        document.execCommand('copy');
-    }
+      const parentElement = event.target.parentElement;
+      if (!parentElement) return;
+    
+      const targetElement = parentElement.firstElementChild as HTMLInputElement | null;
+      if (!targetElement) return;
+    
+      targetElement.select();
+      document.execCommand('copy');
+    };
     
       return (
         <li id={props.id}>
@@ -27,14 +31,14 @@ export default function ListItem(props) {
               // Only render the list if "all" is not in the array
               !props.themes.includes('all') ? (
                 <ul className="themes">
-                  {props.themes.map((theme, index) => (
+                  {props.themes.map((theme:string, index:number) => (
                     <li key={index}>{theme}</li>
                   ))}
                 </ul>
               ) : null // Render nothing if "all" is present
             }
             </div>
-            {props.codeblock.map( (item) => (
+            {props.codeblock.map( (item:any) => (
               <>
               <h3>{item.name}</h3>
               <h3>{item.title}</h3>
