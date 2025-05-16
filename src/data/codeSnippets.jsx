@@ -3442,6 +3442,98 @@ background: YOUR_COLOUR;
       ]
     },
     {
+      id: "style-51.1",
+      title: "3.6",
+      image: "/assets/code-snippets/style51.1.png",
+      themes: ["premier-9"],
+      category: "blocks",
+      codeblock: [
+        {
+          code: `<style>
+            .additional-style.additional-style-blocks {
+              margin-top: 30px;
+              margin-bottom: 30px;
+            }
+            .additional-style.additional-style-blocks .additional-style-wrap {
+              clear: both;
+              margin-right: auto;
+              margin-left: auto;
+              max-width: 1300px;
+            }
+            .additional-style.additional-style-blocks .additional-style-inner {
+              width: 100%;
+              float: left;
+              padding-right: 0.9375rem;
+              padding-left: 0.9375rem;
+              position: relative;
+            }
+            .additional-style.additional-style-blocks .additional-style-inner ul li img {
+              display: block;
+              height: 100px;
+              width: 100px;
+              padding: 35px;
+              background: #991b1b;
+              border-radius: 10px;
+              margin-bottom: 30px;
+              margin-top: -100px;
+            }
+            .additional-style.additional-style-blocks .additional-style-inner ul {
+              list-style-type: none;
+              margin: 0;
+              margin-bottom: 15px;
+            }
+            .additional-style.additional-style-blocks .additional-style-inner ul li {
+              box-shadow: 0px 4px 25px 2px rgba(0, 0, 0, 0.2);
+              background: #fff;
+              border-radius: 20px;
+              flex: 1;
+              padding: 30px;
+              padding-top: 50px;
+              margin-top: 70px;
+            }
+            @media screen and (min-width: 48em) {
+              .additional-style.additional-style-blocks .additional-style-inner ul {
+                  display: flex;
+                  flex-wrap: nowrap;
+                  justify-content: center;
+                  gap: 20px;
+              }
+              .additional-style.additional-style-blocks .additional-style-inner ul li {
+                margin-top: 50px;
+              }
+            }
+
+
+          </style>
+
+          <div class="additional-style additional-style-blocks clearfix">
+            <div class="additional-style-wrap">
+                <div class="additional-style-inner">
+                    <ul>
+                        <li><img src="https://s3-eu-west-1.amazonaws.com/files.autopromotor/12578/websiteMedia/4972/1747304711-shield-ban.png" class="fr-fic fr-dib" data-id="73723">
+                            <h4>Safety Check</h4>
+                            <p>Vehicle inspected for key safety issues</p>
+                        </li>
+                        <li><img src="https://s3-eu-west-1.amazonaws.com/files.autopromotor/12578/websiteMedia/4972/1747304676-handshake.png" class="fr-fic fr-dib" data-id="73720">
+                            <h4>Service where due</h4>
+                            <p>Providing a wide array of car servicing options</p>
+                        </li>
+                        <li><img src="https://s3-eu-west-1.amazonaws.com/files.autopromotor/12578/websiteMedia/4972/1747304517-settings.png" class="fr-fic fr-dib" data-id="73714">
+                            <h4>Minimum 6 months MOT</h4>
+                            <p>Guaranteed MOT for at least 6 months</p>
+                        </li>
+                        <li><img src="https://s3-eu-west-1.amazonaws.com/files.autopromotor/12578/websiteMedia/4972/1747304510-key-square.png" class="fr-fic fr-dib" data-id="73711">
+                            <h4>Professional Valet</h4>
+                            <p>Thorough interior and exterior cleaning done</p>
+                        </li>
+                    </ul>
+                </div>
+              </div>
+            </div>`
+        }
+      ]
+    },
+    {
       id: "style-52",
       title: "4.5",
       image: "/assets/code-snippets/style52.png",
