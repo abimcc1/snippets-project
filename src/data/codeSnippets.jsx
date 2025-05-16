@@ -3476,6 +3476,7 @@ background: YOUR_COLOUR;
               border-radius: 10px;
               margin-bottom: 30px;
               margin-top: -100px;
+              margin-left: 0;
             }
             .additional-style.additional-style-blocks .additional-style-inner ul {
               list-style-type: none;
