@@ -3458,7 +3458,20 @@ background: YOUR_COLOUR;
               clear: both;
               margin-right: auto;
               margin-left: auto;
-              max-width: 1300px;
+              width: 100%;
+              max-width: 1920px;
+            }
+            @media screen and (min-width: 75em) {
+              .additional-style.additional-style-blocks .additional-style-wrap {
+                padding-left: 50px;
+                padding-right: 50px;
+              }
+            }
+            @media screen and (min-width: 90em) {
+              .additional-style.additional-style-blocks .additional-style-wrap {
+                padding-left: 70px;
+                padding-right: 70px;
+              }
             }
             .additional-style.additional-style-blocks .additional-style-inner {
               width: 100%;
@@ -3476,7 +3489,6 @@ background: YOUR_COLOUR;
               border-radius: 10px;
               margin-bottom: 30px;
               margin-top: -100px;
-              margin-left: 0;
             }
             .additional-style.additional-style-blocks .additional-style-inner ul {
               list-style-type: none;
@@ -3503,7 +3515,6 @@ background: YOUR_COLOUR;
                 margin-top: 50px;
               }
             }
-
 
           </style>
 
