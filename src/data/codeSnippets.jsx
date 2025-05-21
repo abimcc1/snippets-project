@@ -3660,9 +3660,7 @@ background: YOUR_COLOUR;
             }
             .additional-style.additional-style-52 .additional-style-title h3 {
               font-size: 32px;
-              max-width: 80%;
-              margin-left: auto;
-              margin-right: auto;
+              padding: 0 135px;
             }
             .additional-style.additional-style-52 .read-reviews {
               position: absolute;
