@@ -5543,6 +5543,92 @@ background: YOUR_COLOUR;
       ]
     },
     {
+      id: "style-56",
+      title: "2.3",
+      image: "/assets/code-snippets/style56.png",
+      themes: ["all"],
+      category: "images",
+      codeblock: [
+        {
+          code: ` <style>
+              .additional-style.additional-style-56 {
+                background: linear-gradient(to right, #EDEFF3, transparent);
+                border-radius: 10px;
+                position: relative;
+                padding: 20px 10px;
+                margin-bottom: 30px;
+              }
+              .additional-style.additional-style-56 .image-wrapper {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 30px;
+              }
+              .additional-style.additional-style-56 .image-wrap {
+                background: #F8F9FB;
+                border-radius: 5px;
+                padding: 15px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 117px;
+                flex: 1;
+              }
+              .additional-style.additional-style-56 .image-wrap img {
+                max-height: 100%;
+              }
+              .additional-style.additional-style-56 .text-wrap {
+                text-align: center;
+                margin-bottom: 10px;
+              }
+              .additional-style.additional-style-56 .text-wrap h3 {
+                font-weight: normal; 
+                font-size: 24px;
+                margin-bottom: 0;
+              }
+
+              @media screen and (min-width: 48em) {
+                .additional-style.additional-style-56 {
+                  padding: 10px;
+                }
+                .additional-style.additional-style-56 .additional-style-inner {
+                  display: flex;
+                  align-items: center;
+                }
+                .additional-style.additional-style-56 .text-wrap {
+                  width: 40%;
+                  order: 2;
+                  margin-bottom: 0;
+                }
+                .additional-style.additional-style-56 .image-wrapper {
+                  width: 60%;
+                  order: 1;
+                }
+              }
+            </style>
+
+            <div class="additional-style additional-style-56 clearfix">
+                <div class="additional-style-inner">
+
+                  <div class="text-wrap">
+                    <h3>Trusted Finance Partners</h3>
+                  </div>
+
+                  <div class="image-wrapper">
+                    <div class="image-wrap">
+                      <img src="/media/websitemedia/12562/websiteMedia/4939/1748359923-closebros.png">
+                    </div>
+                    <div class="image-wrap">
+                      <img src="/media/websitemedia/12562/websiteMedia/4939/1748359866-first-response-finance-logo-2.png">
+                    </div>
+                  </div>
+
+                </div>
+            </div>
+      `
+        }
+      ]
+    },
+    {
       id: "slide-1",
       image: "/assets/code-snippets/slide1.png",
       themes: ["premier-1"],
