@@ -2446,7 +2446,7 @@ background: YOUR_COLOUR;
                   opacity: 0.8;
             }
             .additional-style.additional-style-50 {
-              background: url(https://img.spidersnet.co.uk/code-snippets/style-50-bg.jpg) no-repeat center;
+              background: url(https://img.spidersnet.co.uk/code-snippets/style-50-bg.png) no-repeat center;
               background-size: cover;
               padding: 20px 0;
             }
