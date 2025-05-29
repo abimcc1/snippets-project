@@ -1460,6 +1460,9 @@ background: YOUR_COLOUR;
                 color: #fff;
                 margin-bottom: 0;
               }
+              .additional-style.additional-style-48 img {
+                margin: 5px;
+              }
               .additional-style.additional-style-48 h3 {
                   font-weight: 500;
                   font-size: 30px;
