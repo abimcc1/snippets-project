@@ -37,7 +37,7 @@ export const codeSnippets = [
     {
       id: "style-3",
       title: "2.1",
-      image: "/assets/code-snippets/code-snippets/style3.png",
+      image: "/assets/code-snippets/style3.png",
       themes: ["all"],
       category: "images",
       codeblock: [
@@ -5628,6 +5628,18 @@ background: YOUR_COLOUR;
                 </div>
             </div>
       `
+        }
+      ]
+    },
+        {
+      id: "style-57",
+      title: "2.3",
+      image: "/assets/code-snippets/style57.png",
+      themes: ["all"],
+      category: "partners",
+      codeblock: [
+        {
+          code: ``
         }
       ]
     },
