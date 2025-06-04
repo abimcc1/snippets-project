@@ -4,7 +4,7 @@ export const codeSnippets = [
       title: "1.1",
       image: "/assets/code-snippets/style1.png",
       themes: ["premier-1", "premier-2"],
-      category: "text",
+      category: "archive",
       codeblock: [
         {
           title: "Narrow",
@@ -272,7 +272,7 @@ export const codeSnippets = [
       title: "5.1",
       image: "/assets/code-snippets/style13.png",
       themes: ["all"],
-      category: "partners",
+      category: "archive",
       codeblock: [
         {
           code: `<div class="additional-style additional-style-13 clearfix">
@@ -288,7 +288,7 @@ export const codeSnippets = [
       title: "5.2",
       image: "/assets/code-snippets/style15.png",
       themes: ["all"],
-      category: "partners",
+      category: "archive",
       codeblock: [
         {
           title: "With Background",
@@ -335,7 +335,7 @@ export const codeSnippets = [
       title: "6.2",
       image: "/assets/code-snippets/style17.png",
       themes: ["all"],
-      category: "social",
+      category: "archive",
       codeblock: [
         {
           code: `<div class="additional-style additional-style-17 clearfix">
@@ -404,7 +404,7 @@ export const codeSnippets = [
       title: "1.2",
       image: "/assets/code-snippets/style19.png",
       themes: ["all"],
-      category: "text",
+      category: "archive",
       codeblock: [
         {
           title: "No Background",
@@ -506,7 +506,7 @@ export const codeSnippets = [
       title: "3.1",
       image: "/assets/code-snippets/style21.png",
       themes: ["all"],
-      category: "blocks",
+      category: "archive",
       codeblock: [
         {
           title: "No Background",
@@ -738,7 +738,7 @@ export const codeSnippets = [
       title: "5.3",
       image: "/assets/code-snippets/style24.png",
       themes: ["all"],
-      category: "partners",
+      category: "archive",
       codeblock: [
         {
           code: `<div class="additional-style additional-style-24 clearfix">
@@ -769,7 +769,7 @@ export const codeSnippets = [
       title: "5.4",
       image: "/assets/code-snippets/style25.png",
       themes: ["all"],
-      category: "partners",
+      category: "archive",
       codeblock: [
         {
           code: `<div class="additional-style additional-style-25 clearfix">
@@ -893,7 +893,7 @@ export const codeSnippets = [
       title: "3.4",
       image: "/assets/code-snippets/style29.png",
       themes: ["all"],
-      category: "blocks",
+      category: "archive",
       codeblock: [
         {
           code: `<div class="additional-style additional-style-29 clearfix" style="background-color: #F5F5F5;">
@@ -1037,7 +1037,7 @@ export const codeSnippets = [
       title: "1.4",
       image: "/assets/code-snippets/style34.png",
       themes: ["all"],
-      category: "text",
+      category: "archive",
       codeblock: [
         {
           code: `<div class="additional-style additional-style-34 clearfix">
@@ -4314,7 +4314,7 @@ background: YOUR_COLOUR;
       title: "4.6",
       image: "/assets/code-snippets/style52.6.png",
       themes: ["essential-4"],
-      category: "reviews",
+      category: "archive",
       codeblock: [
         {
           code: `
@@ -5515,7 +5515,7 @@ background: YOUR_COLOUR;
       title: "6.3",
       image: "/assets/code-snippets/style55.png",
       themes: ["all"],
-      category: "social",
+      category: "archive",
       codeblock: [
         {
           code: `<div class="additional-style additional-style-55 clearfix">
