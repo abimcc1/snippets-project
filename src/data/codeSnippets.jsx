@@ -1679,6 +1679,9 @@ background: YOUR_COLOUR;
                 text-align: right;
               }
             }
+              .additional-style.additional-style-48 .additional-style-48__right img {
+              margin: 5px;
+              }
             .additional-style.additional-style-48 h2, 
             .additional-style.additional-style-48 h3, 
             .additional-style.additional-style-48 p, 
