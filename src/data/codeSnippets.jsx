@@ -5634,15 +5634,270 @@ background: YOUR_COLOUR;
         }
       ]
     },
-        {
+    {
       id: "style-57",
-      title: "2.3",
+      title: "5.18",
       image: "/assets/code-snippets/style57.png",
       themes: ["all"],
       category: "partners",
       codeblock: [
         {
-          code: ``
+          code: `<style>
+            .snippet-aa-banner {
+              background: url(https://img.spidersnet.co.uk/code-snippets/aa-bg-light-wide.png) no-repeat center;
+              background-size: cover;
+              padding: 50px 0;
+            }
+            .snippet-aa-banner__inner {
+              padding: 0 15px;
+              display: flex;
+              flex-wrap: wrap;
+              align-items: center;
+              justify-content: center;
+              gap: 20px 80px;
+              text-align: center;
+            }
+            .snippet-aa-banner__text {
+          
+            }
+            .snippet-aa-banner__text h2 {
+              font-size: 40px;
+              line-height: 1.2;
+              margin-bottom: 0;
+            }
+            .snippet-aa-banner__text p {
+              font-size: 20px;
+              line-height: 1.2;
+              margin-bottom: 0;
+            }
+            .snippet-aa-banner__image {
+
+            }
+            .snippet-aa-banner__image img {
+              border-radius: 5px;
+              background: #FFD302;
+              max-width: 250px;
+              padding: 10px;
+            }
+          </style>
+
+          <div class="snippet-aa-banner clearfix">
+            <div class="snippet-aa-banner__inner">
+
+              <div class="snippet-aa-banner__text">
+                <h2>You Are In Safe Hands</h2>
+                <p>This dealer has signed up to our Dealer Promise</p>
+              </div>
+              <div class="snippet-aa-banner__image">
+                <img src="https://img.spidersnet.co.uk/code-snippets/aa-cars-standard.svg">
+              </div>
+
+            </div>
+
+          </div>`
+        }
+      ]
+    },
+    {
+      id: "style-58",
+      title: "5.19",
+      image: "/assets/code-snippets/style58.png",
+      themes: ["all"],
+      category: "partners",
+      codeblock: [
+        {
+          code: `<style>
+            .snippet-aa-banner {
+              background: url(https://img.spidersnet.co.uk/code-snippets/aa-bg-dark-wide.png) no-repeat center;
+              background-size: cover;
+              padding: 50px 0;
+            }
+            .snippet-aa-banner__inner {
+              padding: 0 15px;
+              display: flex;
+              flex-wrap: wrap;
+              align-items: center;
+              justify-content: center;
+              gap: 20px 80px;
+              text-align: center;
+            }
+            .snippet-aa-banner__text {
+          
+            }
+            .snippet-aa-banner__text h2 {
+              font-size: 40px;
+              line-height: 1.2;
+              margin-bottom: 0;
+              color: #fff;
+            }
+            .snippet-aa-banner__text p {
+              font-size: 20px;
+              line-height: 1.2;
+              margin-bottom: 0;
+              color: #fff;
+            }
+            .snippet-aa-banner__image {
+
+            }
+            .snippet-aa-banner__image img {
+              border-radius: 5px;
+              background: #FFD302;
+              max-width: 250px;
+              padding: 10px;
+            }
+          </style>
+
+          <div class="snippet-aa-banner clearfix">
+            <div class="snippet-aa-banner__inner">
+
+              <div class="snippet-aa-banner__text">
+                <h2>You Are In Safe Hands</h2>
+                <p>This dealer has signed up to our Dealer Promise</p>
+              </div>
+              <div class="snippet-aa-banner__image">
+                <img src="https://img.spidersnet.co.uk/code-snippets/aa-cars-standard.svg">
+              </div>
+
+            </div>
+
+          </div>`
+        }
+      ]
+    },
+    {
+      id: "style-59",
+      title: "5.20",
+      image: "/assets/code-snippets/style59.png",
+      themes: ["all"],
+      category: "partners",
+      codeblock: [
+        {
+          code: `<style>
+            .snippet-aa-banner {
+              padding: 0 15px;
+              max-width: 1300px;
+              margin: 0 auto;
+            }
+            .snippet-aa-banner__inner {
+              background: url(https://img.spidersnet.co.uk/code-snippets/aa-bg-box-light.png) no-repeat center;
+              background-size: cover;
+              border-radius: 10px;
+              padding: 50px 15px;
+              display: flex;
+              flex-wrap: wrap;
+              align-items: center;
+              justify-content: center;
+              gap: 20px 80px;
+              text-align: center;
+            }
+            .snippet-aa-banner__text {
+          
+            }
+            .snippet-aa-banner__text h2 {
+              font-size: 40px;
+              line-height: 1.2;
+              margin-bottom: 0;
+            }
+            .snippet-aa-banner__text p {
+              font-size: 20px;
+              line-height: 1.2;
+              margin-bottom: 0;
+            }
+            .snippet-aa-banner__image {
+
+            }
+            .snippet-aa-banner__image img {
+              border-radius: 5px;
+              background: #FFD302;
+              max-width: 250px;
+              padding: 10px;
+            }
+          </style>
+
+          <div class="snippet-aa-banner clearfix">
+            <div class="snippet-aa-banner__inner">
+
+              <div class="snippet-aa-banner__text">
+                <h2>You Are In Safe Hands</h2>
+                <p>This dealer has signed up to our Dealer Promise</p>
+              </div>
+              <div class="snippet-aa-banner__image">
+                <img src="https://img.spidersnet.co.uk/code-snippets/aa-cars-standard.svg">
+              </div>
+
+            </div>
+
+          </div>`
+        }
+      ]
+    },
+    {
+      id: "style-60",
+      title: "5.21",
+      image: "/assets/code-snippets/style60.png",
+      themes: ["all"],
+      category: "partners",
+      codeblock: [
+        {
+          code: `<style>
+            .snippet-aa-banner {
+              padding: 0 15px;
+              max-width: 1300px;
+              margin: 0 auto;
+            }
+            .snippet-aa-banner__inner {
+              background: url(https://img.spidersnet.co.uk/code-snippets/aa-bg-box-dark.png) no-repeat center;
+              background-size: cover;
+              border-radius: 10px;
+              padding: 50px 15px;
+              display: flex;
+              flex-wrap: wrap;
+              align-items: center;
+              justify-content: center;
+              gap: 20px 80px;
+              text-align: center;
+            }
+            .snippet-aa-banner__text {
+          
+            }
+            .snippet-aa-banner__text h2 {
+              font-size: 40px;
+              line-height: 1.2;
+              margin-bottom: 0;
+              color: #fff;
+            }
+            .snippet-aa-banner__text p {
+              font-size: 20px;
+              line-height: 1.2;
+              margin-bottom: 0;
+              color: #fff;
+            }
+            .snippet-aa-banner__image {
+
+            }
+            .snippet-aa-banner__image img {
+              border-radius: 5px;
+              background: #FFD302;
+              max-width: 250px;
+              padding: 10px;
+            }
+          </style>
+
+          <div class="snippet-aa-banner clearfix">
+            <div class="snippet-aa-banner__inner">
+
+              <div class="snippet-aa-banner__text">
+                <h2>You Are In Safe Hands</h2>
+                <p>This dealer has signed up to our Dealer Promise</p>
+              </div>
+              <div class="snippet-aa-banner__image">
+                <img src="https://img.spidersnet.co.uk/code-snippets/aa-cars-standard.svg">
+              </div>
+
+            </div>
+
+          </div>
+`
         }
       ]
     },
