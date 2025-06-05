@@ -5642,7 +5642,12 @@ background: YOUR_COLOUR;
       category: "partners",
       codeblock: [
         {
-          code: `<style>
+          code: `<p style="margin-bottom: 0;">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300..800&display=swap" rel="stylesheet">
+</p>
+<style>
             .snippet-aa-banner {
               background: url(https://img.spidersnet.co.uk/code-snippets/aa-bg-light-wide.png) no-repeat center;
               background-size: cover;
@@ -5664,11 +5669,13 @@ background: YOUR_COLOUR;
               font-size: 40px;
               line-height: 1.2;
               margin-bottom: 0;
+              font-family: "Open Sans", sans-serif;
             }
             .snippet-aa-banner__text p {
               font-size: 20px;
               line-height: 1.2;
               margin-bottom: 0;
+              font-family: "Open Sans", sans-serif;
             }
             .snippet-aa-banner__image {
 
@@ -5706,11 +5713,31 @@ background: YOUR_COLOUR;
       category: "partners",
       codeblock: [
         {
-          code: `<style>
+          code: `<p style="margin-bottom: 0;">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300..800&display=swap" rel="stylesheet">
+</p>
+<style>
             .snippet-aa-banner {
               background: url(https://img.spidersnet.co.uk/code-snippets/aa-bg-dark-wide.png) no-repeat center;
               background-size: cover;
               padding: 50px 0;
+              position: relative;
+            }
+            .snippet-aa-banner:before,
+            .snippet-aa-banner:after {
+              position: absolute;
+              display: block;
+              top: 2px;
+              left: 0;
+              right: 0;
+              height: 2px;
+              background: rgba(255, 255, 255, 0.30);
+            }
+            .snippet-aa-banner:after {
+              top: auto;
+              bottom: 2px;
             }
             .snippet-aa-banner__inner {
               padding: 0 15px;
@@ -5729,12 +5756,14 @@ background: YOUR_COLOUR;
               line-height: 1.2;
               margin-bottom: 0;
               color: #fff;
+              font-family: "Open Sans", sans-serif;
             }
             .snippet-aa-banner__text p {
               font-size: 20px;
               line-height: 1.2;
               margin-bottom: 0;
               color: #fff;
+              font-family: "Open Sans", sans-serif;
             }
             .snippet-aa-banner__image {
 
@@ -5772,7 +5801,12 @@ background: YOUR_COLOUR;
       category: "partners",
       codeblock: [
         {
-          code: `<style>
+          code: `<p style="margin-bottom: 0;">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300..800&display=swap" rel="stylesheet">
+</p>
+<style>
             .snippet-aa-banner {
               padding: 0 15px;
               max-width: 1300px;
@@ -5797,11 +5831,13 @@ background: YOUR_COLOUR;
               font-size: 40px;
               line-height: 1.2;
               margin-bottom: 0;
+              font-family: "Open Sans", sans-serif;
             }
             .snippet-aa-banner__text p {
               font-size: 20px;
               line-height: 1.2;
               margin-bottom: 0;
+              font-family: "Open Sans", sans-serif;
             }
             .snippet-aa-banner__image {
 
@@ -5839,7 +5875,12 @@ background: YOUR_COLOUR;
       category: "partners",
       codeblock: [
         {
-          code: `<style>
+          code: `<p style="margin-bottom: 0;">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300..800&display=swap" rel="stylesheet">
+</p>
+<style>
             .snippet-aa-banner {
               padding: 0 15px;
               max-width: 1300px;
@@ -5865,12 +5906,14 @@ background: YOUR_COLOUR;
               line-height: 1.2;
               margin-bottom: 0;
               color: #fff;
+              font-family: "Open Sans", sans-serif;
             }
             .snippet-aa-banner__text p {
               font-size: 20px;
               line-height: 1.2;
               margin-bottom: 0;
               color: #fff;
+              font-family: "Open Sans", sans-serif;
             }
             .snippet-aa-banner__image {
 
