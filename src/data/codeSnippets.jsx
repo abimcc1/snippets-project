@@ -5670,12 +5670,16 @@ background: YOUR_COLOUR;
               line-height: 1.2;
               margin-bottom: 0;
               font-family: "Open Sans", sans-serif;
+              text-transform: none;
+              font-weight: 700;
+              color: #000;
             }
             .snippet-aa-banner__text p {
               font-size: 20px;
               line-height: 1.2;
               margin-bottom: 0;
               font-family: "Open Sans", sans-serif;
+              color: #000;
             }
             .snippet-aa-banner__image {
 
@@ -5683,7 +5687,7 @@ background: YOUR_COLOUR;
             .snippet-aa-banner__image img {
               border-radius: 5px;
               background: #FFD302;
-              max-width: 250px;
+              max-width: 250px !important;
               padding: 10px;
             }
           </style>
@@ -5757,6 +5761,8 @@ background: YOUR_COLOUR;
               margin-bottom: 0;
               color: #fff;
               font-family: "Open Sans", sans-serif;
+              text-transform: none;
+              font-weight: 700;
             }
             .snippet-aa-banner__text p {
               font-size: 20px;
@@ -5771,7 +5777,7 @@ background: YOUR_COLOUR;
             .snippet-aa-banner__image img {
               border-radius: 5px;
               background: #FFD302;
-              max-width: 250px;
+              max-width: 250px !important;
               padding: 10px;
             }
           </style>
@@ -5832,12 +5838,16 @@ background: YOUR_COLOUR;
               line-height: 1.2;
               margin-bottom: 0;
               font-family: "Open Sans", sans-serif;
+              text-transform: none;
+              font-weight: 700;
+              color: #000;
             }
             .snippet-aa-banner__text p {
               font-size: 20px;
               line-height: 1.2;
               margin-bottom: 0;
               font-family: "Open Sans", sans-serif;
+              color: #000;
             }
             .snippet-aa-banner__image {
 
@@ -5845,7 +5855,7 @@ background: YOUR_COLOUR;
             .snippet-aa-banner__image img {
               border-radius: 5px;
               background: #FFD302;
-              max-width: 250px;
+              max-width: 250px !important;
               padding: 10px;
             }
           </style>
@@ -5907,6 +5917,8 @@ background: YOUR_COLOUR;
               margin-bottom: 0;
               color: #fff;
               font-family: "Open Sans", sans-serif;
+              text-transform: none;
+              font-weight: 700;
             }
             .snippet-aa-banner__text p {
               font-size: 20px;
@@ -5921,7 +5933,7 @@ background: YOUR_COLOUR;
             .snippet-aa-banner__image img {
               border-radius: 5px;
               background: #FFD302;
-              max-width: 250px;
+              max-width: 250px !important;
               padding: 10px;
             }
           </style>
