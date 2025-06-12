@@ -5696,7 +5696,7 @@ background: YOUR_COLOUR;
             <div class="snippet-aa-banner__inner">
 
               <div class="snippet-aa-banner__text">
-                <h2>You Are In Safe Hands</h2>
+                <h2>You Are in Safe Hands</h2>
                 <p>This dealer has signed up to our Dealer Promise</p>
               </div>
               <div class="snippet-aa-banner__image">
@@ -5786,7 +5786,7 @@ background: YOUR_COLOUR;
             <div class="snippet-aa-banner__inner">
 
               <div class="snippet-aa-banner__text">
-                <h2>You Are In Safe Hands</h2>
+                <h2>You Are in Safe Hands</h2>
                 <p>This dealer has signed up to our Dealer Promise</p>
               </div>
               <div class="snippet-aa-banner__image">
@@ -5864,7 +5864,7 @@ background: YOUR_COLOUR;
             <div class="snippet-aa-banner__inner">
 
               <div class="snippet-aa-banner__text">
-                <h2>You Are In Safe Hands</h2>
+                <h2>You Are in Safe Hands</h2>
                 <p>This dealer has signed up to our Dealer Promise</p>
               </div>
               <div class="snippet-aa-banner__image">
@@ -5942,7 +5942,7 @@ background: YOUR_COLOUR;
             <div class="snippet-aa-banner__inner">
 
               <div class="snippet-aa-banner__text">
-                <h2>You Are In Safe Hands</h2>
+                <h2>You Are in Safe Hands</h2>
                 <p>This dealer has signed up to our Dealer Promise</p>
               </div>
               <div class="snippet-aa-banner__image">
