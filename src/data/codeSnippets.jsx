@@ -6344,6 +6344,348 @@ background: YOUR_COLOUR;
       ]
     },
     {
+      id: "style-64",
+      title: "6.2",
+      image: "/assets/code-snippets/style64.png",
+      themes: ["all"],
+      category: "social",
+      codeblock: [
+        {
+          code: `<style>
+              .additional-text__social__outer {
+                margin-bottom: 40px;
+                padding: 30px 0px;
+              }
+              .additional-text__social {
+                max-width: 1400px;
+                margin: 0 auto;
+                padding: 0 15px;
+                text-align: center;
+              }
+              .additional-text__social h3 {
+                font-size: 26px;
+                font-weight: 600;
+                margin-bottom: 20px;
+              }
+              .additional-text__social .icons {
+                display: flex;
+                justify-content: center;
+                gap: 15px;
+              }
+              .additional-text__social .icons a {
+                height: 48px;
+                width: 48px;
+                border-radius: 50%;
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                padding: 10px;
+                background: #ccc;
+              }
+              .additional-text__social .icons a:hover {
+                opacity: 0.8;
+              }
+              .additional-text__social .icons a.facebook {
+                background: #1877F2;
+              }
+              .additional-text__social .icons a.youtube {
+                background: #FF0000;
+              }
+              .additional-text__social .icons a.x {
+                background: #000;
+              }
+              .additional-text__social .icons a.instagram {
+                background: linear-gradient(37deg, #F16565 13.9%, #E22C81 52.98%, #763ABE 84.58%);
+              }
+              @media screen and (min-width: 48em) {
+
+              }
+              @media screen and (min-width: 75em) {
+
+              }
+          </style>
+          
+          <div class="additional-text__social__outer">
+            <div class="additional-text__social">
+              <h3>Follow Us on Our Social Channels</h3>
+              <div class="icons">
+                <a href="" target="_blank" class="facebook"><img src="https://img.spidersnet.co.uk/code-snippets/icons/facebook.svg"></a>
+                <a href="" target="_blank" class="youtube"><img src="https://img.spidersnet.co.uk/code-snippets/icons/youtube.svg"></a>
+                <a href="" target="_blank" class="x"><img src="https://img.spidersnet.co.uk/code-snippets/icons/x.svg"></a>
+                <a href="" target="_blank" class="instagram"><img src="https://img.spidersnet.co.uk/code-snippets/icons/instagram.svg"></a>
+              </div>
+            </div>
+          </div>`
+        }
+      ]
+    },
+    {
+      id: "style-65",
+      title: "6.3",
+      image: "/assets/code-snippets/style65.png",
+      themes: ["all"],
+      category: "social",
+      codeblock: [
+        {
+          code: `          <style>
+              .additional-text__social__outer {
+                margin-bottom: 40px;
+                padding: 30px 0px;
+                background: #000;
+              }
+              .additional-text__social {
+                max-width: 1400px;
+                margin: 0 auto;
+                padding: 0 15px;
+                text-align: center;
+              }
+              .additional-text__social h3,
+              .additional-text__social p {
+                font-size: 18px;
+                font-weight: 700;
+                color: #fff;
+                margin-bottom: 0;
+              }
+              .additional-text__social p {
+                font-weight: 400;
+                margin-bottom: 15px;
+              }
+              .additional-text__social .icons {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 20px;
+              }
+              .additional-text__social .icons a {
+                width: 38px;
+              }
+              .additional-text__social .icons a:hover {
+                opacity: 0.8;
+              }
+              @media screen and (min-width: 48em) {
+                .additional-text__social__outer {
+                  padding: 60px 0px;
+                }
+                .additional-text__social h3,
+                .additional-text__social p {
+                  font-size: 26px;
+                }
+              }
+              @media screen and (min-width: 75em) {
+
+              }
+          </style>
+          
+          <div class="additional-text__social__outer">
+            <div class="additional-text__social">
+              <h3>We want to stay in touch with you!</h3>
+              <p>Please follow us on social media so we can keep in touch</p>
+              <div class="icons">
+                <a href="" target="_blank" class="facebook"><img src="https://img.spidersnet.co.uk/code-snippets/icons/facebook.svg"></a>
+                <a href="" target="_blank" class="youtube"><img src="https://img.spidersnet.co.uk/code-snippets/icons/youtube.svg"></a>
+                <a href="" target="_blank" class="x"><img src="https://img.spidersnet.co.uk/code-snippets/icons/x.svg"></a>
+                <a href="" target="_blank" class="instagram"><img src="https://img.spidersnet.co.uk/code-snippets/icons/instagram.svg"></a>
+              </div>
+            </div>
+          </div>`
+        }
+      ]
+    },
+    {
+      id: "style-66",
+      title: "6.4",
+      image: "/assets/code-snippets/style66.png",
+      themes: ["all"],
+      category: "social",
+      codeblock: [
+        {
+          code: `<style>
+              .additional-text__social__outer {
+                margin: 0 auto;
+                margin-bottom: 40px;
+                padding: 30px 0px;
+                background: #000;
+                border-radius: 10px;
+                max-width: 1300px
+              }
+              .additional-text__social {
+        
+                text-align: center;
+              }
+              .additional-text__social h3,
+              .additional-text__social p {
+                font-size: 18px;
+                font-weight: 700;
+                color: #fff;
+                margin-bottom: 0;
+              }
+              .additional-text__social p {
+                font-weight: 400;
+                margin-bottom: 15px;
+              }
+              .additional-text__social .icons {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 20px;
+              }
+              .additional-text__social .icons a {
+                width: 38px;
+              }
+              .additional-text__social .icons a:hover {
+                opacity: 0.8;
+              }
+              @media screen and (min-width: 48em) {
+                .additional-text__social__outer {
+                  padding: 40px 0px;
+                }
+                .additional-text__social h3,
+                .additional-text__social p {
+                  font-size: 26px;
+                }
+              }
+              @media screen and (min-width: 75em) {
+
+              }
+          </style>
+          
+          <div class="additional-text__social__outer">
+            <div class="additional-text__social">
+              <h3>We want to stay in touch with you!</h3>
+              <p>Please follow us on social media so we can keep in touch</p>
+              <div class="icons">
+                <a href="" target="_blank" class="facebook"><img src="https://img.spidersnet.co.uk/code-snippets/icons/facebook.svg"></a>
+                <a href="" target="_blank" class="youtube"><img src="https://img.spidersnet.co.uk/code-snippets/icons/youtube.svg"></a>
+                <a href="" target="_blank" class="x"><img src="https://img.spidersnet.co.uk/code-snippets/icons/x.svg"></a>
+                <a href="" target="_blank" class="instagram"><img src="https://img.spidersnet.co.uk/code-snippets/icons/instagram.svg"></a>
+              </div>
+            </div>
+          </div>`
+        }
+      ]
+    },
+      {
+      id: "style-67",
+      title: "6.5",
+      image: "/assets/code-snippets/style67.png",
+      themes: ["all"],
+      category: "social",
+      codeblock: [
+        {
+          code: `<style>
+              .additional-text__social__outer {
+                margin-bottom: 40px;
+                padding: 30px 0px;
+              }
+              .additional-text__social {
+                max-width: 1400px;
+                margin: 0 auto;
+                padding: 0 15px;
+                text-align: center;
+              }
+              .additional-text__social h3 {
+                font-size: 26px;
+                font-weight: 600;
+                margin-bottom: 20px;
+              }
+              .additional-text__social .icons {
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+                gap: 15px 30px;
+              }
+              .additional-text__social .icons a {
+                width: calc(100% - 30px);
+                background: #ccc;
+                border-radius: 12px;
+                padding: 40px 20px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-align: left;
+                gap: 30px;
+              }
+              .additional-text__social .icons a img {
+                flex-shrink: 0;
+              }
+              .additional-text__social .icons a h4 {
+                color: #fff;
+                margin-bottom: 0;
+                font-size: 12px;
+                font-weight: 400;
+              }
+              .additional-text__social .icons a h3 {
+                color: #fff;
+                margin-bottom: 0;
+                font-size: 18px;
+                font-weight: 700;
+              }
+              .additional-text__social .icons a:hover {
+                opacity: 0.8;
+              }
+              .additional-text__social .icons a.facebook {
+                background: #1877F2;
+              }
+              .additional-text__social .icons a.youtube {
+                background: #FF0000;
+              }
+              .additional-text__social .icons a.x {
+                background: #000;
+              }
+              .additional-text__social .icons a.instagram {
+                background: linear-gradient(37deg, #F16565 13.9%, #E22C81 52.98%, #763ABE 84.58%);
+              }
+              @media screen and (min-width: 48em) {
+                .additional-text__social .icons a {
+                  width: calc(50% - 30px);
+                }
+              }
+              @media screen and (min-width: 75em) {
+                .additional-text__social .icons a {
+                  width: calc(25% - 30px);
+                }
+              }
+          </style>
+          
+          <div class="additional-text__social__outer">
+            <div class="additional-text__social">
+              <h3>Follow Us on Our Social Channels</h3>
+              <div class="icons">
+                <a href="" target="_blank" class="facebook">
+                  <img src="https://img.spidersnet.co.uk/code-snippets/icons/facebook.svg">
+                  <div class="text">
+                    <h4>Facebook</h4>
+                    <h3>/spidersnet</h3>
+                  </div>
+                </a>
+                <a href="" target="_blank" class="youtube">
+                  <img src="https://img.spidersnet.co.uk/code-snippets/icons/youtube.svg">
+                  <div class="text">
+                    <h4>Youtube</h4>
+                    <h3>/spidersnet</h3>
+                  </div>
+                </a>
+                <a href="" target="_blank" class="x">
+                  <img src="https://img.spidersnet.co.uk/code-snippets/icons/x.svg">
+                  <div class="text">
+                    <h4>X</h4>
+                    <h3>/spidersnet</h3>
+                  </div>
+                </a>
+                <a href="" target="_blank" class="instagram">
+                  <img src="https://img.spidersnet.co.uk/code-snippets/icons/instagram.svg">
+                  <div class="text">
+                    <h4>Instagram</h4>
+                    <h3>@spidersnet</h3>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>`
+        }
+      ]
+    },
+    {
       id: "slide-1",
       image: "/assets/code-snippets/slide1.png",
       themes: ["premier-1"],
