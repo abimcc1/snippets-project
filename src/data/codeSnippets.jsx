@@ -5957,6 +5957,393 @@ background: YOUR_COLOUR;
       ]
     },
     {
+      id: "style-61",
+      title: "3.7",
+      image: "/assets/code-snippets/style61.png",
+      themes: ["all"],
+      category: "blocks",
+      codeblock: [
+        {
+          code: `<style>
+              .additional-text__why-choose-us__outer {
+                margin-bottom: 40px;
+              }
+              .additional-text__why-choose-us {
+                max-width: 1400px;
+                margin: 0 auto;
+                padding: 0 15px;
+              }
+              .additional-text__why-choose-us h2 {
+                margin-bottom: 30px;
+                text-align: center;
+                font-size: 28px;
+              }
+              .additional-text__why-choose-us ul {
+                margin: 0;
+                list-style-type: none;
+                display: flex;
+                gap: 20px;
+                flex-wrap: wrap;
+              }
+              .additional-text__why-choose-us li {
+                width: 100%;
+                border-radius: 10px;
+                border: 1px solid rgba(0, 0, 0, 0.10);
+                display: flex;
+                align-items: center;
+                gap: 20px;
+                padding: 20px;
+              }
+              .additional-text__why-choose-us li .image {
+                flex-shrink: 0;
+                display: block;
+                height: 100px;
+                width: 100px;
+                background: #F1F1F1;
+                border-radius: 10px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+              }
+              .additional-text__why-choose-us li .text h3 {
+                font-size: 24px;
+                font-weight: 600;
+              }
+              .additional-text__why-choose-us li .text p {
+                font-weight: 400;
+                margin-bottom: 0;
+              }
+              @media screen and (min-width: 48em) {
+                .additional-text__why-choose-us h2 {
+                  font-size: 42px;
+                }
+                .additional-text__why-choose-us li {
+                  width: calc(50% - 20px);
+                }
+              }
+              @media screen and (min-width: 75em) {
+                .additional-text__why-choose-us li {
+                  width: calc(33.333% - 20px);
+                }
+              }
+          </style>
+          
+          <div class="additional-text__why-choose-us__outer">
+            <div class="additional-text__why-choose-us">
+              <h2>Why Choose Us</h2>
+              <ul>
+                <li>
+                  <div class="image"><img src="https://img.spidersnet.co.uk/code-snippets/icons/wallet.svg"></div>
+                  <div class="text">
+                    <h3>Finance Options</h3>
+                    <p>Flexible plans tailored to suit your budget</p>
+                  </div>
+                </li>
+                <li>
+                  <div class="image"><img src="https://img.spidersnet.co.uk/code-snippets/icons/family.svg"></div>
+                  <div class="text">
+                    <h3>Family Business</h3>
+                    <p>Friendly, knowledgeable team with family values</p>
+                  </div>
+                </li>
+                <li>
+                  <div class="image"><img src="https://img.spidersnet.co.uk/code-snippets/icons/since.svg"></div>
+                  <div class="text">
+                    <h3>Established 1998</h3>
+                    <p>Decades of experience you can rely on</p>
+                  </div>
+                </li>
+                <li>
+                  <div class="image"><img src="https://img.spidersnet.co.uk/code-snippets/icons/reviews.svg"></div>
+                  <div class="text">
+                    <h3>Proven Reputation</h3>
+                    <p>Consistently praised by our happy customers</p>
+                  </div>
+                </li>
+                <li>
+                  <div class="image"><img src="https://img.spidersnet.co.uk/code-snippets/icons/exchange.svg"></div>
+                  <div class="text">
+                    <h3>Part Exchange</h3>
+                    <p>Fair valuations for your current vehicle trade-in</p>
+                  </div>
+                </li>
+                <li>
+                  <div class="image"><img src="https://img.spidersnet.co.uk/code-snippets/icons/warranty.svg"></div>
+                  <div class="text">
+                    <h3>Warranty Options</h3>
+                    <p>Extended cover available for added peace of mind</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>`
+        }
+      ]
+    },
+    {
+      id: "style-62",
+      title: "3.8",
+      image: "/assets/code-snippets/style62.png",
+      themes: ["all"],
+      category: "blocks",
+      codeblock: [
+        {
+          code: `<style>
+              .additional-text__why-choose-us__outer {
+                margin-bottom: 40px;
+                background-image: url(https://img.spidersnet.co.uk/code-snippets/why-choose-bg.png);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+                background-color: #6A0707;
+                padding: 30px 0;
+              }
+              .additional-text__why-choose-us {
+                max-width: 1400px;
+                margin: 0 auto;
+                padding: 0 15px;
+              }
+              .additional-text__why-choose-us__title {
+                  text-align: center;
+              }
+              .additional-text__why-choose-us h3 {
+                color: #fff;
+                font-size: 18px;
+                font-weight: 400;
+              }
+              .additional-text__why-choose-us h2 {
+                color: #fff;
+                font-size: 28px;
+                font-weight: 600;
+              }
+              .additional-text__why-choose-us ul {
+                margin: 0;
+                list-style-type: none;
+                display: flex;
+                gap: 20px;
+                flex-wrap: wrap;
+              }
+              .additional-text__why-choose-us li {
+                width: 100%;
+                border-radius: 10px;
+                border: 1px solid rgba(255, 255, 255, 0.30);
+                display: flex;
+                align-items: center;
+                gap: 20px;
+                padding: 20px;
+                color: #fff;
+              }
+              .additional-text__why-choose-us li .image {
+                flex-shrink: 0;
+                display: block;
+                height: 100px;
+                width: 100px;
+                background: rgba(255, 255, 255, 0.20);
+                border-radius: 10px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+              }
+              .additional-text__why-choose-us li .image img {
+                filter: invert(1);
+              }
+              .additional-text__why-choose-us li .text h3 {
+                font-size: 24px;
+                font-weight: 600;
+              }
+              .additional-text__why-choose-us li .text p {
+                font-weight: 400;
+                margin-bottom: 0;
+              }
+              @media screen and (min-width: 48em) {
+                .additional-text__why-choose-us h3 {
+                  font-size: 24px;
+                }
+                .additional-text__why-choose-us h2 {
+                  font-size: 42px;
+                }
+                .additional-text__why-choose-us li {
+                  width: calc(50% - 20px);
+                }
+                .additional-text__why-choose-us__outer {
+                  padding: 50px 0;
+                }
+              }
+              @media screen and (min-width: 75em) {
+                .additional-text__why-choose-us {
+                  display: flex;
+                }
+                .additional-text__why-choose-us__title {
+                  width: 33%;
+                  text-align: left;
+                }
+                .additional-text__why-choose-us__blocks {
+                  width: 67%;
+                }
+              }
+          </style>
+          
+          <div class="additional-text__why-choose-us__outer">
+            <div class="additional-text__why-choose-us">
+              <div class="additional-text__why-choose-us__title">
+                <h3>Why Choose Us</h3>
+                <h2>Experience and Service You Can Trust</h2>
+              </div>
+              <div class="additional-text__why-choose-us__blocks">
+                <ul>
+                  <li>
+                    <div class="image"><img src="https://img.spidersnet.co.uk/code-snippets/icons/wallet.svg"></div>
+                    <div class="text">
+                      <h3>Finance Options</h3>
+                      <p>Flexible plans tailored to suit your budget</p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="image"><img src="https://img.spidersnet.co.uk/code-snippets/icons/family.svg"></div>
+                    <div class="text">
+                      <h3>Family Business</h3>
+                      <p>Friendly, knowledgeable team with family values</p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="image"><img src="https://img.spidersnet.co.uk/code-snippets/icons/since.svg"></div>
+                    <div class="text">
+                      <h3>Established 1998</h3>
+                      <p>Decades of experience you can rely on</p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="image"><img src="https://img.spidersnet.co.uk/code-snippets/icons/reviews.svg"></div>
+                    <div class="text">
+                      <h3>Proven Reputation</h3>
+                      <p>Consistently praised by our happy customers</p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>`
+        }
+      ]
+    },
+    {
+      id: "style-63",
+      title: "3.9",
+      image: "/assets/code-snippets/style63.png",
+      themes: ["all"],
+      category: "blocks",
+      codeblock: [
+        {
+          code: `<style>
+              .additional-text__why-choose-us__outer {
+                margin-bottom: 120px;
+                background-image: url(https://img.spidersnet.co.uk/code-snippets/why-choose-bg.png);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+                background-color: #141414;
+                padding: 30px 0px;
+              }
+              .additional-text__why-choose-us {
+                max-width: 1400px;
+                margin: 0 auto;
+                padding: 0 15px;
+              }
+              .additional-text__why-choose-us__title h3 {
+                color: #fff;
+                font-size: 18px;
+                font-weight: 400;
+                text-align: center;
+              }
+              .additional-text__why-choose-us__title h2 {
+                color: #fff;
+                font-size: 28px;
+                font-weight: 600;
+                text-align: center;
+                margin-bottom: 30px;
+              }
+              .additional-text__why-choose-us ul {
+                margin: 0;
+                list-style-type: none;
+                display: flex;
+                gap: 15px 30px;
+                flex-wrap: wrap;
+              }
+              .additional-text__why-choose-us li {
+                width: 100%;
+                border-radius: 10px;
+                border: 1px solid rgba(0, 0, 0, 0.10);
+                background: #FFF;
+                padding: 30px 20px;
+                box-shadow: 0px 0px 1px 0px rgba(113, 128, 150, 0.04), 0px 4px 8px 0px rgba(113, 128, 150, 0.08);
+              }
+              .additional-text__why-choose-us li .image {
+                margin-bottom: 15px;
+                min-height: 45px;
+              }
+              .additional-text__why-choose-us li h3 {
+                font-size: 18px;
+                font-weight: 600;
+              }
+              .additional-text__why-choose-us li .text p {
+                font-weight: 400;
+                margin-bottom: 0;
+              }
+              @media screen and (min-width: 48em) {
+                .additional-text__why-choose-us__outer {
+                  padding-top: 50px;
+                  padding-bottom: 0;
+                }
+                .additional-text__why-choose-us h3 {
+                  font-size: 24px;
+                }
+                .additional-text__why-choose-us h2 {
+                  font-size: 42px;
+                }
+                .additional-text__why-choose-us li {
+                  width: calc(33.333% - 20px);
+                  margin-bottom: -80px;
+                }
+              }
+          </style>
+          
+          <div class="additional-text__why-choose-us__outer">
+            <div class="additional-text__why-choose-us">
+              <div class="additional-text__why-choose-us__title">
+                <h3>Why Choose Us</h3>
+                <h2>Experience and Service You Can Trust</h2>
+              </div>
+              <div class="additional-text__why-choose-us__blocks">
+                <ul>
+                  <li>
+                    <div class="image"><img src="https://img.spidersnet.co.uk/code-snippets/icons/wallet.svg"></div>
+                    <div class="text">
+                      <h3>Finance Options</h3>
+                      <p>Flexible plans tailored to suit your budget</p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="image"><img src="https://img.spidersnet.co.uk/code-snippets/icons/family.svg"></div>
+                    <div class="text">
+                      <h3>Family Business</h3>
+                      <p>Friendly, knowledgeable team with family values</p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="image"><img src="https://img.spidersnet.co.uk/code-snippets/icons/since.svg"></div>
+                    <div class="text">
+                      <h3>Established 1998</h3>
+                      <p>Decades of experience you can rely on</p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>`
+        }
+      ]
+    },
+    {
       id: "slide-1",
       image: "/assets/code-snippets/slide1.png",
       themes: ["premier-1"],
