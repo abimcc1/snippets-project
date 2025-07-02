@@ -5967,6 +5967,7 @@ background: YOUR_COLOUR;
           code: `<style>
               .additional-text__why-choose-us__outer {
                 margin-bottom: 40px;
+                clear: both;
               }
               .additional-text__why-choose-us {
                 max-width: 1400px;
@@ -6097,6 +6098,7 @@ background: YOUR_COLOUR;
                 background-position: center;
                 background-color: #6A0707;
                 padding: 30px 0;
+                clear: both;
               }
               .additional-text__why-choose-us {
                 max-width: 1400px;
@@ -6243,6 +6245,7 @@ background: YOUR_COLOUR;
                 background-position: center;
                 background-color: #141414;
                 padding: 30px 0px;
+                clear: both;
               }
               .additional-text__why-choose-us {
                 max-width: 1400px;
@@ -6690,7 +6693,7 @@ background: YOUR_COLOUR;
       image: "/assets/code-snippets/slide1.png",
       themes: ["premier-1"],
       category: "slides",
-      title: "Premier 1",
+      title: "P1",
       codeblock: [
         {
           title: "Default (Centre aligned)",
@@ -6720,7 +6723,7 @@ background: YOUR_COLOUR;
       image: "/assets/code-snippets/slide2.png",
       themes: ["premier-2"],
       category: "slides",
-      title: "Premier 2",
+      title: "P2",
       codeblock: [
         {
           title: "Default (Left aligned)",
@@ -6750,7 +6753,7 @@ background: YOUR_COLOUR;
       image: "/assets/code-snippets/slide3.png",
       themes: ["premier-3"],
       category: "slides",
-      title: "Premier 3",
+      title: "P3",
       codeblock: [
         {
           code: `<div class="hero-caption">
@@ -6765,7 +6768,7 @@ background: YOUR_COLOUR;
       image: "/assets/code-snippets/slide4.png",
       themes: ["premier-4"],
       category: "slides",
-      title: "Premier 4",
+      title: "P4",
       codeblock: [
         {
           title: "Default (Left aligned)",
@@ -6795,7 +6798,7 @@ background: YOUR_COLOUR;
       image: "/assets/code-snippets/slide5.png",
       themes: ["premier-5"],
       category: "slides",
-      title: "Premier 5",
+      title: "P5",
       codeblock: [
         {
           title: "Default (Left aligned)",
@@ -6825,7 +6828,7 @@ background: YOUR_COLOUR;
       image: "/assets/code-snippets/slide6.png",
       themes: ["premier-6"],
       category: "slides",
-      title: "Premier 6",
+      title: "P6",
       codeblock: [
         {
           title: "Default (Left aligned)",
@@ -6855,7 +6858,7 @@ background: YOUR_COLOUR;
       image: "/assets/code-snippets/slide7.png",
       themes: ["premier-7"],
       category: "slides",
-      title: "Premier 7",
+      title: "P7",
       codeblock: [
         {
           title: "Default (line above and below)",
@@ -6908,7 +6911,7 @@ background: YOUR_COLOUR;
       image: "/assets/code-snippets/slide10.png",
       themes: ["premier-10"],
       category: "slides",
-      title: "Premier 10",
+      title: "P10",
       codeblock: [
         {
           code: `<div class="hero-caption">
@@ -6924,7 +6927,7 @@ background: YOUR_COLOUR;
       image: "/assets/code-snippets/slide11.png",
       themes: ["premier-11"],
       category: "slides",
-      title: "Premier 11",
+      title: "P11",
       codeblock: [
         {
           code: `<h2>Best Choice of Body Kit Exhaust</h2>
@@ -6938,7 +6941,7 @@ background: YOUR_COLOUR;
       image: "/assets/code-snippets/slide-essential.png",
       themes: ["essential-1","essential-2","essential-3","essential-4"],
       category: "slides",
-      title: "Essentials",
+      title: "E",
       codeblock: [
         {
           title: "Default (Centre aligned)",

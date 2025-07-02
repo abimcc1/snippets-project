@@ -14,6 +14,10 @@ const workSans = Work_Sans({
 
 export const metadata: Metadata = {
   title: "Code Snippets",
+  robots: {
+    index: false,
+    follow: false,
+  },
 };
 
 export default function RootLayout({
@@ -23,7 +27,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <header><meta name="robots" content="noindex" /></header>
       <body className={workSans.className}>
         <Header />
         <Tabs />
