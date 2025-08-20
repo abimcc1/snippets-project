@@ -1,4 +1,282 @@
 export const codeSnippets = [
+      {
+      id: "slide-1",
+      image: "/assets/code-snippets/slide1.png",
+      themes: ["premier-1"],
+      category: "slides",
+      title: "P1",
+      codeblock: [
+        {
+          title: "Default (Centre aligned)",
+          code: `<div class="hero-caption">
+          <h2>Buy Your Next Car From The Comfort of Your Home</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
+      </div>`
+        },
+        {
+          title: "Right aligned",
+          code: `<div class="hero-caption right">
+              <h2>Buy Your Next Car From The Comfort of Your Home</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
+          </div>`
+        },
+        {
+          title: "Left aligned",
+          code: `<div class="hero-caption left">
+          <h2>Buy Your Next Car From The Comfort of Your Home</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
+      </div>`
+        }
+      ]
+    },
+    {
+      id: "slide-2",
+      image: "/assets/code-snippets/slide2.png",
+      themes: ["premier-2"],
+      category: "slides",
+      title: "P2",
+      codeblock: [
+        {
+          title: "Default (Left aligned)",
+          code: `<div class="hero-caption">
+          <h2>Buy Your Next Car From The Comfort of Your Home</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
+      </div>`
+        },
+        {
+          title: "Right aligned",
+          code: `<div class="hero-caption right">
+          <h2>Buy Your Next Car From The Comfort of Your Home</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
+      </div>`
+        },
+        {
+          title: "Centre aligned",
+          code: `<div class="hero-caption center">
+          <h2>Buy Your Next Car From The Comfort of Your Home</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
+      </div>`
+        }
+      ]
+    },
+    {
+      id: "slide-3",
+      image: "/assets/code-snippets/slide3.png",
+      themes: ["premier-3"],
+      category: "slides",
+      title: "P3",
+      codeblock: [
+        {
+          code: `<div class="hero-caption">
+          <h2>Buy Your Next Car From The Comfort of Your Home</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
+      </div>`
+        }
+      ]
+    },
+    {
+      id: "slide-4",
+      image: "/assets/code-snippets/slide4.png",
+      themes: ["premier-4"],
+      category: "slides",
+      title: "P4",
+      codeblock: [
+        {
+          title: "Default (Left aligned)",
+          code: `<div class="hero-caption">
+          <h2>Buy Your Next Car From The Comfort of Your Home</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
+      </div>`
+        },
+        {
+          title: "Right aligned",
+          code: `<div class="hero-caption right">
+          <h2>Buy Your Next Car From The Comfort of Your Home</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
+      </div>`
+        },
+        {
+          title: "Centre aligned",
+          code: `<div class="hero-caption center">
+          <h2>Buy Your Next Car From The Comfort of Your Home</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
+      </div>`
+        }
+      ]
+    },
+    {
+      id: "slide-5",
+      image: "/assets/code-snippets/slide5.png",
+      themes: ["premier-5"],
+      category: "slides",
+      title: "P5",
+      codeblock: [
+        {
+          title: "Default (Left aligned)",
+          code: `<div class="hero-caption">
+          <h2>Buy Your Next Car From The Comfort of Your Home</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
+      </div>`
+        },
+        {
+          title: "Right aligned",
+          code: `<div class="hero-caption right">
+          <h2>Buy Your Next Car From The Comfort of Your Home</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
+      </div>`
+        },
+        {
+          title: "Centre aligned",
+          code: `<div class="hero-caption center">
+          <h2>Buy Your Next Car From The Comfort of Your Home</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
+      </div>`
+        }
+      ]
+    },
+    {
+      id: "slide-6",
+      image: "/assets/code-snippets/slide6.png",
+      themes: ["premier-6"],
+      category: "slides",
+      title: "P6",
+      codeblock: [
+        {
+          title: "Default (Left aligned)",
+          code: `<div class="hero-caption">
+          <h2>Buy Your Next Car From The Comfort of Your Home</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
+      </div>`
+        },
+        {
+          title: "Right aligned",
+          code: `<div class="hero-caption right">
+          <h2>Buy Your Next Car From The Comfort of Your Home</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
+      </div>`
+        },
+        {
+          title: "Centre aligned",
+          code: `<div class="hero-caption center">
+          <h2>Buy Your Next Car From The Comfort of Your Home</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
+      </div>`
+        }
+      ]
+    },
+    {
+      id: "slide-7",
+      image: "/assets/code-snippets/slide7.png",
+      themes: ["premier-7"],
+      category: "slides",
+      title: "P7",
+      codeblock: [
+        {
+          title: "Default (line above and below)",
+          code: `<div class="hero-caption style">
+          <h2>We can help you to</h2>
+          <p>Finance your next car</p>
+          </div>`
+        },
+        {
+          title: "Right aligned",
+          code: `<div class="hero-caption style right">
+          <h2>We can help you to</h2>
+          <p>Finance your next car</p>
+          </div>`
+        },
+        {
+          title: "Centre aligned",
+          code: `<div class="hero-caption style center">
+          <h2>We can help you to</h2>
+          <p>Finance your next car</p>
+          </div>`
+        },
+        {
+          title: "Plain",
+          code: `<div class="hero-caption">
+          <h2>We can help you to</h2>
+          <p>Finance your next car</p>
+          </div>`
+        },
+        {
+          title: "With Icon",
+          code: `<div class="hero-caption style icon">
+          <img src="https://s3.eu-west-1.amazonaws.com/processed-files.autopromotor.co.uk/shared/assets/hero-icon-p7.png" class="fr-fic fr-dib" data-id="13495">
+              <h2>Buy Your Next Car From The Comfort of Your Home</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
+          </div>`
+        },
+        {
+          title: "With title, text and button",
+          code: `<div class="hero-caption style">
+    <h2>Find your next van today</h2>
+    <p>Check out our latest used vans for sale</p>
+    <a style="margin-top: 20px; margin-bottom: 10px;"class="button" href="/used/vans/">View Stock</a>
+</div>`
+        }
+      ]
+    },
+    {
+      id: "slide-10",
+      image: "/assets/code-snippets/slide10.png",
+      themes: ["premier-10"],
+      category: "slides",
+      title: "P10",
+      codeblock: [
+        {
+          code: `<div class="hero-caption">
+<p>Welcome to Spidersnet</p>
+<h2>We can help you find your perfect car</h2>
+<p><a class="button" href="/used/cars/" tabindex="0">View Stock</a></p>
+</div>`
+        }
+      ]
+    },
+    {
+      id: "slide-11",
+      image: "/assets/code-snippets/slide11.png",
+      themes: ["premier-11"],
+      category: "slides",
+      title: "P11",
+      codeblock: [
+        {
+          code: `<h2>Best Choice of Body Kit Exhaust</h2>
+<h3>New Arrivals</h3>
+<p><a class="button" href="/used/cars/">Stocklist</a></p>`
+        }
+      ]
+    },
+    {
+      id: "slide-essential",
+      image: "/assets/code-snippets/slide-essential.png",
+      themes: ["essential-1","essential-2","essential-3","essential-4"],
+      category: "slides",
+      title: "E",
+      codeblock: [
+        {
+          title: "Default (Centre aligned)",
+          code: `<div class="hero-caption">
+              <h2>Buy Your Next Car From The Comfort of Your Home</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
+          </div>`
+        },
+        {
+          title: "Right aligned",
+          code: `<div class="hero-caption right">
+              <h2>Buy Your Next Car From The Comfort of Your Home</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
+          </div>`
+        },
+        {
+          title: "Left aligned",
+          code: `<div class="hero-caption left">
+              <h2>Buy Your Next Car From The Comfort of Your Home</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
+          </div>`
+        }
+      ],
+    },
     {
       id: "style-1",
       title: "1.1",
@@ -589,7 +867,7 @@ export const codeSnippets = [
       title: "3.2",
       image: "/assets/code-snippets/style22.png",
       themes: ["all"],
-      category: "blocks",
+      category: "archive",
       codeblock: [
         {
           code: `<div class="additional-style additional-style-22 clearfix">
@@ -929,7 +1207,7 @@ export const codeSnippets = [
       title: "5.7",
       image: "/assets/code-snippets/style30.png",
       themes: ["all"],
-      category: "partners",
+      category: "archive",
       codeblock: [
         {
           code: `<div class="additional-style additional-style-30 clearfix">
@@ -1063,15 +1341,12 @@ export const codeSnippets = [
       codeblock: [
         {
           code: `<div class="additional-style additional-style-35 clearfix">
-          <div class="additional-style-wrap">
-              <div class="additional-style-inner">
-                  <div class="additional-style-35__title">
-                      <h3>Looking to quickly sell your car online?</h3>
-                  </div>
-                  <div class="additional-style-35__text">
-                      <p>If you&rsquo;re wondering how to go about selling your car, we&rsquo;re here to help you find the ideal way to maximise the return for your current vehicle.</p>
-                      <p><a class="primary-colour-text" href="PUT_LINK_HERE">Sell Your Car</a></p>
-                  </div></div></div></div>
+    <div class="additional-style-wrap">
+        <div class="additional-style-inner">
+            <div class="additional-style-35__title">
+                <h3 style="margin-bottom: 15px;">Looking to quickly sell your car online?</h3>
+                <p style="margin-bottom: 0;"><a class="button" href="/sell-your-car/" style="margin-bottom: 0;">Sell Your Car</a></p>
+            </div></div></div></div>
       `
         }
       ]
@@ -2560,13 +2835,13 @@ background: YOUR_COLOUR;
                   <a href="/reviews/" class="button">Read More</a>
                   <div class="rating-wrap">
                     <div class="rating">
-                        <span>4.8</span>
+                        <span>1.0</span>
                           <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
                     </div>
                     <div class="images">
-                      <img src="https://img.spidersnet.co.uk/code-snippets/award-placeholder.png">
-                      <img src="https://img.spidersnet.co.uk/code-snippets/award-placeholder.png">
-                      <img src="https://img.spidersnet.co.uk/code-snippets/award-placeholder.png">
+                      <img src="https://img.spidersnet.co.uk/code-snippets/at-highly-rated-2022.svg">
+                      <img src="https://img.spidersnet.co.uk/code-snippets/at-highly-rated-2023.svg">
+                      <img src="https://img.spidersnet.co.uk/code-snippets/at-highly-rated-2024.svg">
                     </div>
                   </div>
               </div>
@@ -2729,13 +3004,13 @@ background: YOUR_COLOUR;
                   <a href="/reviews/" class="button">Read More</a>
                   <div class="rating-wrap">
                     <div class="rating">
-                        <span>4.8</span>
+                        <span>1.0</span>
                           <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
                     </div>
                     <div class="images">
-                      <img src="https://img.spidersnet.co.uk/code-snippets/award-placeholder.png">
-                      <img src="https://img.spidersnet.co.uk/code-snippets/award-placeholder.png">
-                      <img src="https://img.spidersnet.co.uk/code-snippets/award-placeholder.png">
+                      <img src="https://img.spidersnet.co.uk/code-snippets/at-highly-rated-2022.svg">
+                      <img src="https://img.spidersnet.co.uk/code-snippets/at-highly-rated-2023.svg">
+                      <img src="https://img.spidersnet.co.uk/code-snippets/at-highly-rated-2024.svg">
                     </div>
                   </div>
               </div>
@@ -2882,13 +3157,13 @@ background: YOUR_COLOUR;
                   <a href="/reviews/" class="button">Read More</a>
                   <div class="rating-wrap">
                     <div class="rating">
-                        <span>4.8</span>
+                        <span>1.0</span>
                           <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
                     </div>
                     <div class="images">
-                      <img src="https://img.spidersnet.co.uk/code-snippets/award-placeholder.png">
-                      <img src="https://img.spidersnet.co.uk/code-snippets/award-placeholder.png">
-                      <img src="https://img.spidersnet.co.uk/code-snippets/award-placeholder.png">
+                      <img src="https://img.spidersnet.co.uk/code-snippets/at-highly-rated-2022.svg">
+                      <img src="https://img.spidersnet.co.uk/code-snippets/at-highly-rated-2023.svg">
+                      <img src="https://img.spidersnet.co.uk/code-snippets/at-highly-rated-2024.svg">
                     </div>
                   </div>
               </div>
@@ -3029,13 +3304,13 @@ background: YOUR_COLOUR;
                   <a href="/reviews/" class="button">Read More</a>
                   <div class="rating-wrap">
                     <div class="rating">
-                        <span>4.8</span>
+                        <span>1.0</span>
                           <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
                     </div>
                     <div class="images">
-                      <img src="https://img.spidersnet.co.uk/code-snippets/award-placeholder.png">
-                      <img src="https://img.spidersnet.co.uk/code-snippets/award-placeholder.png">
-                      <img src="https://img.spidersnet.co.uk/code-snippets/award-placeholder.png">
+                      <img src="https://img.spidersnet.co.uk/code-snippets/at-highly-rated-2022.svg">
+                      <img src="https://img.spidersnet.co.uk/code-snippets/at-highly-rated-2023.svg">
+                      <img src="https://img.spidersnet.co.uk/code-snippets/at-highly-rated-2024.svg">
                     </div>
                   </div>
               </div>
@@ -3189,13 +3464,13 @@ background: YOUR_COLOUR;
                   <a href="/reviews/" class="button">Read More</a>
                   <div class="rating-wrap">
                     <div class="rating">
-                        <span>4.8</span>
+                        <span>1.0</span>
                           <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
                     </div>
                     <div class="images">
-                      <img src="https://img.spidersnet.co.uk/code-snippets/award-placeholder.png">
-                      <img src="https://img.spidersnet.co.uk/code-snippets/award-placeholder.png">
-                      <img src="https://img.spidersnet.co.uk/code-snippets/award-placeholder.png">
+                      <img src="https://img.spidersnet.co.uk/code-snippets/at-highly-rated-2022.svg">
+                      <img src="https://img.spidersnet.co.uk/code-snippets/at-highly-rated-2023.svg">
+                      <img src="https://img.spidersnet.co.uk/code-snippets/at-highly-rated-2024.svg">
                     </div>
                   </div>
                 </div>
@@ -3351,9 +3626,9 @@ background: YOUR_COLOUR;
                           <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
                     </div>
                     <div class="images">
-                      <img src="https://img.spidersnet.co.uk/code-snippets/award-placeholder.png">
-                      <img src="https://img.spidersnet.co.uk/code-snippets/award-placeholder.png">
-                      <img src="https://img.spidersnet.co.uk/code-snippets/award-placeholder.png">
+                      <img src="https://img.spidersnet.co.uk/code-snippets/at-highly-rated-2022.svg">
+                      <img src="https://img.spidersnet.co.uk/code-snippets/at-highly-rated-2023.svg">
+                      <img src="https://img.spidersnet.co.uk/code-snippets/at-highly-rated-2024.svg">
                     </div>
                   </div>
                 </div>
@@ -3375,8 +3650,7 @@ background: YOUR_COLOUR;
             <div class="additional-style-wrap">
                 <div class="additional-style-inner">
                     <div class="additional-style-text">
-                        <h4>Why Choose Us</h4>
-                        <h2>Company Name</h2>
+                        <h2>Why Choose Us</h2>
                         <p>Experience premium automotive excellence with our comprehensive services and exceptional customer care.</p>
                     </div>
                     <ul>
@@ -3833,9 +4107,8 @@ background: YOUR_COLOUR;
             }
             .additional-style.additional-style-52 .additional-style-title h3 {
               font-size: 32px;
-              max-width: 80%;
-              margin-left: auto;
-              margin-right: auto;
+              margin-left: 140px;
+              margin-right: 140px;
             }
             .additional-style.additional-style-52 .read-reviews {
               position: absolute;
@@ -5696,7 +5969,7 @@ background: YOUR_COLOUR;
             <div class="snippet-aa-banner__inner">
 
               <div class="snippet-aa-banner__text">
-                <h2>You Are in Safe Hands</h2>
+                <h2>You're' in Safe Hands</h2>
                 <p>This dealer has signed up to our Dealer Promise</p>
               </div>
               <div class="snippet-aa-banner__image">
@@ -5786,7 +6059,7 @@ background: YOUR_COLOUR;
             <div class="snippet-aa-banner__inner">
 
               <div class="snippet-aa-banner__text">
-                <h2>You Are in Safe Hands</h2>
+                <h2>You're in Safe Hands</h2>
                 <p>This dealer has signed up to our Dealer Promise</p>
               </div>
               <div class="snippet-aa-banner__image">
@@ -5864,7 +6137,7 @@ background: YOUR_COLOUR;
             <div class="snippet-aa-banner__inner">
 
               <div class="snippet-aa-banner__text">
-                <h2>You Are in Safe Hands</h2>
+                <h2>You're in Safe Hands</h2>
                 <p>This dealer has signed up to our Dealer Promise</p>
               </div>
               <div class="snippet-aa-banner__image">
@@ -5942,7 +6215,7 @@ background: YOUR_COLOUR;
             <div class="snippet-aa-banner__inner">
 
               <div class="snippet-aa-banner__text">
-                <h2>You Are in Safe Hands</h2>
+                <h2>You're in Safe Hands</h2>
                 <p>This dealer has signed up to our Dealer Promise</p>
               </div>
               <div class="snippet-aa-banner__image">
@@ -6085,7 +6358,7 @@ background: YOUR_COLOUR;
       id: "style-62",
       title: "3.8",
       image: "/assets/code-snippets/style62.png",
-      themes: ["all"],
+      themes: ["premier-1","premier-2","premier-3","premier-4","premier-5","premier-6","premier-7","premier-8","premier-10","premier-11","essential-1","essential-2","essential-3","essential-4"],
       category: "blocks",
       codeblock: [
         {
@@ -6182,6 +6455,163 @@ background: YOUR_COLOUR;
                 .additional-text__why-choose-us__blocks {
                   width: 67%;
                 }
+              }
+          </style>
+          
+          <div class="additional-text__why-choose-us__outer">
+            <div class="additional-text__why-choose-us">
+              <div class="additional-text__why-choose-us__title">
+                <h3>Why Choose Us</h3>
+                <h2>Experience and Service You Can Trust</h2>
+              </div>
+              <div class="additional-text__why-choose-us__blocks">
+                <ul>
+                  <li>
+                    <div class="image"><img src="https://img.spidersnet.co.uk/code-snippets/icons/wallet.svg"></div>
+                    <div class="text">
+                      <h3>Finance Options</h3>
+                      <p>Flexible plans tailored to suit your budget</p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="image"><img src="https://img.spidersnet.co.uk/code-snippets/icons/family.svg"></div>
+                    <div class="text">
+                      <h3>Family Business</h3>
+                      <p>Friendly, knowledgeable team with family values</p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="image"><img src="https://img.spidersnet.co.uk/code-snippets/icons/since.svg"></div>
+                    <div class="text">
+                      <h3>Established 1998</h3>
+                      <p>Decades of experience you can rely on</p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="image"><img src="https://img.spidersnet.co.uk/code-snippets/icons/reviews.svg"></div>
+                    <div class="text">
+                      <h3>Proven Reputation</h3>
+                      <p>Consistently praised by our happy customers</p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>`
+        }
+      ]
+    },
+    {
+      id: "style-62.2",
+      title: "3.8",
+      image: "/assets/code-snippets/style62.2.png",
+      themes: ["premier-9"],
+      category: "blocks",
+      codeblock: [
+        {
+          code: `<style>
+              .additional-text__why-choose-us__outer {
+                clear: both;
+                max-width: 1920px;
+                margin: 0 auto;
+                padding: 0 15px;
+                margin-bottom: 40px;
+              }
+              .additional-text__why-choose-us {
+                background-image: url(https://img.spidersnet.co.uk/code-snippets/why-choose-bg.png);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+                background-color: #6A0707;
+                padding: 30px 0 30px 30px;
+                border-radius: 20px;
+                margin-left: 15px;
+                margin-right: 15px;
+              }
+              .additional-text__why-choose-us__title {
+                  text-align: center;
+              }
+              .additional-text__why-choose-us h3 {
+                color: #fff;
+                font-size: 18px;
+                font-weight: 400;
+              }
+              .additional-text__why-choose-us h2 {
+                color: #fff;
+                font-size: 28px;
+                font-weight: 600;
+              }
+              .additional-text__why-choose-us ul {
+                margin: 0;
+                list-style-type: none;
+                display: flex;
+                gap: 20px;
+                flex-wrap: wrap;
+              }
+              .additional-text__why-choose-us li {
+                width: 100%;
+                border-radius: 10px;
+                border: 1px solid rgba(255, 255, 255, 0.30);
+                display: flex;
+                align-items: center;
+                gap: 20px;
+                padding: 20px;
+                color: #fff;
+              }
+              .additional-text__why-choose-us li .image {
+                flex-shrink: 0;
+                display: block;
+                height: 100px;
+                width: 100px;
+                background: rgba(255, 255, 255, 0.20);
+                border-radius: 10px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+              }
+              .additional-text__why-choose-us li .image img {
+                filter: invert(1);
+              }
+              .additional-text__why-choose-us li .text h3 {
+                font-size: 24px;
+                font-weight: 600;
+              }
+              .additional-text__why-choose-us li .text p {
+                font-weight: 400;
+                margin-bottom: 0;
+              }
+              @media screen and (min-width: 48em) {
+                .additional-text__why-choose-us h3 {
+                  font-size: 24px;
+                }
+                .additional-text__why-choose-us h2 {
+                  font-size: 42px;
+                }
+                .additional-text__why-choose-us li {
+                  width: calc(50% - 20px);
+                }
+                .additional-text__why-choose-us__outer {
+                  padding: 50px 0;
+                }
+              }
+              @media screen and (min-width: 75em) {
+                .additional-text__why-choose-us {
+                  display: flex;
+                  gap: 15px;
+                }
+                .additional-text__why-choose-us__title {
+                  width: 33%;
+                  text-align: left;
+                }
+                .additional-text__why-choose-us__blocks {
+                  width: 67%;
+                }
+              }
+              @media screen and (min-width: 90em) {
+                  .additional-text__why-choose-us__outer {
+                      padding-left: 70px;
+                      padding-right: 70px;
+                  }
               }
           </style>
           
@@ -6410,7 +6840,7 @@ background: YOUR_COLOUR;
           
           <div class="additional-text__social__outer">
             <div class="additional-text__social">
-              <h3>Follow Us on Our Social Channels</h3>
+              <h3>Follow us on our social channels</h3>
               <div class="icons">
                 <a href="" target="_blank" class="facebook"><img src="https://img.spidersnet.co.uk/code-snippets/icons/facebook.svg"></a>
                 <a href="" target="_blank" class="youtube"><img src="https://img.spidersnet.co.uk/code-snippets/icons/youtube.svg"></a>
@@ -6481,8 +6911,8 @@ background: YOUR_COLOUR;
           
           <div class="additional-text__social__outer">
             <div class="additional-text__social">
-              <h3>We want to stay in touch with you!</h3>
-              <p>Please follow us on social media so we can keep in touch</p>
+              <h3>Follow us on our social channels</h3>
+              <p>Stay connected for latest arrivals, offers and updates</p>
               <div class="icons">
                 <a href="" target="_blank" class="facebook"><img src="https://img.spidersnet.co.uk/code-snippets/icons/facebook.svg"></a>
                 <a href="" target="_blank" class="youtube"><img src="https://img.spidersnet.co.uk/code-snippets/icons/youtube.svg"></a>
@@ -6554,8 +6984,8 @@ background: YOUR_COLOUR;
           
           <div class="additional-text__social__outer">
             <div class="additional-text__social">
-              <h3>We want to stay in touch with you!</h3>
-              <p>Please follow us on social media so we can keep in touch</p>
+              <h3>Follow us on our social channels</h3>
+              <p>Stay connected for latest arrivals, offers and updates</p>
               <div class="icons">
                 <a href="" target="_blank" class="facebook"><img src="https://img.spidersnet.co.uk/code-snippets/icons/facebook.svg"></a>
                 <a href="" target="_blank" class="youtube"><img src="https://img.spidersnet.co.uk/code-snippets/icons/youtube.svg"></a>
@@ -6652,7 +7082,7 @@ background: YOUR_COLOUR;
           
           <div class="additional-text__social__outer">
             <div class="additional-text__social">
-              <h3>Follow Us on Our Social Channels</h3>
+              <h3>Follow us on our social channels</h3>
               <div class="icons">
                 <a href="" target="_blank" class="facebook">
                   <img src="https://img.spidersnet.co.uk/code-snippets/icons/facebook.svg">
@@ -6689,281 +7119,345 @@ background: YOUR_COLOUR;
       ]
     },
     {
-      id: "slide-1",
-      image: "/assets/code-snippets/slide1.png",
-      themes: ["premier-1"],
-      category: "slides",
-      title: "P1",
+      id: "style-68",
+      title: "6.6",
+      image: "/assets/code-snippets/style68.png",
+      themes: ["all"],
+      category: "social",
       codeblock: [
         {
-          title: "Default (Centre aligned)",
-          code: `<div class="hero-caption">
-          <h2>Buy Your Next Car From The Comfort of Your Home</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
-      </div>`
-        },
-        {
-          title: "Right aligned",
-          code: `<div class="hero-caption right">
-              <h2>Buy Your Next Car From The Comfort of Your Home</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
+          code: `<style>
+              .additional-text__social {
+                max-width: 1400px;
+                margin: 0 auto;
+                padding: 0 15px;
+                text-align: center;
+              }
+              .additional-text__social__image {
+                width: 100%;
+                margin-bottom: 20px;
+              }
+              .additional-text__social__text {
+                width: 100%;
+              }
+              .additional-text__social h3 {
+                font-size: 20px;
+                font-weight: 700;
+                margin-bottom: 0;
+              }
+              .additional-text__social p {
+                font-size: 18px;
+                font-weight: 400;
+                margin-bottom: 15px;
+              }
+              .additional-text__social .icons {
+                display: flex;
+                justify-content: center;
+                gap: 15px;
+              }
+              .additional-text__social .icons a {
+                height: 48px;
+                width: 48px;
+                border-radius: 50%;
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                padding: 10px;
+                background: #ccc;
+              }
+              .additional-text__social .icons a:hover {
+                opacity: 0.8;
+              }
+              .additional-text__social .icons a.facebook {
+                background: #1877F2;
+              }
+              .additional-text__social .icons a.youtube {
+                background: #FF0000;
+              }
+              .additional-text__social .icons a.x {
+                background: #000;
+              }
+              .additional-text__social .icons a.instagram {
+                background: linear-gradient(37deg, #F16565 13.9%, #E22C81 52.98%, #763ABE 84.58%);
+              }
+              @media screen and (min-width: 75em) {
+                .additional-text__social {
+                  display: flex;
+                  align-items: center;
+                }
+                .additional-text__social__image {
+                  width: 60%;
+                  margin-bottom: 0;
+                }
+                .additional-text__social__text {
+                  width: 40%;
+                }
+                .additional-text__social h3 {
+                  font-size: 34px;
+                }
+                .additional-text__social p {
+                  font-size: 26px;
+                }
+              }
+          </style>
+          
+          <div class="additional-text__social">
+            <div class="additional-text__social__image">
+              <img src="https://img.spidersnet.co.uk/code-snippets/social-placeholder-img.png">
+            </div>
+            <div class="additional-text__social__text">
+              <h3>Follow us on our social channels</h3>
+              <p>Stay connected for latest arrivals, offers and updates</p>
+              <div class="icons">
+                <a href="" target="_blank" class="facebook"><img src="https://img.spidersnet.co.uk/code-snippets/icons/facebook.svg"></a>
+                <a href="" target="_blank" class="youtube"><img src="https://img.spidersnet.co.uk/code-snippets/icons/youtube.svg"></a>
+                <a href="" target="_blank" class="x"><img src="https://img.spidersnet.co.uk/code-snippets/icons/x.svg"></a>
+                <a href="" target="_blank" class="instagram"><img src="https://img.spidersnet.co.uk/code-snippets/icons/instagram.svg"></a>
+              </div>
+            </div>
           </div>`
-        },
-        {
-          title: "Left aligned",
-          code: `<div class="hero-caption left">
-          <h2>Buy Your Next Car From The Comfort of Your Home</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
-      </div>`
         }
       ]
     },
     {
-      id: "slide-2",
-      image: "/assets/code-snippets/slide2.png",
-      themes: ["premier-2"],
-      category: "slides",
-      title: "P2",
+      id: "style-69",
+      title: "3.10",
+      image: "/assets/code-snippets/style69.png",
+      themes: ["essential-2"],
+      category: "blocks",
       codeblock: [
         {
-          title: "Default (Left aligned)",
-          code: `<div class="hero-caption">
-          <h2>Buy Your Next Car From The Comfort of Your Home</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
-      </div>`
-        },
-        {
-          title: "Right aligned",
-          code: `<div class="hero-caption right">
-          <h2>Buy Your Next Car From The Comfort of Your Home</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
-      </div>`
-        },
-        {
-          title: "Centre aligned",
-          code: `<div class="hero-caption center">
-          <h2>Buy Your Next Car From The Comfort of Your Home</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
-      </div>`
+          code: `<style>
+              .additional-text__why-choose-us__outer {
+                margin-bottom: 40px;
+                clear: both;
+              }
+              .additional-text__why-choose-us {
+                max-width: 1300px;
+                margin: 0 auto;
+                padding: 0 15px;
+              }
+              .additional-text__why-choose-us h2 {
+                margin-bottom: 30px;
+                text-align: center;
+                font-size: 28px;
+              }
+              .additional-text__why-choose-us ul {
+                margin: 0;
+                list-style-type: none;
+                display: flex;
+                gap: 20px;
+                flex-wrap: wrap;
+              }
+              .additional-text__why-choose-us li {
+                width: 100%;
+                border: 1px solid rgba(0, 0, 0, 0.10);
+                display: flex;
+                align-items: center;
+                gap: 40px;
+                position: relative;
+                overflow: hidden;
+              }
+              .additional-text__why-choose-us li .image {
+                flex-shrink: 0;
+                display: block;
+                height: 100px;
+                width: 100px;
+                background: #9A1320;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                position: relative;
+              }
+              .additional-text__why-choose-us li .image:after {
+                content: '';
+                position: absolute;
+                background: #9A1320;
+                top: 0;
+                bottom: 0;
+                right: -20px;
+                width: 100%;
+                transform: skew(-20deg);
+              }
+              .additional-text__why-choose-us li .image img {
+                filter: invert(1);
+                position: relative;
+                z-index: 1;
+              }
+              .additional-text__why-choose-us li .text {
+                padding: 5px 20px;
+              }
+              .additional-text__why-choose-us li .text h3 {
+                font-size: 24px;
+                font-weight: 700;
+              }
+              .additional-text__why-choose-us li .text p {
+                font-weight: 400;
+                margin-bottom: 0;
+              }
+              @media screen and (min-width: 48em) {
+                .additional-text__why-choose-us h2 {
+                  font-size: 42px;
+                }
+                .additional-text__why-choose-us li {
+                  width: calc(50% - 20px);
+                }
+              }
+          </style>
+          
+          <div class="additional-text__why-choose-us__outer">
+            <div class="additional-text__why-choose-us">
+              <h2>Why Choose Us</h2>
+              <ul>
+                <li>
+                  <div class="image"><img src="https://img.spidersnet.co.uk/code-snippets/icons/wallet.svg"></div>
+                  <div class="text">
+                    <h3>Finance Options</h3>
+                    <p>Flexible plans tailored to suit your budget</p>
+                  </div>
+                </li>
+                <li>
+                  <div class="image"><img src="https://img.spidersnet.co.uk/code-snippets/icons/family.svg"></div>
+                  <div class="text">
+                    <h3>Family Business</h3>
+                    <p>Friendly, knowledgeable team with family values</p>
+                  </div>
+                </li>
+                <li>
+                  <div class="image"><img src="https://img.spidersnet.co.uk/code-snippets/icons/since.svg"></div>
+                  <div class="text">
+                    <h3>Established 1998</h3>
+                    <p>Decades of experience you can rely on</p>
+                  </div>
+                </li>
+                <li>
+                  <div class="image"><img src="https://img.spidersnet.co.uk/code-snippets/icons/reviews.svg"></div>
+                  <div class="text">
+                    <h3>Proven Reputation</h3>
+                    <p>Consistently praised by our happy customers</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>`
         }
       ]
     },
     {
-      id: "slide-3",
-      image: "/assets/code-snippets/slide3.png",
-      themes: ["premier-3"],
-      category: "slides",
-      title: "P3",
+      id: "style-70",
+      title: "3.9",
+      image: "/assets/code-snippets/style70.png",
+      themes: ["essential-2"],
+      category: "blocks",
       codeblock: [
         {
-          code: `<div class="hero-caption">
-          <h2>Buy Your Next Car From The Comfort of Your Home</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
-      </div>`
+          code: `<style>
+              .additional-text__why-choose-us__outer {
+                margin-bottom: 120px;
+                background-image: url(https://img.spidersnet.co.uk/code-snippets/why-choose-bg.png);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+                background-color: #141414;
+                padding: 30px 0px;
+                clear: both;
+              }
+              .additional-text__why-choose-us {
+                max-width: 1300px;
+                margin: 0 auto;
+                padding: 0 15px;
+              }
+              .additional-text__why-choose-us__title h3 {
+                color: #fff;
+                font-size: 18px;
+                font-weight: 400;
+                text-align: center;
+              }
+              .additional-text__why-choose-us__title h2 {
+                color: #fff;
+                font-size: 28px;
+                font-weight: 600;
+                text-align: center;
+                margin-bottom: 30px;
+              }
+              .additional-text__why-choose-us ul {
+                margin: 0;
+                list-style-type: none;
+                display: flex;
+                gap: 15px 30px;
+                flex-wrap: wrap;
+              }
+              .additional-text__why-choose-us li {
+                width: 100%;
+                border: 1px solid rgba(0, 0, 0, 0.20);
+                background: #FFF;
+                padding: 30px 20px;
+                box-shadow: 0px 3.303px 16.514px 0px rgba(0, 0, 0, 0.15);
+              }
+              .additional-text__why-choose-us li .image {
+                margin-bottom: 15px;
+                min-height: 45px;
+              }
+              .additional-text__why-choose-us li h3 {
+                font-size: 18px;
+                font-weight: 700;
+              }
+              .additional-text__why-choose-us li .text p {
+                font-weight: 400;
+                margin-bottom: 0;
+              }
+              @media screen and (min-width: 48em) {
+                .additional-text__why-choose-us__outer {
+                  padding-top: 50px;
+                  padding-bottom: 0;
+                }
+                .additional-text__why-choose-us h3 {
+                  font-size: 24px;
+                }
+                .additional-text__why-choose-us h2 {
+                  font-size: 42px;
+                }
+                .additional-text__why-choose-us li {
+                  width: calc(33.333% - 20px);
+                  margin-bottom: -80px;
+                }
+              }
+          </style>
+          
+          <div class="additional-text__why-choose-us__outer">
+            <div class="additional-text__why-choose-us">
+              <div class="additional-text__why-choose-us__title">
+                <h3>Why Choose Us</h3>
+                <h2>Experience and Service You Can Trust</h2>
+              </div>
+              <div class="additional-text__why-choose-us__blocks">
+                <ul>
+                  <li>
+                    <div class="image"><img src="https://img.spidersnet.co.uk/code-snippets/icons/wallet.svg"></div>
+                    <div class="text">
+                      <h3>Finance Options</h3>
+                      <p>Flexible plans tailored to suit your budget</p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="image"><img src="https://img.spidersnet.co.uk/code-snippets/icons/family.svg"></div>
+                    <div class="text">
+                      <h3>Family Business</h3>
+                      <p>Friendly, knowledgeable team with family values</p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="image"><img src="https://img.spidersnet.co.uk/code-snippets/icons/since.svg"></div>
+                    <div class="text">
+                      <h3>Established 1998</h3>
+                      <p>Decades of experience you can rely on</p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>`
         }
       ]
-    },
-    {
-      id: "slide-4",
-      image: "/assets/code-snippets/slide4.png",
-      themes: ["premier-4"],
-      category: "slides",
-      title: "P4",
-      codeblock: [
-        {
-          title: "Default (Left aligned)",
-          code: `<div class="hero-caption">
-          <h2>Buy Your Next Car From The Comfort of Your Home</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
-      </div>`
-        },
-        {
-          title: "Right aligned",
-          code: `<div class="hero-caption right">
-          <h2>Buy Your Next Car From The Comfort of Your Home</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
-      </div>`
-        },
-        {
-          title: "Centre aligned",
-          code: `<div class="hero-caption center">
-          <h2>Buy Your Next Car From The Comfort of Your Home</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
-      </div>`
-        }
-      ]
-    },
-    {
-      id: "slide-5",
-      image: "/assets/code-snippets/slide5.png",
-      themes: ["premier-5"],
-      category: "slides",
-      title: "P5",
-      codeblock: [
-        {
-          title: "Default (Left aligned)",
-          code: `<div class="hero-caption">
-          <h2>Buy Your Next Car From The Comfort of Your Home</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
-      </div>`
-        },
-        {
-          title: "Right aligned",
-          code: `<div class="hero-caption right">
-          <h2>Buy Your Next Car From The Comfort of Your Home</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
-      </div>`
-        },
-        {
-          title: "Centre aligned",
-          code: `<div class="hero-caption center">
-          <h2>Buy Your Next Car From The Comfort of Your Home</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
-      </div>`
-        }
-      ]
-    },
-    {
-      id: "slide-6",
-      image: "/assets/code-snippets/slide6.png",
-      themes: ["premier-6"],
-      category: "slides",
-      title: "P6",
-      codeblock: [
-        {
-          title: "Default (Left aligned)",
-          code: `<div class="hero-caption">
-          <h2>Buy Your Next Car From The Comfort of Your Home</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
-      </div>`
-        },
-        {
-          title: "Right aligned",
-          code: `<div class="hero-caption right">
-          <h2>Buy Your Next Car From The Comfort of Your Home</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
-      </div>`
-        },
-        {
-          title: "Centre aligned",
-          code: `<div class="hero-caption center">
-          <h2>Buy Your Next Car From The Comfort of Your Home</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
-      </div>`
-        }
-      ]
-    },
-    {
-      id: "slide-7",
-      image: "/assets/code-snippets/slide7.png",
-      themes: ["premier-7"],
-      category: "slides",
-      title: "P7",
-      codeblock: [
-        {
-          title: "Default (line above and below)",
-          code: `<div class="hero-caption style">
-          <h2>We can help you to</h2>
-          <p>Finance your next car</p>
-          </div>`
-        },
-        {
-          title: "Right aligned",
-          code: `<div class="hero-caption style right">
-          <h2>We can help you to</h2>
-          <p>Finance your next car</p>
-          </div>`
-        },
-        {
-          title: "Centre aligned",
-          code: `<div class="hero-caption style center">
-          <h2>We can help you to</h2>
-          <p>Finance your next car</p>
-          </div>`
-        },
-        {
-          title: "Plain",
-          code: `<div class="hero-caption">
-          <h2>We can help you to</h2>
-          <p>Finance your next car</p>
-          </div>`
-        },
-        {
-          title: "With Icon",
-          code: `<div class="hero-caption style icon">
-          <img src="https://s3.eu-west-1.amazonaws.com/processed-files.autopromotor.co.uk/shared/assets/hero-icon-p7.png" class="fr-fic fr-dib" data-id="13495">
-              <h2>Buy Your Next Car From The Comfort of Your Home</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
-          </div>`
-        },
-        {
-          title: "With title, text and button",
-          code: `<div class="hero-caption style">
-    <h2>Find your next van today</h2>
-    <p>Check out our latest used vans for sale</p>
-    <a style="margin-top: 20px; margin-bottom: 10px;"class="button" href="/used/vans/">View Stock</a>
-</div>`
-        }
-      ]
-    },
-    {
-      id: "slide-10",
-      image: "/assets/code-snippets/slide10.png",
-      themes: ["premier-10"],
-      category: "slides",
-      title: "P10",
-      codeblock: [
-        {
-          code: `<div class="hero-caption">
-<p>Welcome to Spidersnet</p>
-<h2>We can help you find your perfect car</h2>
-<p><a class="button" href="/used/cars/" tabindex="0">View Stock</a></p>
-</div>`
-        }
-      ]
-    },
-    {
-      id: "slide-11",
-      image: "/assets/code-snippets/slide11.png",
-      themes: ["premier-11"],
-      category: "slides",
-      title: "P11",
-      codeblock: [
-        {
-          code: `<h2>Best Choice of Body Kit Exhaust</h2>
-<h3>New Arrivals</h3>
-<p><a class="button" href="/used/cars/">Stocklist</a></p>`
-        }
-      ]
-    },
-    {
-      id: "slide-essential",
-      image: "/assets/code-snippets/slide-essential.png",
-      themes: ["essential-1","essential-2","essential-3","essential-4"],
-      category: "slides",
-      title: "E",
-      codeblock: [
-        {
-          title: "Default (Centre aligned)",
-          code: `<div class="hero-caption">
-              <h2>Buy Your Next Car From The Comfort of Your Home</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
-          </div>`
-        },
-        {
-          title: "Right aligned",
-          code: `<div class="hero-caption right">
-              <h2>Buy Your Next Car From The Comfort of Your Home</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
-          </div>`
-        },
-        {
-          title: "Left aligned",
-          code: `<div class="hero-caption left">
-              <h2>Buy Your Next Car From The Comfort of Your Home</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
-          </div>`
-        }
-      ],
     }
   ];

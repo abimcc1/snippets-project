@@ -29,7 +29,9 @@ export default function Home() {
         snippet.themes.includes('all');
   
       return isCategoryMatch && isThemeMatch;
-    });
+      
+    })
+    .reverse();
   }, [selectedCategory, selectedTheme]);
 
   const handleCategoryChange = (category: string) => {
