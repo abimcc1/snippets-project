@@ -6550,7 +6550,7 @@ background: YOUR_COLOUR;
               }
               .additional-text__why-choose-us li {
                 width: 100%;
-                border-radius: 10px;
+                border-radius: 20px;
                 border: 1px solid rgba(255, 255, 255, 0.30);
                 display: flex;
                 align-items: center;
@@ -6564,21 +6564,23 @@ background: YOUR_COLOUR;
                 height: 100px;
                 width: 100px;
                 background: rgba(255, 255, 255, 0.20);
-                border-radius: 10px;
+                border-radius: 20px;
                 display: flex;
                 align-items: center;
                 justify-content: center;
+                padding: 20px;
               }
               .additional-text__why-choose-us li .image img {
                 filter: invert(1);
               }
               .additional-text__why-choose-us li .text h3 {
-                font-size: 24px;
+                font-size: 20px;
                 font-weight: 600;
               }
               .additional-text__why-choose-us li .text p {
                 font-weight: 400;
                 margin-bottom: 0;
+                font-size: 16px;
               }
               @media screen and (min-width: 48em) {
                 .additional-text__why-choose-us h3 {
@@ -7457,6 +7459,542 @@ background: YOUR_COLOUR;
               </div>
             </div>
           </div>`
+        }
+      ]
+    },
+    {
+      id: "style-71",
+      title: "5.22",
+      image: "/assets/code-snippets/style71.png",
+      themes: ["all"],
+      category: "partners",
+      codeblock: [
+        {
+          code: `<p style="margin-bottom: 0;">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</p>
+<style>
+            .snippet-carmoney-banner {
+              background: #E8F0F0;
+              padding: 20px 0;
+              position: relative;
+              font-family: "Poppins", sans-serif;
+            }
+            .snippet-carmoney-banner__inner {
+              padding: 0 15px;
+              display: flex;
+              flex-wrap: wrap;
+              align-items: center;
+              justify-content: center;
+              gap: 20px 80px;
+            }
+            .snippet-carmoney-banner__text {
+          
+            }
+            .snippet-carmoney-banner__text h2 {
+              font-size: 30px;
+              line-height: 1.2;
+              color: #000;
+              font-family: "Poppins", sans-serif;
+              text-transform: none;
+              font-weight: 700;
+              margin-bottom: 20px;
+            }
+            .snippet-carmoney-banner__text h2 img,
+            .snippet-carmoney-banner__text h2 span,
+            .snippet-carmoney-banner__text h2 .divider {
+              display: inline-block;
+              vertical-align: middle;
+            }
+            .snippet-carmoney-banner__text h2 img {
+              margin-bottom: 20px;
+            }
+            .snippet-carmoney-banner__text h2 .divider {
+              height: 60px;
+              width: 1px;
+              background: #000;
+              margin: 0 18px;
+              display: none;
+            }
+            .snippet-carmoney-banner__text p {
+              font-size: 20px;
+              line-height: 1.2;
+              color: #000;
+              font-family: "Poppins", sans-serif;
+              display: inline-block;
+              margin-right: 30px;
+            }
+            .snippet-carmoney-banner__text .button {
+              display: inline-block;
+              background: #34908D;
+              border-radius: 10px;
+              border: 0;
+              color: #fff;
+              font-size: 18px;
+              min-height: auto;
+              text-transform: none;
+            }
+            .snippet-carmoney-banner__image {
+
+            }
+            @media screen and (min-width: 48em) {
+              .snippet-carmoney-banner__text h2 { 
+                font-size: 42px;
+              }
+              .snippet-carmoney-banner__text h2 img {
+                margin-bottom: 0;
+              }
+              .snippet-carmoney-banner__text h2 .divider { 
+                display: inline-block;
+              }
+            }
+          </style>
+
+          <div class="snippet-carmoney-banner clearfix">
+            <div class="snippet-carmoney-banner__inner">
+
+              <div class="snippet-carmoney-banner__text">
+                <h2><img src="https://img.spidersnet.co.uk/code-snippets/carmoney-logo.png"><div class="divider"></div><span>Cutting the cost of car finance</span></h2>
+                <p><img src="https://img.spidersnet.co.uk/code-snippets/carmoney-check.svg"> No Deposit Available</p>
+                <p><img src="https://img.spidersnet.co.uk/code-snippets/carmoney-check.svg"> PCP and HP from 8.9% APR</p>
+                <a href="" class="button">Find Your Car & Get a Quote</a>
+              </div>
+              <div class="snippet-carmoney-banner__image">
+                <img src="https://img.spidersnet.co.uk/code-snippets/carmoney-img.png">
+              </div>
+
+            </div>
+
+          </div>`
+        }
+      ]
+    },
+    {
+      id: "style-72",
+      title: "5.23",
+      image: "/assets/code-snippets/style72.png",
+      themes: ["all"],
+      category: "partners",
+      codeblock: [
+        {
+          code: `<p style="margin-bottom: 0;">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</p>
+<style>
+            .snippet-carmoney-banner {
+              background: #E8F0F0;
+              padding: 20px 0;
+              position: relative;
+              font-family: "Poppins", sans-serif;
+            }
+            .snippet-carmoney-banner__inner {
+              padding: 0 15px;
+              display: flex;
+              flex-wrap: wrap;
+              align-items: center;
+              justify-content: center;
+              gap: 20px 80px;
+            }
+            .snippet-carmoney-banner__text {
+          
+            }
+            .snippet-carmoney-banner__text h2 {
+              font-size: 30px;
+              line-height: 1.2;
+              color: #000;
+              font-family: "Poppins", sans-serif;
+              text-transform: none;
+              font-weight: 700;
+              margin-bottom: 10px;
+            }
+            .snippet-carmoney-banner__text h2 img,
+            .snippet-carmoney-banner__text h2 span {
+              display: block;
+            }
+            .snippet-carmoney-banner__text h2 img {
+              margin-bottom: 10px;
+            }
+            .snippet-carmoney-banner__text p {
+              font-size: 20px;
+              line-height: 1.2;
+              color: #000;
+              font-family: "Poppins", sans-serif;
+              display: inline-block;
+              margin-right: 30px;
+            }
+            .snippet-carmoney-banner__button {
+              align-self: flex-end;
+              margin-bottom: 10px;
+            }
+            .snippet-carmoney-banner__button .button {
+              display: inline-block;
+              background: #34908D;
+              border-radius: 10px;
+              border: 0;
+              color: #fff;
+              font-size: 18px;
+              min-height: auto;
+              text-transform: none;
+            }
+            .snippet-carmoney-banner__image {
+
+            }
+            @media screen and (min-width: 48em) {
+              .snippet-carmoney-banner__text h2 { 
+                font-size: 42px;
+              }
+            }
+          </style>
+
+          <div class="snippet-carmoney-banner clearfix">
+            <div class="snippet-carmoney-banner__inner">
+
+              <div class="snippet-carmoney-banner__text">
+                <h2><img src="https://img.spidersnet.co.uk/code-snippets/carmoney-logo.png"><span>Cutting the cost of car finance</span></h2>
+                <p>Find Your Ideal Car and Get a Quote</p>
+              </div>
+              <div class="snippet-carmoney-banner__button">
+                <a href="" class="button">View Showroom</a>
+              </div>
+              <div class="snippet-carmoney-banner__image">
+                <img src="https://img.spidersnet.co.uk/code-snippets/carmoney-img.png">
+              </div>
+
+            </div>
+
+          </div>`
+        }
+      ]
+    },
+    {
+      id: "style-73",
+      title: "5.24",
+      image: "/assets/code-snippets/style73.png",
+      themes: ["all"],
+      category: "partners",
+      codeblock: [
+        {
+          code: `<p style="margin-bottom: 0;">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</p>
+<style>
+            .snippet-carmoney-banner {
+              background: #E8F0F0;
+              position: relative;
+              font-family: "Poppins", sans-serif;
+            }
+            .snippet-carmoney-banner__inner {
+              display: flex;
+              padding: 0 15px;
+              flex-wrap: wrap;
+              align-items: center;
+              justify-content: center;
+              gap: 20px 40px;
+            }
+            .snippet-carmoney-banner__logo {
+              background: #3A9F9E;
+              border-radius: 0 0 35px 35px;
+              padding: 10px 20px;
+              padding-top: 50px;
+              margin-bottom: 10px;
+              align-self: flex-start;
+            }
+            .snippet-carmoney-banner__text {
+          
+            }
+            .snippet-carmoney-banner__text h2 {
+              font-size: 30px;
+              line-height: 1.2;
+              color: #000;
+              font-family: "Poppins", sans-serif;
+              text-transform: none;
+              font-weight: 700;
+              margin-bottom: 10px;
+            }
+            .snippet-carmoney-banner__text h2 img,
+            .snippet-carmoney-banner__text h2 span {
+              display: block;
+            }
+            .snippet-carmoney-banner__text h2 img {
+              margin-bottom: 10px;
+            }
+            .snippet-carmoney-banner__text p {
+              font-size: 20px;
+              line-height: 1.2;
+              color: #000;
+              font-family: "Poppins", sans-serif;
+              display: inline-block;
+              margin-right: 30px;
+            }
+            .snippet-carmoney-banner__button .button {
+              display: inline-block;
+              background: #34908D;
+              border-radius: 10px;
+              border: 0;
+              color: #fff;
+              font-size: 18px;
+              min-height: auto;
+              text-transform: none;
+            }
+            .snippet-carmoney-banner__image {
+              max-width: 200px;
+            }
+            @media screen and (min-width: 48em) {
+              .snippet-carmoney-banner__logo {
+                margin-bottom: 40px;
+              }
+              .snippet-carmoney-banner__text h2 { 
+                font-size: 42px;
+              }
+            }
+          </style>
+
+          <div class="snippet-carmoney-banner clearfix">
+            <div class="snippet-carmoney-banner__inner">
+
+              <div class="snippet-carmoney-banner__logo">
+                <img src="https://img.spidersnet.co.uk/code-snippets/carmoney-logo-white.png">
+              </div>
+              <div class="snippet-carmoney-banner__text">
+                <h2>Cutting the cost of car finance</h2>
+                <p>Find Your Ideal Car and Get a Quote</p>
+              </div>
+              <div class="snippet-carmoney-banner__button">
+                <a href="" class="button">View Showroom</a>
+              </div>
+              <div class="snippet-carmoney-banner__image">
+                <img src="https://img.spidersnet.co.uk/code-snippets/carmoney-img.png">
+              </div>
+
+            </div>
+
+          </div>`
+        }
+      ]
+    },
+    {
+      id: "style-74",
+      title: "6.7",
+      image: "/assets/code-snippets/style74.png",
+      themes: ["all"],
+      category: "social",
+      codeblock: [
+        {
+          code: `<style>
+              .additional-text__social__outer {
+                background: url(https://img.spidersnet.co.uk/code-snippets/social-facebook-bg.png) no-repeat center;
+                background-size: cover;
+                margin-bottom: 40px;
+                padding: 30px 15px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-wrap: wrap;
+                gap: 20px 40px;
+              }
+              .additional-text__social--image {
+                display: none;
+              }
+              .additional-text__social--button button {
+                background: #000;
+                color: #fff;
+                border: 0;
+                text-transform: none;
+                border-radius: 10px;
+                min-height: auto;
+              }
+              @media screen and (min-width: 48em) {
+                .additional-text__social--image {
+                  display: block;
+                }
+              }
+              @media screen and (min-width: 75em) {
+
+              }
+          </style>
+          
+          <a href="" class="additional-text__social__outer clearfix">
+            <div class="additional-text__social">
+              <img src="https://img.spidersnet.co.uk/code-snippets/facebook-joinus.svg">
+            </div>
+            <div class="additional-text__social--image">
+              <img src="https://img.spidersnet.co.uk/code-snippets/facebook-bubbles.svg">
+            </div>
+            <div class="additional-text__social--button">
+              <button>Follow Us</button>
+            </div>
+          </a>`
+        }
+      ]
+    },
+    {
+      id: "style-75",
+      title: "6.8",
+      image: "/assets/code-snippets/style75.png",
+      themes: ["all"],
+      category: "social",
+      codeblock: [
+        {
+          code: `<style>
+              .additional-text__social__outer {
+                background: url(https://img.spidersnet.co.uk/code-snippets/social-neutral-bg.png) no-repeat center;
+                background-size: cover;
+                margin-bottom: 40px;
+                padding: 30px 15px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-wrap: wrap;
+                gap: 20px 40px;
+              }
+              .additional-text__social--image {
+                display: none;
+              }
+              .additional-text__social--button button {
+                background: #000;
+                color: #fff;
+                border: 0;
+                text-transform: none;
+                border-radius: 10px;
+                min-height: auto;
+              }
+              @media screen and (min-width: 48em) {
+                .additional-text__social--image {
+                  display: block;
+                }
+              }
+              @media screen and (min-width: 75em) {
+
+              }
+          </style>
+          
+          <a href="" class="additional-text__social__outer clearfix">
+            <div class="additional-text__social">
+              <img src="https://img.spidersnet.co.uk/code-snippets/facebook-joinus.svg">
+            </div>
+            <div class="additional-text__social--image">
+              <img src="https://img.spidersnet.co.uk/code-snippets/facebook-bubbles.svg">
+            </div>
+            <div class="additional-text__social--button">
+              <button>Follow Us</button>
+            </div>
+          </a>`
+        }
+      ]
+    },
+    {
+      id: "style-76",
+      title: "6.9",
+      image: "/assets/code-snippets/style76.png",
+      themes: ["all"],
+      category: "social",
+      codeblock: [
+        {
+          code: `<style>
+              .additional-text__social__outer {
+                background: url(https://img.spidersnet.co.uk/code-snippets/social-instagram-bg.png) no-repeat center;
+                background-size: cover;
+                margin-bottom: 40px;
+                padding: 30px 15px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-wrap: wrap;
+                gap: 20px 40px;
+              }
+              .additional-text__social--image {
+                display: none;
+              }
+              .additional-text__social--button button {
+                background: #000;
+                color: #fff;
+                border: 0;
+                text-transform: none;
+                border-radius: 10px;
+                min-height: auto;
+              }
+              @media screen and (min-width: 48em) {
+                .additional-text__social--image {
+                  display: block;
+                }
+              }
+              @media screen and (min-width: 75em) {
+
+              }
+          </style>
+          
+          <a href="" class="additional-text__social__outer clearfix">
+            <div class="additional-text__social">
+              <img src="https://img.spidersnet.co.uk/code-snippets/instagram-joinus.svg">
+            </div>
+            <div class="additional-text__social--image">
+              <img src="https://img.spidersnet.co.uk/code-snippets/instagram-bubbles.svg">
+            </div>
+            <div class="additional-text__social--button">
+              <button>Follow Us</button>
+            </div>
+          </a>`
+        }
+      ]
+    },
+    {
+      id: "style-77",
+      title: "6.10",
+      image: "/assets/code-snippets/style77.png",
+      themes: ["all"],
+      category: "social",
+      codeblock: [
+        {
+          code: `<style>
+              .additional-text__social__outer {
+                background: url(https://img.spidersnet.co.uk/code-snippets/social-neutral-bg.png) no-repeat center;
+                background-size: cover;
+                margin-bottom: 40px;
+                padding: 30px 15px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-wrap: wrap;
+                gap: 20px 40px;
+              }
+              .additional-text__social--image {
+                display: none;
+              }
+              .additional-text__social--button button {
+                background: #000;
+                color: #fff;
+                border: 0;
+                text-transform: none;
+                border-radius: 10px;
+                min-height: auto;
+              }
+              @media screen and (min-width: 48em) {
+                .additional-text__social--image {
+                  display: block;
+                }
+              }
+              @media screen and (min-width: 75em) {
+
+              }
+          </style>
+          
+          <a href="" class="additional-text__social__outer clearfix">
+            <div class="additional-text__social">
+              <img src="https://img.spidersnet.co.uk/code-snippets/instagram-joinus.svg">
+            </div>
+            <div class="additional-text__social--image">
+              <img src="https://img.spidersnet.co.uk/code-snippets/instagram-bubbles.svg">
+            </div>
+            <div class="additional-text__social--button">
+              <button>Follow Us</button>
+            </div>
+          </a>`
         }
       ]
     }
