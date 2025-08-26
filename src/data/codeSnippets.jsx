@@ -2831,7 +2831,7 @@ background: YOUR_COLOUR;
                     </div></div>
                 </div>
                 <div class="additional-style-half">
-                  <h3>What People Think About Us</h3>
+                  <h3>See What Our Customers Have to Say</h3>
                   <a href="/reviews/" class="button">Read More</a>
                   <div class="rating-wrap">
                     <div class="rating">
@@ -3000,7 +3000,7 @@ background: YOUR_COLOUR;
                     </div></div>
                 </div>
                 <div class="additional-style-half">
-                  <h3>What People Think About Us</h3>
+                  <h3>See What Our Customers Have to Say</h3>
                   <a href="/reviews/" class="button">Read More</a>
                   <div class="rating-wrap">
                     <div class="rating">
@@ -3153,7 +3153,7 @@ background: YOUR_COLOUR;
                     </div></div>
                 </div>
                 <div class="additional-style-half">
-                  <h3>What People Think About Us</h3>
+                  <h3>See What Our Customers Have to Say</h3>
                   <a href="/reviews/" class="button">Read More</a>
                   <div class="rating-wrap">
                     <div class="rating">
@@ -3300,7 +3300,7 @@ background: YOUR_COLOUR;
                     </div></div>
                 </div>
                 <div class="additional-style-half">
-                  <h3>What People Think About Us</h3>
+                  <h3>See What Our Customers Have to Say</h3>
                   <a href="/reviews/" class="button">Read More</a>
                   <div class="rating-wrap">
                     <div class="rating">
@@ -3460,7 +3460,7 @@ background: YOUR_COLOUR;
                     </div></div>
                 </div>
                 <div class="additional-style-half">
-                  <h3>What People Think About Us</h3>
+                  <h3>See What Our Customers Have to Say</h3>
                   <a href="/reviews/" class="button">Read More</a>
                   <div class="rating-wrap">
                     <div class="rating">
@@ -3618,7 +3618,7 @@ background: YOUR_COLOUR;
                     </div></div>
                 </div>
                 <div class="additional-style-half">
-                  <h3>What People Think About Us</h3>
+                  <h3>See What Our Customers Have to Say</h3>
                   <a href="/reviews/" class="button">Read More</a>
                   <div class="rating-wrap">
                     <div class="rating">
@@ -3955,7 +3955,7 @@ background: YOUR_COLOUR;
           <div class="additional-style additional-style-52 clearfix">
             <div class="additional-style-wrap">
               <div class="additional-style-title">
-                <h3>See What Our Customers Are Saying</h3>
+                <h3>See What Our Customers Have to Say</h3>
                 <a href="/reviews/" class="read-reviews">Read Reviews</a>
               </div>
             </div>
@@ -4124,7 +4124,7 @@ background: YOUR_COLOUR;
               <div class="additional-style-bg">
                 <div class="additional-style-wrap">
                   <div class="additional-style-title">
-                    <h3>See What Our Customers Are Saying</h3>
+                    <h3>See What Our Customers Have to Say</h3>
                     <a href="/reviews/" class="read-reviews">Read Reviews</a>
                   </div>
                 </div>
@@ -4269,7 +4269,7 @@ background: YOUR_COLOUR;
           <div class="additional-style additional-style-52 clearfix">
             <div class="additional-style-wrap">
               <div class="additional-style-title">
-                <h3>See What Our Customers Are Saying</h3>
+                <h3>See What Our Customers Have to Say</h3>
                 <a href="/reviews/" class="read-reviews">Read Reviews</a>
               </div>
             </div>
@@ -4409,7 +4409,7 @@ background: YOUR_COLOUR;
           <div class="additional-style additional-style-52 clearfix">
             <div class="additional-style-wrap">
               <div class="additional-style-title">
-                <h3>See What Our Customers Are Saying</h3>
+                <h3>See What Our Customers Have to Say</h3>
                 <a href="/reviews/" class="read-reviews">Read Reviews</a>
               </div>
             </div>
@@ -4558,7 +4558,7 @@ background: YOUR_COLOUR;
           <div class="additional-style additional-style-52 clearfix">
             <div class="additional-style-wrap">
               <div class="additional-style-title">
-                <h3>See What Our Customers Are Saying</h3>
+                <h3>See What Our Customers Have to Say</h3>
                 <a href="/reviews/" class="read-reviews">Read Reviews</a>
               </div>
             </div>
@@ -4832,7 +4832,7 @@ background: YOUR_COLOUR;
                 <div class="additional-style-half">
          
                     <div class="rating">
-                        <span>4.8</span>
+                        <span>1.0</span>
                           <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
                     </div>
                     <div class="images">
@@ -5006,7 +5006,7 @@ background: YOUR_COLOUR;
                 <div class="additional-style-half">
          
                     <div class="rating">
-                        <span>4.8</span>
+                        <span>1.0</span>
                           <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
                     </div>
                     <div class="images">
@@ -5154,7 +5154,7 @@ background: YOUR_COLOUR;
                 <div class="additional-style-half">
          
                     <div class="rating">
-                        <span>4.8</span>
+                        <span>1.0</span>
                           <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
                     </div>
                     <div class="images">
@@ -5311,7 +5311,7 @@ background: YOUR_COLOUR;
                 <div class="additional-style-half">
          
                     <div class="rating">
-                        <span>4.8</span>
+                        <span>1.0</span>
                           <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
                     </div>
                     <div class="images">
@@ -5469,7 +5469,7 @@ background: YOUR_COLOUR;
                 <div class="additional-style-half">
          
                     <div class="rating">
-                        <span>4.8</span>
+                        <span>1.0</span>
                           <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
                     </div>
                     <div class="images">
