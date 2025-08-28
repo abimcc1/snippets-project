@@ -59,6 +59,7 @@
 }
 .custom-css-list .theme {
     background: #fff;
+    color: #171717;
     border: 1px solid #eee;
     display: inline-block;
     border-radius: 20px;
@@ -71,6 +72,7 @@
 .custom-css-list .location {
     font-size: 12px;
     background: #fff;
+    color: #171717;
     border: 1px solid #eee;
     border-bottom: 0;
     padding: 5px 5px;

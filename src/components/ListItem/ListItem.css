@@ -31,6 +31,7 @@
     display: inline-block;
     border: 1px solid #eee;
     background: #fff;
+    color: #171717;
     border-radius: 50%;
     font-size: 18px;
     flex-shrink: 0;
@@ -42,6 +43,7 @@
 }
 .l-main__code .themes li {
     background: #fff;
+    color: #171717;
     border: 1px solid #eee;
     display: inline-block;
     border-radius: 20px;
