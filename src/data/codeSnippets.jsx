@@ -1244,7 +1244,7 @@ export const codeSnippets = [
           <div class="additional-style-wrap">
               <div class="additional-style-inner">
                   <div class="additional-style-31__logo">
-                    <img src="https://img.spidersnet.co.uk/code-snippets/aa-cars.svg">
+                    <img src="https://img.spidersnet.co.uk/code-snippets/aa-cars.png">
                   </div>
                   <div class="additional-style-31__text">
                       <h2>Driveaway</h2>
@@ -1273,7 +1273,7 @@ export const codeSnippets = [
           <div class="additional-style-wrap">
               <div class="additional-style-inner">
                   <div class="additional-style-32__logo">
-                    <img src="https://img.spidersnet.co.uk/code-snippets/aa-cars.svg">
+                    <img src="https://img.spidersnet.co.uk/code-snippets/aa-cars.png">
                   </div>
                   <div class="additional-style-32__text">
                       <h2>Driveaway</h2>
@@ -6514,7 +6514,6 @@ background: YOUR_COLOUR;
                 clear: both;
                 max-width: 1920px;
                 margin: 0 auto;
-                padding: 0 15px;
                 margin-bottom: 40px;
               }
               .additional-text__why-choose-us {
@@ -6523,7 +6522,7 @@ background: YOUR_COLOUR;
                 background-size: cover;
                 background-position: center;
                 background-color: #6A0707;
-                padding: 30px 0 30px 30px;
+                padding: 20px;
                 border-radius: 20px;
                 margin-left: 15px;
                 margin-right: 15px;
@@ -6553,6 +6552,8 @@ background: YOUR_COLOUR;
                 border-radius: 20px;
                 border: 1px solid rgba(255, 255, 255, 0.30);
                 display: flex;
+                flex-direction-column;
+                text-align: center;
                 align-items: center;
                 gap: 20px;
                 padding: 20px;
@@ -6583,6 +6584,9 @@ background: YOUR_COLOUR;
                 font-size: 16px;
               }
               @media screen and (min-width: 48em) {
+                .additional-text__why-choose-us {
+                  padding: 30px 0 30px 30px;
+                }
                 .additional-text__why-choose-us h3 {
                   font-size: 24px;
                 }
@@ -6591,6 +6595,8 @@ background: YOUR_COLOUR;
                 }
                 .additional-text__why-choose-us li {
                   width: calc(50% - 20px);
+                  flex-direction: row;
+                  text-align: left;
                 }
                 .additional-text__why-choose-us__outer {
                   padding: 50px 0;
