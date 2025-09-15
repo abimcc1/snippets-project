@@ -8,7 +8,7 @@ export default function ThemeOptionsItem(props:any) {
 
     
       return (
-        <li id={props.id}>
+        <li key={props.id} id={props.id}>
             <div className="l-options__title">
                 {
                 // Only render the list if "all" is not in the array

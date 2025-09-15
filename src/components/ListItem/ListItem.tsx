@@ -20,7 +20,7 @@ export default function ListItem(props:any) {
     };
     
       return (
-        <li id={props.id}>
+        <li key={props.id} id={props.id}>
           <div className="l-main__image">
             <img src={props.image} alt="" />
           </div>
@@ -38,8 +38,8 @@ export default function ListItem(props:any) {
               ) : null // Render nothing if "all" is present
             }
             </div>
-            {props.codeblock.map( (item:any) => (
-              <>
+            {props.codeblock.map((item: any, index: number) => (
+              <div key={index}>
               <h3>{item.name}</h3>
               <h3>{item.title}</h3>
               <p>{item.content}</p>
@@ -47,7 +47,7 @@ export default function ListItem(props:any) {
                 <textarea readOnly value={item.code}   />
                 <button onFocus={handleFocus}><FontAwesomeIcon icon={faCopy} className="fa-fw" /> </button>
               </div>
-              </>
+              </div>
             ))}
     
           </div>
