@@ -22,7 +22,7 @@ export default function ListItem(props:any) {
       return (
         <li key={props.id} id={props.id}>
           <div className="l-main__image">
-            <img src={props.image} alt="" />
+            <img src={props.image} alt="" loading="lazy" />
           </div>
           <div className="l-main__code">
           <div className="l-main__code--header">
