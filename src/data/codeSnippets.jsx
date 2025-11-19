@@ -2839,9 +2839,9 @@ background: YOUR_COLOUR;
                           <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
                     </div>
                     <div class="images">
-                      <img src="https://img.spidersnet.co.uk/code-snippets/at-highly-rated-2022.svg">
-                      <img src="https://img.spidersnet.co.uk/code-snippets/at-highly-rated-2023.svg">
-                      <img src="https://img.spidersnet.co.uk/code-snippets/at-highly-rated-2024.svg">
+                      <img src="https://img.spidersnet.co.uk/code-snippets/at-award-2023.svg">
+                      <img src="https://img.spidersnet.co.uk/code-snippets/at-award-2024.svg">
+                      <img src="https://img.spidersnet.co.uk/code-snippets/at-award-2025.svg">
                     </div>
                   </div>
               </div>
@@ -3008,9 +3008,9 @@ background: YOUR_COLOUR;
                           <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
                     </div>
                     <div class="images">
-                      <img src="https://img.spidersnet.co.uk/code-snippets/at-highly-rated-2022.svg">
-                      <img src="https://img.spidersnet.co.uk/code-snippets/at-highly-rated-2023.svg">
-                      <img src="https://img.spidersnet.co.uk/code-snippets/at-highly-rated-2024.svg">
+                      <img src="https://img.spidersnet.co.uk/code-snippets/at-award-2023.svg">
+                      <img src="https://img.spidersnet.co.uk/code-snippets/at-award-2024.svg">
+                      <img src="https://img.spidersnet.co.uk/code-snippets/at-award-2025.svg">
                     </div>
                   </div>
               </div>
@@ -3161,9 +3161,9 @@ background: YOUR_COLOUR;
                           <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
                     </div>
                     <div class="images">
-                      <img src="https://img.spidersnet.co.uk/code-snippets/at-highly-rated-2022.svg">
-                      <img src="https://img.spidersnet.co.uk/code-snippets/at-highly-rated-2023.svg">
-                      <img src="https://img.spidersnet.co.uk/code-snippets/at-highly-rated-2024.svg">
+                      <img src="https://img.spidersnet.co.uk/code-snippets/at-award-2023.svg">
+                      <img src="https://img.spidersnet.co.uk/code-snippets/at-award-2024.svg">
+                      <img src="https://img.spidersnet.co.uk/code-snippets/at-award-2025.svg">
                     </div>
                   </div>
               </div>
@@ -3308,9 +3308,9 @@ background: YOUR_COLOUR;
                           <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
                     </div>
                     <div class="images">
-                      <img src="https://img.spidersnet.co.uk/code-snippets/at-highly-rated-2022.svg">
-                      <img src="https://img.spidersnet.co.uk/code-snippets/at-highly-rated-2023.svg">
-                      <img src="https://img.spidersnet.co.uk/code-snippets/at-highly-rated-2024.svg">
+                      <img src="https://img.spidersnet.co.uk/code-snippets/at-award-2023.svg">
+                      <img src="https://img.spidersnet.co.uk/code-snippets/at-award-2024.svg">
+                      <img src="https://img.spidersnet.co.uk/code-snippets/at-award-2025.svg">
                     </div>
                   </div>
               </div>
@@ -3468,9 +3468,9 @@ background: YOUR_COLOUR;
                           <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
                     </div>
                     <div class="images">
-                      <img src="https://img.spidersnet.co.uk/code-snippets/at-highly-rated-2022.svg">
-                      <img src="https://img.spidersnet.co.uk/code-snippets/at-highly-rated-2023.svg">
-                      <img src="https://img.spidersnet.co.uk/code-snippets/at-highly-rated-2024.svg">
+                      <img src="https://img.spidersnet.co.uk/code-snippets/at-award-2023.svg">
+                      <img src="https://img.spidersnet.co.uk/code-snippets/at-award-2024.svg">
+                      <img src="https://img.spidersnet.co.uk/code-snippets/at-award-2025.svg">
                     </div>
                   </div>
                 </div>
@@ -3626,9 +3626,9 @@ background: YOUR_COLOUR;
                           <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
                     </div>
                     <div class="images">
-                      <img src="https://img.spidersnet.co.uk/code-snippets/at-highly-rated-2022.svg">
-                      <img src="https://img.spidersnet.co.uk/code-snippets/at-highly-rated-2023.svg">
-                      <img src="https://img.spidersnet.co.uk/code-snippets/at-highly-rated-2024.svg">
+                      <img src="https://img.spidersnet.co.uk/code-snippets/at-award-2023.svg">
+                      <img src="https://img.spidersnet.co.uk/code-snippets/at-award-2024.svg">
+                      <img src="https://img.spidersnet.co.uk/code-snippets/at-award-2025.svg">
                     </div>
                   </div>
                 </div>
@@ -4836,9 +4836,9 @@ background: YOUR_COLOUR;
                           <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
                     </div>
                     <div class="images">
-                      <img src="https://img.spidersnet.co.uk/code-snippets/award-placeholder.png">
-                      <img src="https://img.spidersnet.co.uk/code-snippets/award-placeholder.png">
-                      <img src="https://img.spidersnet.co.uk/code-snippets/award-placeholder.png">
+                      <img src="https://img.spidersnet.co.uk/code-snippets/at-award-2023.svg">
+                      <img src="https://img.spidersnet.co.uk/code-snippets/at-award-2024.svg">
+                      <img src="https://img.spidersnet.co.uk/code-snippets/at-award-2025.svg">
                     </div>
            
               </div>
@@ -5010,9 +5010,9 @@ background: YOUR_COLOUR;
                           <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
                     </div>
                     <div class="images">
-                      <img src="https://img.spidersnet.co.uk/code-snippets/award-placeholder.png">
-                      <img src="https://img.spidersnet.co.uk/code-snippets/award-placeholder.png">
-                      <img src="https://img.spidersnet.co.uk/code-snippets/award-placeholder.png">
+                      <img src="https://img.spidersnet.co.uk/code-snippets/at-award-2023.svg">
+                      <img src="https://img.spidersnet.co.uk/code-snippets/at-award-2024.svg">
+                      <img src="https://img.spidersnet.co.uk/code-snippets/at-award-2025.svg">
                     </div>
            
               </div>
@@ -5158,9 +5158,9 @@ background: YOUR_COLOUR;
                           <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
                     </div>
                     <div class="images">
-                      <img src="https://img.spidersnet.co.uk/code-snippets/award-placeholder.png">
-                      <img src="https://img.spidersnet.co.uk/code-snippets/award-placeholder.png">
-                      <img src="https://img.spidersnet.co.uk/code-snippets/award-placeholder.png">
+                      <img src="https://img.spidersnet.co.uk/code-snippets/at-award-2023.svg">
+                      <img src="https://img.spidersnet.co.uk/code-snippets/at-award-2024.svg">
+                      <img src="https://img.spidersnet.co.uk/code-snippets/at-award-2025.svg">
                     </div>
            
               </div>
@@ -5315,9 +5315,9 @@ background: YOUR_COLOUR;
                           <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
                     </div>
                     <div class="images">
-                      <img src="https://img.spidersnet.co.uk/code-snippets/award-placeholder.png">
-                      <img src="https://img.spidersnet.co.uk/code-snippets/award-placeholder.png">
-                      <img src="https://img.spidersnet.co.uk/code-snippets/award-placeholder.png">
+                      <img src="https://img.spidersnet.co.uk/code-snippets/at-award-2023.svg">
+                      <img src="https://img.spidersnet.co.uk/code-snippets/at-award-2024.svg">
+                      <img src="https://img.spidersnet.co.uk/code-snippets/at-award-2025.svg">
                     </div>
            
               </div>
@@ -5473,9 +5473,9 @@ background: YOUR_COLOUR;
                           <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
                     </div>
                     <div class="images">
-                      <img src="https://img.spidersnet.co.uk/code-snippets/award-placeholder.png">
-                      <img src="https://img.spidersnet.co.uk/code-snippets/award-placeholder.png">
-                      <img src="https://img.spidersnet.co.uk/code-snippets/award-placeholder.png">
+                      <img src="https://img.spidersnet.co.uk/code-snippets/at-award-2023.svg">
+                      <img src="https://img.spidersnet.co.uk/code-snippets/at-award-2024.svg">
+                      <img src="https://img.spidersnet.co.uk/code-snippets/at-award-2025.svg">
                     </div>
            
               </div>
