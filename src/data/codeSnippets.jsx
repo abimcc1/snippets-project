@@ -7807,7 +7807,7 @@ background: YOUR_COLOUR;
               .additional-text__social--image {
                 display: none;
               }
-              .additional-text__social--button button {
+              .additional-text__social--button .button {
                 background: #000;
                 color: #fff;
                 border: 0;
@@ -7825,7 +7825,7 @@ background: YOUR_COLOUR;
               }
           </style>
           
-          <a href="" class="additional-text__social__outer clearfix">
+          <div class="additional-text__social__outer clearfix">
             <div class="additional-text__social">
               <img src="https://img.spidersnet.co.uk/code-snippets/facebook-joinus.svg">
             </div>
@@ -7833,9 +7833,9 @@ background: YOUR_COLOUR;
               <img src="https://img.spidersnet.co.uk/code-snippets/facebook-bubbles.svg">
             </div>
             <div class="additional-text__social--button">
-              <button>Follow Us</button>
+               <a class="button" href="">Follow Us</a>
             </div>
-          </a>`
+          </div>`
         }
       ]
     },
@@ -7862,7 +7862,7 @@ background: YOUR_COLOUR;
               .additional-text__social--image {
                 display: none;
               }
-              .additional-text__social--button button {
+              .additional-text__social--button .button {
                 background: #000;
                 color: #fff;
                 border: 0;
@@ -7880,7 +7880,7 @@ background: YOUR_COLOUR;
               }
           </style>
           
-          <a href="" class="additional-text__social__outer clearfix">
+          <div class="additional-text__social__outer clearfix">
             <div class="additional-text__social">
               <img src="https://img.spidersnet.co.uk/code-snippets/facebook-joinus.svg">
             </div>
@@ -7888,9 +7888,9 @@ background: YOUR_COLOUR;
               <img src="https://img.spidersnet.co.uk/code-snippets/facebook-bubbles.svg">
             </div>
             <div class="additional-text__social--button">
-              <button>Follow Us</button>
+               <a class="button" href="">Follow Us</a>
             </div>
-          </a>`
+          </div>`
         }
       ]
     },
@@ -7917,7 +7917,7 @@ background: YOUR_COLOUR;
               .additional-text__social--image {
                 display: none;
               }
-              .additional-text__social--button button {
+              .additional-text__social--button .button {
                 background: #000;
                 color: #fff;
                 border: 0;
@@ -7935,7 +7935,7 @@ background: YOUR_COLOUR;
               }
           </style>
           
-          <a href="" class="additional-text__social__outer clearfix">
+          <div href="" class="additional-text__social__outer clearfix">
             <div class="additional-text__social">
               <img src="https://img.spidersnet.co.uk/code-snippets/instagram-joinus.svg">
             </div>
@@ -7943,9 +7943,9 @@ background: YOUR_COLOUR;
               <img src="https://img.spidersnet.co.uk/code-snippets/instagram-bubbles.svg">
             </div>
             <div class="additional-text__social--button">
-              <button>Follow Us</button>
+               <a class="button" href="">Follow Us</a>
             </div>
-          </a>`
+          </div>`
         }
       ]
     },
@@ -7972,7 +7972,7 @@ background: YOUR_COLOUR;
               .additional-text__social--image {
                 display: none;
               }
-              .additional-text__social--button button {
+              .additional-text__social--button .button {
                 background: #000;
                 color: #fff;
                 border: 0;
@@ -7990,7 +7990,7 @@ background: YOUR_COLOUR;
               }
           </style>
           
-          <a href="" class="additional-text__social__outer clearfix">
+          <div class="additional-text__social__outer clearfix">
             <div class="additional-text__social">
               <img src="https://img.spidersnet.co.uk/code-snippets/instagram-joinus.svg">
             </div>
@@ -7998,9 +7998,9 @@ background: YOUR_COLOUR;
               <img src="https://img.spidersnet.co.uk/code-snippets/instagram-bubbles.svg">
             </div>
             <div class="additional-text__social--button">
-              <button>Follow Us</button>
+              <a class="button" href="">Follow Us</a>
             </div>
-          </a>`
+          </div>`
         }
       ]
     }
