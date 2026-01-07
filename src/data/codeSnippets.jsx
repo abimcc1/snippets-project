@@ -8003,5 +8003,112 @@ background: YOUR_COLOUR;
           </div>`
         }
       ]
+    },
+    {
+      id: "style-78",
+      title: "4.8",
+      image: "/assets/code-snippets/style78.png",
+      themes: ["all"],
+      category: "reviews",
+      codeblock: [
+        {
+          code: `<style>
+    .additional-style.additional-style-54 h2,
+    .additional-style.additional-style-54 h3,
+    .additional-style.additional-style-54 p,
+    .additional-style.additional-style-54 ul {
+        color: #fff; margin-bottom: 0;
+    }
+    
+    .additional-style.additional-style-54 h3 {
+        font-weight: 500; font-size: 30px; margin: 0px 0 28px;
+    }
+    
+    .additional-style.additional-style-54 a:hover {
+        opacity: 0.8;
+    }
+    
+    .additional-style.additional-style-54 {
+        background-image: url(https://img.spidersnet.co.uk/code-snippets/style-54-bg.jpg); background-repeat: no-repeat; background-position: center; background-size: cover; padding: 20px 0;
+    }
+    
+    .additional-style.additional-style-54 .additional-style-wrap {
+        max-width: 1200px; margin-right: auto; margin-left: auto;
+    }
+    
+    .additional-style.additional-style-54 .additional-style-inner {
+        width: 100%; float: left; padding-right: 0.9375rem; padding-left: 0.9375rem;
+    }
+    
+    .additional-style.additional-style-54 .stars {
+        color: #E8BF19; font-size: 24px;
+    }
+    
+    .additional-style.additional-style-54 p {
+        margin-bottom: 20px;
+    }
+    
+    .additional-style.additional-style-54 .logos {
+        display: flex; gap: 10px; flex-direction: column;
+    }
+    .additional-style.additional-style-54 .logos img {
+border-radius: 5px;
+}
+    .additional-style.additional-style-54 .logos .stars {
+        color: #FFF; font-size: 18px;
+    }
+    
+    .additional-style.additional-style-54 .logos .reviews {
+        margin: 8px 0 0;
+    }
+    
+    .additional-style.additional-style-54 .logos a img {
+        min-width: 200px; height: 70px; background-color: #FFF; border-radius: 8px;margin-left: 0; margin-right: 0;
+    }
+    
+    @media screen and (min-width: 48em) {
+        .additional-style.additional-style-54 .logos {
+            flex-direction: row;
+        }
+        .additional-style.additional-style-54 h3 {
+            font-size: 42px; line-height: 1;
+        }
+        additional-style.additional-style-54 p {
+            font-size: 20px;
+        }
+        .additional-style.additional-style-54 {
+            padding: 60px 0;
+        }
+        .additional-style.additional-style-54 h3 {
+            font-size: 32px;
+        }
+        .additional-style.additional-style-54 p {
+            font-size: 20px;
+        }
+    }
+</style>
+<div class="additional-style additional-style-54 clearfix">
+    <div class="additional-style-wrap">
+        <div class="additional-style-inner">
+            <div class="stars">★★★★★</div>
+            <h3>Highly Rated</h3>
+            <div class="logos">
+                <div><img src="https://s3-eu-west-1.amazonaws.com/files.autopromotor/12811/websiteMedia/5296/1767777152-autotrader(2).svg" class="fr-fic fr-dii" data-id="82573">
+                    <p class="reviews"><span class="stars">★★★★★</span></p>
+                </div>
+                <div><img src="https://s3-eu-west-1.amazonaws.com/files.autopromotor/12811/websiteMedia/5296/1766510991-frame 134.svg" class="fr-fic fr-dii" data-id="82525">
+                    <p class="reviews"><span class="stars">★★★★★</span></p>
+                </div>
+                <div><img src="https://s3-eu-west-1.amazonaws.com/files.autopromotor/12811/websiteMedia/5296/1766499205-motors.png" class="fr-fic fr-dii" data-id="82489">
+                    <p class="reviews"><span class="stars">★★★★★</span></p>
+                </div>
+                <div><img src="https://s3-eu-west-1.amazonaws.com/files.autopromotor/12811/websiteMedia/5296/1766500163-ebay.svg" class="fr-fic fr-dii" data-id="82519">
+                    <p class="reviews"><span class="stars">★★★★★</span></p>
+                </div>
+                <div><img src="https://s3-eu-west-1.amazonaws.com/files.autopromotor/12811/websiteMedia/5296/1766500171-pistonheads.svg" class="fr-fic fr-dii" data-id="82522">
+                    <p class="reviews"><span class="stars">★★★★★</span></p>
+                </div></div></div></div></div>`
+        }
+      ]
     }
   ];
