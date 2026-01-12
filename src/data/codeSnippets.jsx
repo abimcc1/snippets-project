@@ -8110,5 +8110,165 @@ border-radius: 5px;
                 </div></div></div></div></div>`
         }
       ]
+    },
+    {
+      id: "style-79",
+      title: "5.25",
+      image: "/assets/code-snippets/style79.png",
+      themes: ["all"],
+      category: "partners",
+      codeblock: [
+        {
+          code: `<style>
+    .snippet-finance-banner {
+        background: url(https://img.spidersnet.co.uk/code-snippets/finance-logo-bg1.jpg) no-repeat center; background-size: cover; padding: 50px 0;
+    }
+    
+    .snippet-finance-banner__inner {
+        padding: 0 15px; display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 20px 80px; text-align: center;
+    }
+    
+    .snippet-finance-banner__text h3 {
+        font-size: 32px; line-height: 1.2; margin-bottom: 0; text-transform: none; font-weight: 700; color: #fff;
+    }
+    
+    .snippet-finance-banner__image img {
+        border-radius: 15px; border: 1px solid #FFF; background: rgba(255, 255, 255, 0.20); box-shadow: 0 4px 8.1px 0 rgba(0, 0, 0, 0.15); backdrop-filter: blur(2px); padding: 8px; width: 154px; max-height: 82px;
+    }
+    
+    .snippet-finance-banner__button .button {
+        margin-bottom: 0;
+    }
+</style>
+<div class="snippet-finance-banner clearfix">
+    <div class="snippet-finance-banner__inner">
+        <div class="snippet-finance-banner__image"><img src="https://s3-eu-west-1.amazonaws.com/files.autopromotor/3736/websiteMedia/3263/1768218026-brand=a1 approved, bg=frame (1).png" class="fr-fic fr-dii" data-id="82771"></div>
+        <div class="snippet-finance-banner__text">
+            <h3>Great finance offers available</h3>
+        </div>
+        <div class="snippet-finance-banner__button"><a class="button" href="PUT_LINK_HERE">Apply Now</a></div></div></div>
+`
+        }
+      ]
+    },
+    {
+      id: "style-80",
+      title: "5.26",
+      image: "/assets/code-snippets/style80.png",
+      themes: ["all"],
+      category: "partners",
+      codeblock: [
+        {
+          code: `<style>
+    .snippet-finance-banner {
+        background: url(https://img.spidersnet.co.uk/code-snippets/finance-logo-bg2.jpg) no-repeat center; background-size: cover; padding: 50px 0;
+    }
+    
+    .snippet-finance-banner__inner {
+        padding: 0 15px; display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 20px 80px; text-align: center;
+    }
+    
+    .snippet-finance-banner__text h3 {
+        font-size: 32px; line-height: 1.2; margin-bottom: 0; text-transform: none; font-weight: 700; color: #fff;
+    }
+    
+    .snippet-finance-banner__image img {
+        border-radius: 15px; border: 1px solid #FFF; background: rgba(255, 255, 255, 0.20); box-shadow: 0 4px 8.1px 0 rgba(0, 0, 0, 0.15); backdrop-filter: blur(2px); padding: 8px; width: 154px; max-height: 82px;
+    }
+    
+    .snippet-finance-banner__button .button {
+        margin-bottom: 0;
+    }
+</style>
+<div class="snippet-finance-banner clearfix">
+    <div class="snippet-finance-banner__inner">
+        <div class="snippet-finance-banner__image"><img src="https://s3-eu-west-1.amazonaws.com/files.autopromotor/3736/websiteMedia/3263/1768218026-brand=a1 approved, bg=frame (1).png" class="fr-fic fr-dii" data-id="82771"></div>
+        <div class="snippet-finance-banner__text">
+            <h3>Great finance offers available</h3>
+        </div>
+        <div class="snippet-finance-banner__button"><a class="button" href="PUT_LINK_HERE">Apply Now</a></div></div></div>
+`
+        }
+      ]
+    },
+    {
+      id: "style-81",
+      title: "5.27",
+      image: "/assets/code-snippets/style81.png",
+      themes: ["all"],
+      category: "partners",
+      codeblock: [
+        {
+          code: `<style>
+    .snippet-finance-banner {
+        background: url(https://img.spidersnet.co.uk/code-snippets/finance-logo-bg3.jpg) no-repeat center; background-size: cover; padding: 50px 0;
+    }
+    
+    .snippet-finance-banner__inner {
+        padding: 0 15px; display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 20px 80px; text-align: center;
+    }
+    
+    .snippet-finance-banner__text h3 {
+        font-size: 32px; line-height: 1.2; margin-bottom: 0; text-transform: none; font-weight: 700; color: #000;
+    }
+    
+    .snippet-finance-banner__image img {
+        border-radius: 15px; border: 1px solid #FFF; background: rgba(255, 255, 255, 0.20); box-shadow: 0 4px 8.1px 0 rgba(0, 0, 0, 0.15); backdrop-filter: blur(2px); padding: 8px; width: 154px; max-height: 82px;
+    }
+    
+    .snippet-finance-banner__button .button {
+        margin-bottom: 0;
+    }
+</style>
+<div class="snippet-finance-banner clearfix">
+    <div class="snippet-finance-banner__inner">
+        <div class="snippet-finance-banner__image"><img src="https://s3-eu-west-1.amazonaws.com/files.autopromotor/3736/websiteMedia/3263/1768218026-brand=a1 approved, bg=frame (1).png" class="fr-fic fr-dii" data-id="82771"></div>
+        <div class="snippet-finance-banner__text">
+            <h3>Great finance offers available</h3>
+        </div>
+        <div class="snippet-finance-banner__button"><a class="button" href="PUT_LINK_HERE">Apply Now</a></div></div></div>
+`
+        }
+      ]
+    },
+    {
+      id: "style-82",
+      title: "5.28",
+      image: "/assets/code-snippets/style82.png",
+      themes: ["all"],
+      category: "partners",
+      codeblock: [
+        {
+          code: `<style>
+    .snippet-finance-banner {
+        background: url(https://img.spidersnet.co.uk/code-snippets/finance-logo-bg4.jpg) no-repeat center; background-size: cover; padding: 50px 0;
+    }
+    
+    .snippet-finance-banner__inner {
+        padding: 0 15px; display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 20px 80px; text-align: center;
+    }
+    
+    .snippet-finance-banner__text h3 {
+        font-size: 32px; line-height: 1.2; margin-bottom: 0; text-transform: none; font-weight: 700; color: #000;
+    }
+    
+    .snippet-finance-banner__image img {
+        border-radius: 15px; border: 1px solid #FFF; background: rgba(255, 255, 255, 0.20); box-shadow: 0 4px 8.1px 0 rgba(0, 0, 0, 0.15); backdrop-filter: blur(2px); padding: 8px; width: 154px; max-height: 82px;
+    }
+    
+    .snippet-finance-banner__button .button {
+        margin-bottom: 0;
+    }
+</style>
+<div class="snippet-finance-banner clearfix">
+    <div class="snippet-finance-banner__inner">
+        <div class="snippet-finance-banner__image"><img src="https://s3-eu-west-1.amazonaws.com/files.autopromotor/3736/websiteMedia/3263/1768218026-brand=a1 approved, bg=frame (1).png" class="fr-fic fr-dii" data-id="82771"></div>
+        <div class="snippet-finance-banner__text">
+            <h3>Great finance offers available</h3>
+        </div>
+        <div class="snippet-finance-banner__button"><a class="button" href="PUT_LINK_HERE">Apply Now</a></div></div></div>
+`
+        }
+      ]
     }
   ];

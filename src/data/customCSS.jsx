@@ -295,4 +295,16 @@ display: none !important;
     }
   ],
 },
+{
+  id: "css-20",
+  title: "Reviews Buttons",
+  theme: "Premier 8",
+  codeblock: [
+    {
+    location: "Content Area",
+    code: `<a href="" target="_blank"><i class="fab fa-google">&nbsp;</i> Google Reviews <i class="fas fa-arrow-right">&nbsp;</i></a>
+<a href="" target="_blank"><i class="fab fa-facebook">&nbsp;</i> Facebook Reviews <i class="fas fa-arrow-right">&nbsp;</i></a>`
+    }
+  ],
+},
 ]
