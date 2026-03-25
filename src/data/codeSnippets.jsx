@@ -5970,7 +5970,7 @@ background: YOUR_COLOUR;
 
               <div class="snippet-aa-banner__text">
                 <h2>You're' in Safe Hands</h2>
-                <p>This dealer has signed up to our Dealer Promise</p>
+                <p>This dealer has committed to AA Cars Standards</p>
               </div>
               <div class="snippet-aa-banner__image">
                 <img src="https://img.spidersnet.co.uk/code-snippets/aa-cars-standard.svg">
@@ -6060,7 +6060,7 @@ background: YOUR_COLOUR;
 
               <div class="snippet-aa-banner__text">
                 <h2>You're in Safe Hands</h2>
-                <p>This dealer has signed up to our Dealer Promise</p>
+                <p>This dealer has committed to AA Cars Standards</p>
               </div>
               <div class="snippet-aa-banner__image">
                 <img src="https://img.spidersnet.co.uk/code-snippets/aa-cars-standard.svg">
@@ -6138,7 +6138,7 @@ background: YOUR_COLOUR;
 
               <div class="snippet-aa-banner__text">
                 <h2>You're in Safe Hands</h2>
-                <p>This dealer has signed up to our Dealer Promise</p>
+                <p>This dealer has committed to AA Cars Standards</p>
               </div>
               <div class="snippet-aa-banner__image">
                 <img src="https://img.spidersnet.co.uk/code-snippets/aa-cars-standard.svg">
@@ -6216,7 +6216,7 @@ background: YOUR_COLOUR;
 
               <div class="snippet-aa-banner__text">
                 <h2>You're in Safe Hands</h2>
-                <p>This dealer has signed up to our Dealer Promise</p>
+                <p>This dealer has committed to AA Cars Standards</p>
               </div>
               <div class="snippet-aa-banner__image">
                 <img src="https://img.spidersnet.co.uk/code-snippets/aa-cars-standard.svg">
@@ -6419,9 +6419,6 @@ background: YOUR_COLOUR;
                 align-items: center;
                 justify-content: center;
               }
-              .additional-text__why-choose-us li .image img {
-                filter: invert(1);
-              }
               .additional-text__why-choose-us li .text h3 {
                 font-size: 24px;
                 font-weight: 600;
@@ -6570,9 +6567,6 @@ background: YOUR_COLOUR;
                 align-items: center;
                 justify-content: center;
                 padding: 20px;
-              }
-              .additional-text__why-choose-us li .image img {
-                filter: invert(1);
               }
               .additional-text__why-choose-us li .text h3 {
                 font-size: 20px;
@@ -7288,7 +7282,6 @@ background: YOUR_COLOUR;
                 transform: skew(-20deg);
               }
               .additional-text__why-choose-us li .image img {
-                filter: invert(1);
                 position: relative;
                 z-index: 1;
               }

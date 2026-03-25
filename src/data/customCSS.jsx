@@ -307,4 +307,45 @@ display: none !important;
     }
   ],
 },
+{
+  id: "css-21",
+  title: "Right align photo count for listings",
+  codeblock: [
+    {
+    location: "Custom CSS",
+    code: `.l-node-used-vehicle--compare-vehicle__photo-overlay, .l-node-used-vehicle--search-result__photo-overlay, .l-node-used-vehicle--sold-gallery__photo-overlay {
+text-align: right;
+}`
+    }
+  ],
+},
+{
+  id: "css-22",
+  title: "Right align photo count for ad details",
+  codeblock: [
+    {
+    location: "Custom CSS",
+    code: `.l-node-used-vehicle--full__photo-overlay {
+text-align: right;
+}`
+    }
+  ],
+},
+{
+  id: "css-23",
+  title: "Change colour of header grid lines",
+  theme: "Premier 10",
+  codeblock: [
+    {
+    location: "Custom CSS",
+    code: `.l-header__logo,
+.l-header__contact-details,
+.l-header__contact-details:after,
+.l-header .header-hours, .l-header .header-contact, .l-header .header-phone {
+    border-color: #B8B8B8;
+}
+`
+    }
+  ],
+},
 ]
