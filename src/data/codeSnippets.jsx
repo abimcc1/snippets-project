@@ -5969,7 +5969,7 @@ background: YOUR_COLOUR;
             <div class="snippet-aa-banner__inner">
 
               <div class="snippet-aa-banner__text">
-                <h2>You're' in Safe Hands</h2>
+                <h2>You're in Safe Hands</h2>
                 <p>This dealer has committed to AA Cars Standards</p>
               </div>
               <div class="snippet-aa-banner__image">
