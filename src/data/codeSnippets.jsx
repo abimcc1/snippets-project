@@ -8263,5 +8263,755 @@ border-radius: 5px;
 `
         }
       ]
+    },
+    {
+      id: "style-83",
+      title: "2.4",
+      image: "/assets/code-snippets/style83.png",
+      themes: ["leisure-1"],
+      category: "images",
+      codeblock: [
+        {
+          code: `<style>
+            .additional-style-images {
+              clear: both;
+              background: var(--tertiary-color);
+              position: relative;
+              padding: 40px 0;
+            }
+            .additional-style-images:before {
+              content: "";
+              display: block !important;
+              position: absolute;
+              top: 0;
+              bottom: 0;
+              left: 0;
+              right: 0;
+              background-image: url(/media/texture-bg.png);
+              background-size: cover;
+              background-position: center;
+              opacity: 0.05;
+            }
+            .additional-style-images__inner {
+              position: relative;
+              max-width: 1440px;
+              margin: 0 auto;
+              padding: 0 15px;
+              display: flex;
+              flex-direction: column;
+              gap: 15px 30px;
+              text-align: center;
+            }
+            .additional-style-images__left,
+            .additional-style-images__right {
+              flex: 1;
+              display: flex;
+              gap: 10px 20px;
+              align-items: center;
+              justify-content: center;
+            }
+            .additional-style-images__left .image {
+              flex-shrink: 0;
+            }
+            .additional-style-images__left .image img {
+              height: 100px;
+              width: auto;
+            }
+            .additional-style-images img {
+              margin: 0 !important;
+            }
+            .additional-style-images .arrow {
+              background: var(--primary-color);
+              aspect-ratio: 1/1;
+              width: 100px;
+              height: 100px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              border-radius: 20px;
+              color: var(--text-on-primary-color);
+              font-size: 32px;
+            }
+
+            .additional-style-images .images {
+              list-style-type: none;
+              margin: 0;
+              width: 100%;
+              display: flex;
+              flex-direction: column;
+              gap: 10px 20px;
+            }
+            .additional-style-images .images li {
+              flex: 1;
+              background: #fff;
+              border: 1px solid #E4E6E8;
+              border-radius: 20px;
+              max-height: 100px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              padding: 10px;
+              gap: 10px 20px;
+            }
+            .additional-style-images .images li img {
+              max-width: 100%;
+              max-height: 80px;
+              min-width: 0;
+            }
+
+            @media screen and (min-width: 48em) {
+              .additional-style-images .images {
+                flex-direction: row;
+              }
+            }
+            @media screen and (min-width: 1350px) {
+              .additional-style-images__inner {
+                flex-direction: row;
+                text-align: left;
+              }
+            }
+          </style>
+
+          <div class="additional-style-images">
+            <div class="additional-style-images__inner">
+                <div class="additional-style-images__left">
+                  <div class="image show-for-medium">
+                    <img src="https://s3-eu-west-1.amazonaws.com/files.autopromotor/9306/websiteMedia/6319/1783946043-people handshaking hands.png" class="fr-fic fr-dib" data-id="88282">
+                  </div>
+                  <div class="arrow show-for-medium"><i class="fa-solid fa-arrow-right">&nbsp;</i></div>
+                  <div class="text">
+                    <h3>Our Awards</h3>
+                    <p style="margin-bottom: 0;">Trusted and recognised by industry leaders.</p>
+                  </div>
+                </div>
+                <div class="additional-style-images__right">
+                  <ul class="images">
+                    <li><img src="https://s3-eu-west-1.amazonaws.com/files.autopromotor/9306/websiteMedia/6319/1783945678-frame 71.png" class="fr-fic fr-dib" data-id="88276"></li>
+                    <li><img src="https://s3-eu-west-1.amazonaws.com/files.autopromotor/9306/websiteMedia/6319/1783945678-frame 71.png" class="fr-fic fr-dib" data-id="88276"></li>
+                    <li><img src="https://s3-eu-west-1.amazonaws.com/files.autopromotor/9306/websiteMedia/6319/1783945678-frame 71.png" class="fr-fic fr-dib" data-id="88276"></li>
+                  </ul>
+              </div>
+            </div>
+          </div>`
+        }
+      ]
+    },
+    {
+      id: "style-84",
+      title: "5.29",
+      image: "/assets/code-snippets/style84.png",
+      themes: ["all"],
+      category: "partners",
+      codeblock: [
+        {
+          code: `<style>
+    .snippet-finance-banner {
+        background: url(https://img.spidersnet.co.uk/code-snippets/wsg-bg1.jpg) no-repeat center, linear-gradient(rgba(0,0,0,0.85),rgba(0,0,0,0.85));
+        background-size: cover;
+        background-blend-mode: overlay;
+        padding: 50px 0;
+        font-family: "Poppins", sans-serif;
+    }
+   
+    .snippet-finance-banner__inner {
+        padding: 0 15px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 20px 80px;
+        text-align: center;
+    }
+   
+    .snippet-finance-banner__text h3 {
+        font-size: 32px;
+        line-height: 1.2;
+        margin-bottom: 0;
+        text-transform: none;
+        font-weight: 300;
+        color: #fff;
+        font-family: "Poppins", sans-serif;
+    }
+   
+    .snippet-finance-banner__image img {
+      max-width: 180px;
+    }
+
+
+    .snippet-finance-banner__image p {
+      margin-bottom: 0px;
+      font-size: 10px;
+      color: #FFF;
+      font-family: "Poppins", sans-serif;
+      line-height: 1;
+    margin-top: 5px;
+    }
+   
+    .snippet-finance-banner__button .button {
+        margin-bottom: 0;
+        background-color: #fff;
+        border-radius: 100px;
+        min-height: 52px;
+        border: none;
+        padding: 8px 20px;
+        display: flex;
+        flex-direction: row;
+        gap: 9px;
+        align-items:center;
+        font-size: 14px;
+        line-height: 1;
+        font-family: "Lato", sans-serif;
+        font-weight: 700!important;
+        transition: 0.3s ease all;
+    }
+    .snippet-finance-banner__button .button:hover {
+      background: #b30003;
+      color: #fff;
+    }
+    .snippet-finance-banner__button .button i {
+      font-size: 10px;
+      weight: 700;
+    }
+    .snippet-finance-banner .arrow {
+      color: #FFF;
+      font-size: 54px;
+      }
+      </style>
+      <p style="margin-bottom: 0;">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+      </p>
+      <div class="snippet-finance-banner clearfix">
+      <div class="snippet-finance-banner__inner">
+        <a class="snippet-finance-banner__image" href="https://warrantysolutionsgroup.co.uk/" target="_blank">
+        <img src="https://s3-eu-west-1.amazonaws.com/files.autopromotor/3736/websiteMedia/3263/1768218026-brand=a1 approved, bg=frame (1).png" class="fr-fic fr-dii" data-id="82771">
+        <p>www.warrantysolutionsgroup.co.uk</p>
+        </a>
+        <div class="arrow show-for-medium"><i class="fa-solid fa-arrow-right">&nbsp;</i></div>
+        <div class="snippet-finance-banner__text">
+            <h3>Proud Warranty <b>Partner</b></h3>
+        </div>
+        <div class="snippet-finance-banner__button"><a class="button" href="PUT_LINK_HERE">Read More<i class="fa-solid fa-chevron-right"></i></a></div></div></div>
+`
+        }
+      ]
+    },
+    {
+      id: "style-85",
+      title: "5.30",
+      image: "/assets/code-snippets/style85.png",
+      themes: ["all"],
+      category: "partners",
+      codeblock: [
+        {
+          code: `<style>
+    .snippet-finance-banner {
+        background: url(https://img.spidersnet.co.uk/code-snippets/wsg-bg3.jpg) no-repeat center, linear-gradient(rgba(0,0,0,0.70),rgba(0,0,0,0.70));
+        background-size: cover;
+        background-blend-mode: overlay;
+        padding: 50px 0;
+        font-family: "Poppins", sans-serif;
+    }
+   
+    .snippet-finance-banner__inner {
+        padding: 0 15px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 20px 97px;
+        text-align: center;
+    }
+   
+    .snippet-finance-banner__text p {
+        max-width:460px;
+        font-size: 20px;
+        line-height: 1.4;
+        letter-spacing: 0.77px;
+        margin-bottom: 0;
+        text-transform: none;
+        font-weight: 400;
+        color: #fff;
+        font-family: "Poppins", sans-serif;
+    }
+   
+    .snippet-finance-banner__image img {
+      max-width: 180px;
+    }
+
+
+    .snippet-finance-banner__image p {
+      margin-bottom: 0px;
+      font-size: 10px;
+      color: #FFF;
+      font-family: "Poppins", sans-serif;
+      line-height: 1;
+    margin-top: 5px;
+    }
+   
+    .snippet-finance-banner__button .button {
+        margin-bottom: 0;
+        background-color: #fff;
+        border-radius: 100px;
+        min-height: 52px;
+        border: none;
+        padding: 8px 20px;
+        display: flex;
+        flex-direction: row;
+        gap: 9px;
+        align-items:center;
+        font-size: 14px;
+        line-height: 1;
+        font-family: "Lato", sans-serif;
+        font-weight: 700!important;
+        transition: 0.3s ease all;
+    }
+    .snippet-finance-banner__button .button:hover {
+      background: #b30003;
+      color: #fff;
+    }
+    .snippet-finance-banner__button .button i {
+      font-size: 10px;
+      weight: 700;
+    }
+    .snippet-finance-banner__inner .divider {
+      min-width: 1px;
+      height: 1px;
+      width: 85%;
+      background: #fff;
+      opacity: 0.4;
+    }
+
+
+    @media only screen and (min-width: 863px) {
+      .snippet-finance-banner__inner .divider {
+        min-width: 1px;
+        width: auto;
+        height: 86px;
+      }
+    }
+
+
+    @media only screen and (min-width: 712px) {
+      .snippet-finance-banner__inner {
+        text-align: left;
+      }
+    }
+      </style>
+      <p style="margin-bottom: 0;">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+      </p>
+      <div class="snippet-finance-banner clearfix">
+      <div class="snippet-finance-banner__inner">
+        <a class="snippet-finance-banner__image" href="https://warrantysolutionsgroup.co.uk/" target="_blank">
+        <img src="https://img.spidersnet.co.uk/code-snippets/wsg-logo.png">
+        <p>www.warrantysolutionsgroup.co.uk</p>
+        </a>
+        <div class="divider"></div>
+        <div class="snippet-finance-banner__text">
+            <p>All of our used cars come with a minimum of 6 months ‘Platinum’ warranty</p>
+        </div>
+        <div class="snippet-finance-banner__button"><a class="button" href="PUT_LINK_HERE">Read More<i class="fa-solid fa-chevron-right"></i></a></div></div></div>
+`
+        }
+      ]
+    },
+    {
+      id: "style-86",
+      title: "5.32",
+      image: "/assets/code-snippets/style86.png",
+      themes: ["all"],
+      category: "partners",
+      codeblock: [
+        {
+          code: `<style>
+    .snippet-finance-banner {
+        background: url(https://img.spidersnet.co.uk/code-snippets/wsg-bg2.jpg) no-repeat center, linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.45));
+        background-size: cover;
+        background-blend-mode: overlay;
+        padding: 50px 0;
+        font-family: "Poppins", sans-serif;
+    }
+   
+    .snippet-finance-banner__inner {
+        padding: 0 15px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 60px 130px;
+        text-align: center;
+    }
+
+
+    .snippet-finance-banner__text {
+      background: #000;
+      padding: 50px 70px;
+      border-radius: 30px;
+      display: flex;
+      flex-direction: column;
+      gap: 42px;
+      align-items: center;
+    }
+   
+    .snippet-finance-banner__text p {
+        max-width:520px;
+        font-size: 20px;
+        line-height: 1.4;
+        margin-bottom: 0;
+        text-transform: none;
+        font-weight: 300;
+        color: #fff;
+        font-family: "Poppins", sans-serif;
+    }
+      .snippet-finance-banner__text p b {
+        font-size: 26px;
+        font-weight: 700;
+    }
+   
+    .snippet-finance-banner__image img {
+      max-width: 180px;
+    }
+
+
+    .snippet-finance-banner__image p {
+      margin-bottom: 0px;
+      font-size: 10px;
+      color: #FFF;
+      font-family: "Poppins", sans-serif;
+      line-height: 1;
+    margin-top: 5px;
+    }
+   
+    .snippet-finance-banner__button .button {
+        margin-bottom: 0;
+        background-color: #fff;
+        border-radius: 100px;
+        min-height: 52px;
+        border: none;
+        padding: 8px 20px;
+        display: flex;
+        flex-direction: row;
+        gap: 9px;
+        align-items:center;
+        font-size: 14px;
+        line-height: 1;
+        font-family: "Lato", sans-serif;
+        font-weight: 700!important;
+        transition: 0.3s ease all;
+    }
+    .snippet-finance-banner__button .button:hover {
+      background: #b30003;
+      color: #fff;
+    }
+    .snippet-finance-banner__button .button i {
+      font-size: 10px;
+      weight: 700;
+    }
+
+
+
+
+    @media only screen and (min-width: 863px) {
+      .snippet-finance-banner__text {
+        padding: 50px 120px;
+      }
+    }
+
+
+    @media only screen and (min-width: 1023px) {
+      .snippet-finance-banner {
+          background: url(https://img.spidersnet.co.uk/code-snippets/wsg-bg2.jpg) no-repeat center, linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));
+          background-size: cover;
+      }
+    }
+      </style>
+      <p style="margin-bottom: 0;">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+      </p>
+      <div class="snippet-finance-banner clearfix">
+      <div class="snippet-finance-banner__inner">
+        <a class="snippet-finance-banner__image" href="https://warrantysolutionsgroup.co.uk/" target="_blank">
+        <img src="https://img.spidersnet.co.uk/code-snippets/wsg-logo.png">
+        <p>www.warrantysolutionsgroup.co.uk</p>
+        </a>
+
+
+        <div class="snippet-finance-banner__text">
+            <p>All of our used cars come with a minimum&nbsp;of</br> <b>6 months ‘Platinum’ warranty</b></p>
+            <div class="snippet-finance-banner__button"><a class="button" href="PUT_LINK_HERE">Read More<i class="fa-solid fa-chevron-right"></i></a></div></div></div>
+        </div>
+`
+        }
+      ]
+    },
+    {
+      id: "style-87",
+      title: "5.33",
+      image: "/assets/code-snippets/style87.png",
+      themes: ["all"],
+      category: "partners",
+      codeblock: [
+        {
+          code: `<style>
+    .snippet-finance-banner {
+        background: url(https://img.spidersnet.co.uk/code-snippets/wsg-bg2.jpg) no-repeat center, linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.45));
+        background-size: 130%, cover;
+        background-blend-mode: overlay;
+        padding: 35px 0 86px 0;
+        font-family: "Poppins", sans-serif;
+        position: relative;
+    }
+   
+    .snippet-finance-banner__inner {
+        padding: 0 15px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 20px 57px;
+        text-align: center;
+    }
+   
+    .snippet-finance-banner__text h3 {
+        max-width: 450px;
+        font-size: 32px;
+        line-height: 1.2;
+        margin-bottom: 0;
+        text-transform: none;
+        font-weight: 300;
+        color: #fff;
+        font-family: "Poppins", sans-serif;
+    }
+
+
+    .snippet-finance-banner__image {
+     position: relative;
+     background: #000;
+     padding: 35px 30px 30px;
+     border-radius: 0 0 40px 40px;
+     top: -35px;
+     left: 0;
+    }
+   
+    .snippet-finance-banner__image img {
+      max-width: 180px;
+    }
+
+
+
+
+    .snippet-finance-banner__image p {
+      margin-bottom: 0px;
+      font-size: 10px;
+      color: #FFF;
+      font-family: "Poppins", sans-serif;
+      line-height: 1;
+    margin-top: 5px;
+    }
+
+
+    .snippet-finance-banner__button .button {
+        margin-bottom: 0;
+        background-color: #fff;
+        border-radius: 100px;
+        min-height: 52px;
+        border: none;
+        padding: 8px 20px;
+        display: flex;
+        flex-direction: row;
+        gap: 9px;
+        align-items:center;
+        font-size: 14px;
+        line-height: 1;
+        font-family: "Lato", sans-serif;
+        font-weight: 700!important;
+        transition: 0.3s ease all;
+    }
+    .snippet-finance-banner__button .button:hover {
+      background: #b30003;
+      color: #fff;
+    }
+    .snippet-finance-banner__button .button i {
+      font-size: 10px;
+      weight: 700;
+    }
+    .snippet-finance-banner__inner .divider {
+      min-width: 1px;
+      height: 1px;
+      width: 85%;
+      background: #fff;
+      opacity: 0.4;
+    }
+
+
+    .separator {
+    max-width: 993px;
+    border-radius: 100%;
+    height: 3px;
+    background: #fff;
+    opacity: 0.3;
+}
+
+
+  .extra-image_right {
+    display: none;
+  }
+
+
+    .snippet-finance-banner__separator {
+      max-width: 993px;
+      width: 80%;
+      margin: 60px auto 0;
+    }
+
+
+    .snippet-finance-banner__checklist {
+      max-width: 956px;
+      margin: 28px auto 0;
+      padding: 0 15px;
+      position: relative;
+    }
+    .snippet-finance-banner__checklist ul {
+      list-style: none;
+      width: 80%;
+      margin: 0 auto;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+    .snippet-finance-banner__checklist li {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      color: #fff;
+      font-family: "Lato", sans-serif;
+      font-size: 20px;
+      line-height: 1;
+    }
+    .snippet-finance-banner__checklist .check-icon {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 24px;
+      height: 24px;
+      min-width: 24px;
+      border-radius: 5px;
+      background: linear-gradient(131.63deg, #C1C1C1 0%, #767676 106.62%);
+      color: #000;
+      font-size: 16px;
+    }
+
+
+    @media only screen and (min-width: 863px) {
+      .snippet-finance-banner__inner .divider {
+        min-width: 1px;
+        width: auto;
+        height: 86px;
+      }
+
+
+            .snippet-finance-banner__checklist ul {
+        flex-direction: row;
+        flex-wrap: wrap;
+        column-gap: 60px;
+      }
+      .snippet-finance-banner__checklist li {
+        width: calc(50% - 30px);
+      }
+
+
+            .snippet-finance-banner__inner {
+        text-align: left;
+      }
+    }
+
+
+    @media only screen and (min-width: 959px) {
+    .snippet-finance-banner__separator {
+    margin: 0 auto 0;
+      }
+    }
+   
+    @media only screen and (min-width: 1023px) {
+      .snippet-finance-banner {
+          background: url(https://img.spidersnet.co.uk/code-snippets/wsg-bg2.jpg) no-repeat center, linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));
+          background-size: 130%, cover;
+          padding: 35px 300px 86px 0;
+      }
+      .snippet-finance-banner__checklist ul {
+        width: 100%;
+      }
+        .extra-image_right {
+        display:block;
+        position: absolute;
+        top: -111px;
+        right: -520px;
+        height: 273px;
+      }
+
+
+      .snippet-finance-banner__separator {
+        width: 100%;
+        margin: 60px auto 0;
+      }
+    }
+
+
+    @media only screen and (min-width: 1259px) {
+      .snippet-finance-banner__separator {
+        margin: 0 auto;
+      }
+    }
+
+
+
+
+      </style>
+      <p style="margin-bottom: 0;">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+      </p>
+      <div class="snippet-finance-banner clearfix">
+      <div class="snippet-finance-banner__inner">
+        <a class="snippet-finance-banner__image" href="https://warrantysolutionsgroup.co.uk/" target="_blank">
+        <img src="https://img.spidersnet.co.uk/code-snippets/wsg-logo.png">
+        <p>www.warrantysolutionsgroup.co.uk</p>
+        </a>
+        <div class="snippet-finance-banner__text">
+            <h3><b>Warranty Available</b> With Every Used Vehicle</h3>
+        </div>
+        <div class="snippet-finance-banner__button"><a class="button" href="PUT_LINK_HERE">Read More<i class="fa-solid fa-chevron-right"></i></a></div></div>
+
+
+      <div class="snippet-finance-banner__separator">
+        <div class="separator"></div>
+      </div>
+
+
+      <div class="snippet-finance-banner__checklist">
+        <ul>
+          <li><span class="check-icon"><i class="fa-solid fa-check"></i></span>Thousands of parts and faults covered</li>
+          <li><span class="check-icon"><i class="fa-solid fa-check"></i></span>48 hour claim payments</li>
+          <li><span class="check-icon"><i class="fa-solid fa-check"></i></span>Nationwide garage network</li>
+          <li><span class="check-icon"><i class="fa-solid fa-check"></i></span>Basic UK breakdown cover</li>
+        </ul>
+      <img class="extra-image_right" src="https://img.spidersnet.co.uk/code-snippets/wsg-bg4.png">
+      </div>
+      </div>
+`
+        }
+      ]
     }
   ];
