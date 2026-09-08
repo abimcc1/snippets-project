@@ -8438,6 +8438,8 @@ border-radius: 5px;
     }
 
 
+
+
     .snippet-finance-banner__image p {
       margin-bottom: 0px;
       font-size: 10px;
@@ -8455,6 +8457,7 @@ border-radius: 5px;
         border: none;
         padding: 8px 20px;
         display: flex;
+  color: #000;
         flex-direction: row;
         gap: 9px;
         align-items:center;
@@ -8486,7 +8489,7 @@ border-radius: 5px;
       <div class="snippet-finance-banner clearfix">
       <div class="snippet-finance-banner__inner">
         <a class="snippet-finance-banner__image" href="https://warrantysolutionsgroup.co.uk/" target="_blank">
-        <img src="https://s3-eu-west-1.amazonaws.com/files.autopromotor/3736/websiteMedia/3263/1768218026-brand=a1 approved, bg=frame (1).png" class="fr-fic fr-dii" data-id="82771">
+        <img src="https://img.spidersnet.co.uk/code-snippets/wsg-logo.png">
         <p>www.warrantysolutionsgroup.co.uk</p>
         </a>
         <div class="arrow show-for-medium"><i class="fa-solid fa-arrow-right">&nbsp;</i></div>
@@ -8557,6 +8560,7 @@ border-radius: 5px;
         border-radius: 100px;
         min-height: 52px;
         border: none;
+  color: #000;
         padding: 8px 20px;
         display: flex;
         flex-direction: row;
@@ -8698,6 +8702,7 @@ border-radius: 5px;
         display: flex;
         flex-direction: row;
         gap: 9px;
+  color: #000;
         align-items:center;
         font-size: 14px;
         line-height: 1;
@@ -8829,6 +8834,7 @@ border-radius: 5px;
         display: flex;
         flex-direction: row;
         gap: 9px;
+  color: #000;
         align-items:center;
         font-size: 14px;
         line-height: 1;
